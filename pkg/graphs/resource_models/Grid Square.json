@@ -1,0 +1,560 @@
+{
+    "graph": [
+        {
+            "author": " Mike Fisher",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "1346a89c-115f-11ec-946e-005056957f92",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "1346a89c-115f-11ec-946e-005056957f92",
+                            "constraintid": "9cb10e2b-d94d-47d4-82c9-f0957f286c45",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "1346a89c-115f-11ec-946e-005056957f92",
+                            "constraintid": "b3eec965-4621-4e7a-9087-b5ef98169862",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Grid Square",
+                    "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "sortorder": 0,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "32de1dce-16e2-11ec-b7c9-005056957f92",
+                    "component_id": "2d2e0ca3-089c-4f4c-96a5-fb7eb53963bd",
+                    "config": {
+                        "basemap": "streets",
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 11,
+                        "pointradius": 4,
+                        "selectRelatedSource": "",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
+                            "constraintid": "00635687-4186-416c-a371-b00e2979549f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
+                            "constraintid": "5f370882-e861-4b72-8482-c52711213f70",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Related Resources",
+                    "nodegroup_id": "32de1dcc-16e2-11ec-b7c9-005056957f92",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "88785a30-115e-11ec-946e-005056957f92",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": 3,
+                        "centerY": 8.5,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": 0
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "88785a30-115e-11ec-946e-005056957f92",
+                            "constraintid": "1bbc3753-f774-4f42-80dc-bb984ebb9466",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "88785a30-115e-11ec-946e-005056957f92",
+                            "constraintid": "4d1bcc0f-f34a-4c80-b060-a5d52d8c88df",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Grid Square Geometric Expression",
+                    "nodegroup_id": "88785a2e-115e-11ec-946e-005056957f92",
+                    "sortorder": 1,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
+                    "config": {
+                        "label": "Related Resources",
+                        "placeholder": ""
+                    },
+                    "id": "5fcea6be-16e2-11ec-b7c9-005056957f92",
+                    "label": "Related Resources",
+                    "node_id": "32de1dcc-16e2-11ec-b7c9-005056957f92",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "1346a89c-115f-11ec-946e-005056957f92",
+                    "config": {
+                        "label": "Grid Square Assignee",
+                        "placeholder": ""
+                    },
+                    "id": "6a175867-1161-11ec-946e-005056957f92",
+                    "label": "Grid Square Assignee",
+                    "node_id": "5404f044-115f-11ec-946e-005056957f92",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "1346a89c-115f-11ec-946e-005056957f92",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Grid ID",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "6a175869-1161-11ec-946e-005056957f92",
+                    "label": "Grid ID",
+                    "node_id": "3b095240-1161-11ec-946e-005056957f92",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "88785a30-115e-11ec-946e-005056957f92",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": 3,
+                        "centerY": 8.5,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Grid Square Geometric Expression",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "d8c8595e-115e-11ec-946e-005056957f92",
+                    "label": "Grid Square Geometric Expression",
+                    "node_id": "88785a2e-115e-11ec-946e-005056957f92",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ],
+            "color": null,
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 10
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "37d8eff0-03f5-11ec-946e-005056957f92",
+                    "edgeid": "1346a89d-115f-11ec-946e-005056957f92",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by",
+                    "rangenode_id": "1346a89a-115f-11ec-946e-005056957f92"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "37d8eff0-03f5-11ec-946e-005056957f92",
+                    "edgeid": "32de1dcf-16e2-11ec-b7c9-005056957f92",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "rangenode_id": "32de1dcc-16e2-11ec-b7c9-005056957f92"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "edgeid": "3b095241-1161-11ec-946e-005056957f92",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "3b095240-1161-11ec-946e-005056957f92"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "edgeid": "5404f045-115f-11ec-946e-005056957f92",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "5404f044-115f-11ec-946e-005056957f92"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "37d8eff0-03f5-11ec-946e-005056957f92",
+                    "edgeid": "88785a31-115e-11ec-946e-005056957f92",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "rangenode_id": "88785a2e-115e-11ec-946e-005056957f92"
+                }
+            ],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "description": {
+                            "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                            "string_template": "<Grid Square Assignee>"
+                        },
+                        "map_popup": {
+                            "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                            "string_template": "<Grid ID>"
+                        },
+                        "name": {
+                            "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                            "string_template": "<Grid ID>"
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "id": "a008c2fb-1163-11ec-946e-005056957f92"
+                }
+            ],
+            "graphid": "37d8eff1-03f5-11ec-946e-005056957f92",
+            "iconclass": "fa fa-th",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": "Grid Square",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "1346a89a-115f-11ec-946e-005056957f92",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "32de1dcc-16e2-11ec-b7c9-005056957f92",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "88785a2e-115e-11ec-946e-005056957f92",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Grid Square Assignment",
+                    "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "nodeid": "1346a89a-115f-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "graphs": [],
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "searchDsl": "",
+                        "searchString": "",
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelatedRes",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Resources",
+                    "nodegroup_id": "32de1dcc-16e2-11ec-b7c9-005056957f92",
+                    "nodeid": "32de1dcc-16e2-11ec-b7c9-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Grid Square",
+                    "nodegroup_id": null,
+                    "nodeid": "37d8eff0-03f5-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Grid_ID",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Grid ID",
+                    "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "nodeid": "3b095240-1161-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "graphs": [],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GridActor",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Grid Square Assignee",
+                    "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
+                    "nodeid": "5404f044-115f-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Geometry",
+                    "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Grid Square Geometric Expression",
+                    "nodegroup_id": "88785a2e-115e-11ec-946e-005056957f92",
+                    "nodeid": "88785a2e-115e-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "relatable_resource_model_ids": [
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "be1df87a-5365-11ec-aa6d-25dfccb47c3f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "c020de45-03f1-11ec-946e-005056957f92",
+                "f9a42769-03ef-11ec-946e-005056957f92",
+                "80b7cb6f-03f6-11ec-946e-005056957f92",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "c3009111-0417-11ec-946e-005056957f92"
+            ],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Grid Square",
+                "nodegroup_id": null,
+                "nodeid": "37d8eff0-03f5-11ec-946e-005056957f92",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "MAPSS Grid Square IDs",
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.9 (Ubuntu 12.9-2.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit",
+        "git hash": "3eab003e2 2021-11-30 12:08:53 +0100",
+        "os": "Linux",
+        "os version": "5.4.0-89-generic"
+    }
+}

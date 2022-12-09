@@ -1,0 +1,84 @@
+{
+    "graph": [
+        {
+            "author": " Mike Fisher",
+            "cards": [],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "c3009111-0417-11ec-946e-005056957f92",
+            "iconclass": "fa fa-flag",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": "Bag",
+            "nodegroups": [],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "c3009111-0417-11ec-946e-005056957f92",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Bag",
+                    "nodegroup_id": null,
+                    "nodeid": "c3009110-0417-11ec-946e-005056957f92",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "relatable_resource_model_ids": [
+                "c020de45-03f1-11ec-946e-005056957f92",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f9a42769-03ef-11ec-946e-005056957f92",
+                "8554dc95-03f5-11ec-946e-005056957f92",
+                "cc001a65-03f5-11ec-946e-005056957f92",
+                "1f9bcec1-03f6-11ec-946e-005056957f92",
+                "80b7cb6f-03f6-11ec-946e-005056957f92",
+                "8a399bdd-03ff-11ec-946e-005056957f92"
+            ],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "c3009111-0417-11ec-946e-005056957f92",
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Bag",
+                "nodegroup_id": null,
+                "nodeid": "c3009110-0417-11ec-946e-005056957f92",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "Local administrative districts",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.8 (Ubuntu 12.8-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "4.15.0-156-generic"
+    }
+}

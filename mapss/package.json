@@ -1,0 +1,6 @@
+{
+    "name": "mapss",
+    "dependencies": {
+        "arches": "archesproject/arches#stable/5.2.x"
+    }
+}

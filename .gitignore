@@ -1,0 +1,9 @@
+*.pyc
+*.log
+mapss/logs
+mapss/export_deliverables
+mapss/cantaloupe/*
+mapss/media/packages
+mapss/uploadedfiles/*
+mapss/settings_local.py
+.vscode/
