@@ -29,11 +29,11 @@ LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 SECRET_KEY = '7&ccc819o+e08r5%k03iht-x)a*xyj-9*r_gr!y9ad^!ymoids'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-EXPORT_DATA_FIELDS_IN_CARD_ORDER = False
+EXPORT_DATA_FIELDS_IN_CARD_ORDER = True
 
-RESTRICT_CELERY_EXPORT_FOR_ANONYMOUS_USER = False
+RESTRICT_CELERY_EXPORT_FOR_ANONYMOUS_USER = True
 
 ROOT_URLCONF = 'mapss.urls'
 
@@ -153,7 +153,7 @@ CACHES = {
 }
 
 # Hide nodes and cards in a report that have no data
-HIDE_EMPTY_NODES_IN_REPORT = False
+HIDE_EMPTY_NODES_IN_REPORT = True
 
 BYPASS_CARDINALITY_TILE_VALIDATION = False
 BYPASS_UNIQUE_CONSTRAINT_TILE_VALIDATION = False
@@ -175,6 +175,8 @@ MOBILE_IMAGE_SIZE_LIMITS = {
     "thumb": 400,  # max width/height in pixels, this will maintain the aspect ratio of the original image
 }
 
+GOOGLE_ANALYTICS_TRACKING_ID = None
+
 APP_TITLE = 'Arches | Heritage Data Management'
 COPYRIGHT_TEXT = 'All Rights Reserved.'
 COPYRIGHT_YEAR = '2019'
@@ -192,11 +194,14 @@ if DEBUG is True:
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  #<-- Only need to uncomment this for testing without an actual email server
 # EMAIL_USE_TLS = True
 # EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = "xxxx@xxx.com"
-# EMAIL_HOST_PASSWORD = 'xxxxxxx'
+EMAIL_HOST_USER = "mongolianarchaeologyproject@gmail.com"
+# EMAIL_HOST_PASSWORD = 'mapss62777'
 # EMAIL_PORT = 587
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+# group to assign users who self sign up via the web ui
+USER_SIGNUP_GROUP = "Crowdsource Editor"
 
 CELERY_BROKER_URL = "" # RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
 CELERY_ACCEPT_CONTENT = ['json']
@@ -212,8 +217,8 @@ CELERY_BEAT_SCHEDULE = {
     "notification": {"task": "arches.app.tasks.message", "schedule": CELERY_SEARCH_EXPORT_CHECK, "args": ("Celery Beat is Running",),},
 }
 
-# By setting RESTRICT_MEDIA_ACCESS to True, media file requests outside of Arches will checked against nodegroup permissions.
-RESTRICT_MEDIA_ACCESS = False
+# By setting RESTRICT_MEDIA_ACCESS to True, media file requests outside of Arches will be checked against nodegroup permissions.
+RESTRICT_MEDIA_ACCESS = True
 
 
 # see https://docs.djangoproject.com/en/1.9/topics/i18n/translation/#how-django-discovers-language-preference

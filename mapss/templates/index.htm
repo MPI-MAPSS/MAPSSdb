@@ -175,7 +175,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <a class="white" href="{% url 'search_home' %}" target="_blank">{% trans "Search the MAPSS Database" %}</a></span>
                     {% else %}
                          <span style="padding-right: 20px">
-                            <a class="white" id="auth-link" href="{% url 'signup' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Public Access" %}</a>
+                            <a class="white" id="auth-link" <!--href="{% url 'signup' %}--> {% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "" %}</a>
                         </span>
                     {% endif %}
                     {% if user|can_create_resource_instance and user.username != 'anonymous' %}
@@ -183,7 +183,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <a class="white" href="{% url 'resource' %}" target="_blank">{% trans "Create New Heritage Resources" %}</a></span>
                     {% else %}
                         <span style="padding-right: 00px">
-                            <a class="white" id="auth-link" href="https://mapss.shh.mpg.de/info/documentation/database/database-registration-form/{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Register for Researcher Access" %}</a></span>
+                            <a class="white" id="auth-link" href="https://mapss.shh.mpg.de/info/documentation/database-registration-form/{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Register for Researcher Access" %}</a></span>
                                 <!-- </li> -->
                     {% endif %}
                     </div>
