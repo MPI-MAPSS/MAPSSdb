@@ -7,6 +7,6 @@ mapss/media/packages
 mapss/uploadedfiles/*
 mapss/settings_local.py
 mapss/settings.py
-uploads
-db_backups
+uploads/*
+db_backups/*
 .vscode/
