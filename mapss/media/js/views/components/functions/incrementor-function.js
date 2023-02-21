@@ -1,7 +1,8 @@
-define(['knockout',
+define(['underscore',
+        'knockout',
         'viewmodels/function',
         'bindings/select2-query'],
-function (ko, FunctionViewModel, select2Query) {
+function (_, ko, FunctionViewModel, select2Query) {
     return ko.components.register('views/components/functions/incrementor-function', {
         viewModel: function(params) {
             FunctionViewModel.apply(this, arguments);
