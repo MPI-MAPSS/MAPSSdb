@@ -418,13 +418,27 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
-                    "id": "240ff7a9-1245-11ec-946e-005056957f92"
+                    "id": "44d58b9e-c041-4811-a8a1-407e1677ef06"
                 },
                 {
                     "config": {
                         "description": {
                             "nodegroup_id": "",
                             "string_template": ""
+                        },
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            }
                         },
                         "map_popup": {
                             "nodegroup_id": "0f451036-122d-11ec-946e-005056957f92",
@@ -438,7 +452,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
-                    "id": "774702d1-122d-11ec-946e-005056957f92"
+                    "id": "91d2d742-cea5-408b-acf4-1fe80d2b77c7"
                 }
             ],
             "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
@@ -482,12 +496,14 @@
             ],
             "nodes": [
                 {
+                    "alias": "resource_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "ResrceName",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -500,12 +516,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "external_resource_function_assignment",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -518,12 +536,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "description_assignment",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -536,6 +556,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_type",
                     "config": {
                         "rdmCollection": "4dfe56c6-adcf-4d5b-ba46-82e7cb5c8f2e"
                     },
@@ -544,6 +565,7 @@
                     "exportable": true,
                     "fieldname": "Designatio",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -556,12 +578,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "resource_summary",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -574,12 +598,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "external_resource_function_belief",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -592,6 +618,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "name_type",
                     "config": {
                         "rdmCollection": null
                     },
@@ -600,6 +627,7 @@
                     "exportable": true,
                     "fieldname": "ResNameTyp",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -612,6 +640,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_from_date",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -620,6 +649,7 @@
                     "exportable": true,
                     "fieldname": "DesignaFrm",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -632,6 +662,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "remark_type",
                     "config": {
                         "rdmCollection": "7d8a6259-24c4-4213-8e1a-c7b303ac8614"
                     },
@@ -640,6 +671,7 @@
                     "exportable": true,
                     "fieldname": "NoteType",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -652,12 +684,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "remark",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "Note_Descr",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -670,6 +704,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "external_resource_function_certainty",
                     "config": {
                         "rdmCollection": "233fff43-fcb6-4a27-9b64-6d5bc4fc88a2"
                     },
@@ -678,6 +713,7 @@
                     "exportable": true,
                     "fieldname": "HFfunctcer",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -690,6 +726,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "external_resource_function_type",
                     "config": {
                         "rdmCollection": "6c23b649-ec43-462f-a035-2c24a5130ba6"
                     },
@@ -698,6 +735,7 @@
                     "exportable": true,
                     "fieldname": "HFfunction",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -710,12 +748,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_event_timespan",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -728,6 +768,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_to_date",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -736,6 +777,7 @@
                     "exportable": true,
                     "fieldname": "DesignatTo",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -748,12 +790,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "mapss_er_id",
                     "config": null,
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
                     "fieldname": "MAPSS_ID",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -766,12 +810,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "external_dataset_heritage_resource",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -785,26 +831,17 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [
-                "c9402aff-03f4-11ec-946e-005056957f92",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "c3009111-0417-11ec-946e-005056957f92",
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "f9a42769-03ef-11ec-946e-005056957f92",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "c020de45-03f1-11ec-946e-005056957f92",
-                "80b7cb6f-03f6-11ec-946e-005056957f92",
-                "8a399bdd-03ff-11ec-946e-005056957f92"
-            ],
+            "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "external_dataset_heritage_resource",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -820,11 +857,5 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 12.9 (Ubuntu 12.9-2.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit",
-        "git hash": "3eab003e2 2021-11-30 12:08:53 +0100",
-        "os": "Linux",
-        "os version": "5.4.0-89-generic"
-    }
+    ]
 }

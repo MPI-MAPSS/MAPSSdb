@@ -8,20 +8,7 @@
                     "cardid": "1346a89c-115f-11ec-946e-005056957f92",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "1346a89c-115f-11ec-946e-005056957f92",
-                            "constraintid": "9cb10e2b-d94d-47d4-82c9-f0957f286c45",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "1346a89c-115f-11ec-946e-005056957f92",
-                            "constraintid": "b3eec965-4621-4e7a-9087-b5ef98169862",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
@@ -29,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Grid Square",
                     "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
                     "sortorder": 0,
@@ -66,20 +53,7 @@
                         "strokepointopacity": 1,
                         "strokepointradius": 6
                     },
-                    "constraints": [
-                        {
-                            "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
-                            "constraintid": "00635687-4186-416c-a371-b00e2979549f",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
-                            "constraintid": "5f370882-e861-4b72-8482-c52711213f70",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
@@ -107,20 +81,7 @@
                         "selectText": "",
                         "zoom": 0
                     },
-                    "constraints": [
-                        {
-                            "card_id": "88785a30-115e-11ec-946e-005056957f92",
-                            "constraintid": "1bbc3753-f774-4f42-80dc-bb984ebb9466",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "88785a30-115e-11ec-946e-005056957f92",
-                            "constraintid": "4d1bcc0f-f34a-4c80-b060-a5d52d8c88df",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
@@ -139,6 +100,7 @@
                 {
                     "card_id": "32de1dce-16e2-11ec-b7c9-005056957f92",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Related Resources",
                         "placeholder": ""
                     },
@@ -152,6 +114,7 @@
                 {
                     "card_id": "1346a89c-115f-11ec-946e-005056957f92",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Grid Square Assignee",
                         "placeholder": ""
                     },
@@ -309,6 +272,20 @@
                             "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
                             "string_template": "<Grid Square Assignee>"
                         },
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            }
+                        },
                         "map_popup": {
                             "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
                             "string_template": "<Grid ID>"
@@ -321,12 +298,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
-                    "id": "a008c2fb-1163-11ec-946e-005056957f92"
+                    "id": "50e2701a-a0b9-4dac-81b3-368255b95351"
                 }
             ],
             "graphid": "37d8eff1-03f5-11ec-946e-005056957f92",
             "iconclass": "fa fa-th",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -353,12 +330,14 @@
             ],
             "nodes": [
                 {
+                    "alias": "grid_square_assignment",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -371,6 +350,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "related_resources",
                     "config": {
                         "addToMap": false,
                         "advancedStyle": "",
@@ -403,6 +383,7 @@
                     "exportable": true,
                     "fieldname": "RelatedRes",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -415,12 +396,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "grid_square",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -433,12 +416,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "grid_id",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "Grid_ID",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -451,6 +436,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "grid_square_assignee",
                     "config": {
                         "graphs": [],
                         "searchDsl": "",
@@ -461,6 +447,7 @@
                     "exportable": true,
                     "fieldname": "GridActor",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -473,6 +460,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "grid_square_geometric_expression",
                     "config": {
                         "addToMap": false,
                         "advancedStyle": "",
@@ -502,6 +490,7 @@
                     "exportable": true,
                     "fieldname": "Geometry",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -515,26 +504,17 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "c9402aff-03f4-11ec-946e-005056957f92",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "be1df87a-5365-11ec-aa6d-25dfccb47c3f",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "c020de45-03f1-11ec-946e-005056957f92",
-                "f9a42769-03ef-11ec-946e-005056957f92",
-                "80b7cb6f-03f6-11ec-946e-005056957f92",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "c3009111-0417-11ec-946e-005056957f92"
-            ],
+            "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "grid_square",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -550,11 +530,5 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 12.9 (Ubuntu 12.9-2.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit",
-        "git hash": "3eab003e2 2021-11-30 12:08:53 +0100",
-        "os": "Linux",
-        "os version": "5.4.0-89-generic"
-    }
+    ]
 }

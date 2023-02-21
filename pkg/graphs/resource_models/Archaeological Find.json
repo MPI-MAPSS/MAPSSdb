@@ -8,20 +8,7 @@
                     "cardid": "9304d194-aa06-11ed-9ab0-79272b0a574f",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "9304d194-aa06-11ed-9ab0-79272b0a574f",
-                            "constraintid": "be85e27d-ad05-4fad-9ad7-236059664e7a",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "9304d194-aa06-11ed-9ab0-79272b0a574f",
-                            "constraintid": "5b35b222-9d4a-49aa-840f-f0cfb1699427",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
@@ -78,6 +65,20 @@
                             "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
                             "string_template": "<Find Number>"
                         },
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            },
+                            "name": {
+                                "nodegroup_id": "",
+                                "string_template": ""
+                            }
+                        },
                         "map_popup": {
                             "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
                             "string_template": "<Find Number>"
@@ -90,7 +91,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                    "id": "cc352fe9-aa06-11ed-9ab0-79272b0a574f"
+                    "id": "9fd6bc32-4aab-406a-9224-4ec65a7bdee1"
                 }
             ],
             "graphid": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
@@ -110,12 +111,14 @@
             ],
             "nodes": [
                 {
+                    "alias": "archaeological_find",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -128,12 +131,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "find_number",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "FndNumber",
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -147,33 +152,17 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [
-                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "c9402aff-03f4-11ec-946e-005056957f92",
-                "c3009111-0417-11ec-946e-005056957f92",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "f9a42769-03ef-11ec-946e-005056957f92",
-                "be1df87a-5365-11ec-aa6d-25dfccb47c3f",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
-                "a90dcf56-bb01-11ec-9f61-b5ae88f7a644",
-                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "7a9340b6-a25f-11ed-826a-bd1a2523ba5d",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f"
-            ],
+            "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "archaeological_find",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -189,11 +178,5 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 12.13 (Ubuntu 12.13-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "3eab003e2 2021-11-30 12:08:53 +0100",
-        "os": "Linux",
-        "os version": "5.4.0-139-generic"
-    }
+    ]
 }
