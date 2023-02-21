@@ -5,6 +5,7 @@ mapss/export_deliverables
 mapss/cantaloupe/*
 mapss/media/packages
 mapss/uploadedfiles/*
+CACHE/*
 mapss/settings_local.py
 mapss/settings.py
 uploads/*
