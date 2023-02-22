@@ -386,7 +386,7 @@
 
                         <div class="install-buttons">
 
-                            <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() { self.saveValue($index); };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
+                            <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() { self.saveValue($index); };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }"><span data-bind="text: $root.translations.add"></span></button>
 <!-- ko if: self.isformdirty($index) -->
 	                    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: function() { self.clearInput($index); } ">{% trans 'Cancel edit' %}</button>
 <!-- /ko -->
@@ -445,7 +445,7 @@
                 <button class="btn btn-shim btn-labeled btn-lg fa fa-trash" data-bind="click: self.deleteTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-warning': card.isWritable }">{% trans 'Delete this' %} <span data-bind="text: card.model.name"></span></button>
                 <!-- /ko -->
                 <!-- ko if: !tile.tileid && tile.dirty()-->
-                <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: self.saveTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
+                <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: self.saveTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }"><span data-bind="text: $root.translations.add"></span></button>
                 <!-- /ko -->
                 <!-- ko if: tile.dirty() -->
                     <!-- ko if: provisionalTileViewModel && !provisionalTileViewModel.tileIsFullyProvisional() && card.isWritable -->
