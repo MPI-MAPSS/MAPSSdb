@@ -5961,7 +5961,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "a90dcf56-bb01-11ec-9f61-b5ae88f7a644",
-                    "id": "df89dac1-eb5c-40b5-b053-b5408c9a845f"
+                    "id": "54085c91-6476-4b30-a7f2-c8552cdbd595"
                 },
                 {
                     "config": {
@@ -5975,7 +5975,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "a90dcf56-bb01-11ec-9f61-b5ae88f7a644",
-                    "id": "be3e01a9-d12b-11ec-bf0b-fb23feefb727"
+                    "id": "966e2038-afab-476c-ab5c-ee9be6fead5b"
                 }
             ],
             "graphid": "a90dcf56-bb01-11ec-9f61-b5ae88f7a644",
@@ -10030,7 +10030,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "a90dcf56-bb01-11ec-9f61-b5ae88f7a644",
+                "notes": null,
+                "publicationid": "faf92d20-b2f3-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:47.578",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {

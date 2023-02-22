@@ -1190,9 +1190,14 @@
                     "card_id": "6d9c382b-567d-11ec-aa6d-25dfccb47c3f",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Biblio Place Appellation",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1262,6 +1267,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6d9c38de-567d-11ec-aa6d-25dfccb47c3f",
@@ -1452,6 +1458,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6d9c38e7-567d-11ec-aa6d-25dfccb47c3f",
@@ -1725,6 +1732,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6d9c38fc-567d-11ec-aa6d-25dfccb47c3f",
@@ -2043,8 +2051,13 @@
                     "card_id": "6d9c3870-567d-11ec-aa6d-25dfccb47c3f",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Grid ID",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "6d9c390b-567d-11ec-aa6d-25dfccb47c3f",
                     "label": {
@@ -2727,7 +2740,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                    "id": "50ea3985-2d9a-431a-b2a8-54c220879e58"
+                    "id": "4118fc36-59b7-4192-9d43-9d8299671375"
                 },
                 {
                     "config": {
@@ -2741,7 +2754,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                    "id": "70bdfc9b-567d-11ec-aa6d-25dfccb47c3f"
+                    "id": "c4a57802-bf36-4424-aece-f4a0807f4859"
                 }
             ],
             "graphid": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
@@ -4253,7 +4266,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "notes": null,
+                "publicationid": "00ad9be8-b2f4-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:57.149",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {

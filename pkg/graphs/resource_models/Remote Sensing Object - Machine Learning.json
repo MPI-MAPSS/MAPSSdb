@@ -3124,8 +3124,9 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                    "id": "5acf87ae-5126-424d-a18a-247ad1cb7ef7"
-                },{
+                    "id": "ee270ebd-0b73-49e1-872e-aac7a8d0316f"
+                },
+                {
                     "config": {
                         "last_value": "9334",
                         "prefix": "MAPSS-MLO-",
@@ -3137,7 +3138,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                    "id": "29d9b277-91a3-11ed-81a0-eba1186aefad"
+                    "id": "f10e1ee9-bc13-45e6-a48c-136953f9b709"
                 }
             ],
             "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
@@ -5393,7 +5394,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "notes": null,
+                "publicationid": "fbe61b9e-b2f3-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:49.131",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {

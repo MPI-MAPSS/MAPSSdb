@@ -955,6 +955,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "0bd35acb-b0b8-11ea-9b1f-02e7594ce0a0",
@@ -1419,6 +1420,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "3444eda7-b0b8-11ea-9b1f-02e7594ce0a0",
@@ -2268,8 +2270,13 @@
                     "card_id": "f9587709-b0ae-11ea-9b1f-02e7594ce0a0",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Grid ID",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "f9587724-b0ae-11ea-9b1f-02e7594ce0a0",
                     "label": {
@@ -3159,6 +3166,20 @@
             "functions_x_graphs": [
                 {
                     "config": {
+                        "last_value": "110",
+                        "prefix": "CONDITION-",
+                        "selected_nodegroup": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                    "id": "8ecd31fc-50f1-4802-9237-120281799020"
+                },
+                {
+                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "7ef3aa74-fbf0-11e9-b345-06f597a7d5ce",
@@ -3177,21 +3198,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "9ae20b46-e9c6-4544-b3e9-750c426d50ee"
-                },
-                {
-                    "config": {
-                        "last_value": "110",
-                        "prefix": "CONDITION-",
-                        "selected_nodegroup": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "d78f765e-5295-11ec-aa6d-25dfccb47c3f"
+                    "id": "e4950027-a3ec-4776-b7d2-d14483602a51"
                 }
             ],
             "graphid": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
@@ -5770,7 +5777,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "notes": null,
+                "publicationid": "fa68d6e4-b2f3-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:46.632",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {

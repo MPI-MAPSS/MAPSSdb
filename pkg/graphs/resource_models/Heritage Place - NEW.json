@@ -4907,7 +4907,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
-                    "id": "430d7e41-5138-4964-9465-f6598ffdee95"
+                    "id": "c1c475bc-fe30-4ba5-8bc1-1786320a05b4"
                 },
                 {
                     "config": {
@@ -4921,7 +4921,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
-                    "id": "3851d7cd-1245-11ec-946e-005056957f92"
+                    "id": "c2b88370-14d9-4639-80a6-3de0ca4547a6"
                 }
             ],
             "graphid": "f9a42769-03ef-11ec-946e-005056957f92",
@@ -8283,7 +8283,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "f9a42769-03ef-11ec-946e-005056957f92",
+                "notes": null,
+                "publicationid": "ff1d226c-b2f3-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:54.525",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {

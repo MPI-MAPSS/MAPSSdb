@@ -1073,6 +1073,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "50570f85-5236-11ea-a3f7-02e7594ce0a0",
@@ -1135,8 +1136,13 @@
                     "card_id": "587447d7-b0c2-11ea-9b1f-02e7594ce0a0",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Grid ID",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "587447f2-b0c2-11ea-9b1f-02e7594ce0a0",
                     "label": {
@@ -1585,6 +1591,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "c623d28c-80a5-11ea-a6a6-02e7594ce0a0",
@@ -1770,6 +1777,7 @@
                         "placeholder": {
                             "en": "Enter text"
                         },
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "d3cd5897-80a5-11ea-a6a6-02e7594ce0a0",
@@ -2289,6 +2297,20 @@
             "functions_x_graphs": [
                 {
                     "config": {
+                        "last_value": "144913",
+                        "prefix": "INFORMATION-",
+                        "selected_nodegroup": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
+                        "starting_value": "0144731",
+                        "suffix": "",
+                        "target_node": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                    "id": "652e0da5-5550-4904-9e94-0be9dcb56107"
+                },
+                {
+                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "54c62e2e-524f-11ea-a3f7-02e7594ce0a0",
@@ -2307,21 +2329,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                    "id": "63e16636-802a-4fba-92c6-61febad6b22e"
-                },
-                {
-                    "config": {
-                        "last_value": "144913",
-                        "prefix": "INFORMATION-",
-                        "selected_nodegroup": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
-                        "starting_value": "0144731",
-                        "suffix": "",
-                        "target_node": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                    "id": "76599cf4-5296-11ec-aa6d-25dfccb47c3f"
+                    "id": "a936bb69-37e6-41d5-a98b-4ba8b105fb2d"
                 }
             ],
             "graphid": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
@@ -3586,7 +3594,13 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "notes": null,
+                "publicationid": "fd4cb77c-b2f3-11ed-af75-a683e74f6c3a",
+                "published_time": "2023-02-22T15:00:51.481",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
