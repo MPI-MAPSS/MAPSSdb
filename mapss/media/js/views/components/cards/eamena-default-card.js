@@ -129,21 +129,21 @@ define([
                     var newcard = topcard.tiles()[0].cards[index];
                     var newtile = newcard.getNewTile();
                     var keys = Object.keys(newtile.data);
-                    var value_id = 0;
-                    var savevalue = savevalues[value_id];
+                    var valueId = 0;
+                    var savevalue = savevalues[valueId];
                     for(let i = 0; i < keys.length; i++)
                     {
                         if(keys[i].startsWith('_')) { continue; }
-                        if(savevalue == '') { value_id++; continue; }
+                        if(savevalue == '') { valueId++; continue; }
                         if(typeof newtile.data[keys[i]] === "function")
                         {
                             newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
-                            value_id++;
-                            savevalue = savevalues[value_id];
+                            valueId++;
+                            savevalue = savevalues[valueId];
                         } else {
                             newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
-                            value_id++;
-                            savevalue = savevalues[value_id];
+                            valueId++;
+                            savevalue = savevalues[valueId];
                         }
                     }
                     newtile.save(null, function(created){ newcard.parent.selected(true); });
@@ -153,21 +153,21 @@ define([
                 var newcard = atile.cards[index];
                 var newtile = newcard.getNewTile();
                 var keys = Object.keys(newtile.data);
-                var value_id = 0;
-                var savevalue = savevalues[value_id];
+                var valueId = 0;
+                var savevalue = savevalues[valueId];
                 for(let i = 0; i < keys.length; i++)
                 {
                     if(keys[i].startsWith('_')) { continue; }
-                    if(savevalue == '') { value_id++; continue; }
+                    if(savevalue == '') { valueId++; continue; }
                     if(typeof newtile.data[keys[i]] === "function")
                     {
                         newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
-                        value_id++;
-                        savevalue = savevalues[value_id];
+                        valueId++;
+                        savevalue = savevalues[valueId];
                     } else {
                         newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
-                        value_id++;
-                        savevalue = savevalues[value_id];
+                        valueId++;
+                        savevalue = savevalues[valueId];
                     }
                 }
 
