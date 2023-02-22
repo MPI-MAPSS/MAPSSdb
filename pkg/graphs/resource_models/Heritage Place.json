@@ -13,11 +13,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Absolute Chronology Assignment",
+                    "name": {
+                        "en": "Absolute Chronology Assignment"
+                    },
                     "nodegroup_id": "f327e74c-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Archaeological Assessment Summary",
+                    "name": {
+                        "en": "Archaeological Assessment Summary"
+                    },
                     "nodegroup_id": "165ebe35-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Archaeological Validation Belief",
+                    "name": {
+                        "en": "Archaeological Validation Belief"
+                    },
                     "nodegroup_id": "b2fcc596-7a21-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Field Assessment",
+                    "name": {
+                        "en": "Field Assessment"
+                    },
                     "nodegroup_id": "1739852c-770b-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Function Sub-type",
+                    "name": {
+                        "en": "Heritage Place Function Sub-type"
+                    },
                     "nodegroup_id": "235fb107-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -108,11 +148,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Function Assignment",
+                    "name": {
+                        "en": "Heritage Place Function Assignment"
+                    },
                     "nodegroup_id": "235fb10a-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true
@@ -127,11 +175,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Form, shape, etc. of feature",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Form, shape, etc. of feature"
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Morphology",
+                    "name": {
+                        "en": "Heritage Place Morphology"
+                    },
                     "nodegroup_id": "2cab4cd5-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true
@@ -146,11 +202,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Type of monument, grave, building, etc.",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Type of monument, grave, building, etc."
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Interpretation",
+                    "name": {
+                        "en": "Heritage Place Interpretation"
+                    },
                     "nodegroup_id": "2cab4cd8-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -165,11 +229,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Materials & Techniques",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Materials & Techniques"
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Construction",
+                    "name": {
+                        "en": "Heritage Place Construction"
+                    },
                     "nodegroup_id": "2cab4cdb-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -184,11 +256,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Shape",
+                    "name": {
+                        "en": "Heritage Place Shape"
+                    },
                     "nodegroup_id": "2cab4cde-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -203,11 +283,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Components",
+                    "name": {
+                        "en": "Heritage Place Components"
+                    },
                     "nodegroup_id": "2cab4ce1-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -222,11 +310,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Interpretation & Morphology",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Interpretation & Morphology"
+                    },
                     "is_editable": true,
-                    "name": "Heritage Place Interpretation & Morphology Assessment",
+                    "name": {
+                        "en": "Heritage Place Interpretation & Morphology Assessment"
+                    },
                     "nodegroup_id": "2cab4ce4-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true
@@ -241,11 +337,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Occupied Timespan",
+                    "name": {
+                        "en": "Occupied Timespan"
+                    },
                     "nodegroup_id": "25a48144-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -260,11 +364,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Cause Belief",
+                    "name": {
+                        "en": "Disturbance Cause Belief"
+                    },
                     "nodegroup_id": "4f4f4311-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -279,11 +391,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Intervention Activity Type",
+                    "name": {
+                        "en": "Intervention Activity Type"
+                    },
                     "nodegroup_id": "4f4f4314-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -298,11 +418,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Event Timespan",
+                    "name": {
+                        "en": "Disturbance Event Timespan"
+                    },
                     "nodegroup_id": "4f4f4317-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true
@@ -317,11 +445,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Condition Assessment Summary",
+                    "name": {
+                        "en": "Condition Assessment Summary"
+                    },
                     "nodegroup_id": "4f4f431a-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -336,11 +472,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Estimated Damage Extent",
+                    "name": {
+                        "en": "Estimated Damage Extent"
+                    },
                     "nodegroup_id": "4f4f431d-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -355,11 +499,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Effect Belief",
+                    "name": {
+                        "en": "Disturbance Effect Belief"
+                    },
                     "nodegroup_id": "4f4f4320-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -374,11 +526,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Threat Making Inference",
+                    "name": {
+                        "en": "Threat Making Inference"
+                    },
                     "nodegroup_id": "4f4f4323-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true
@@ -393,11 +553,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Damage State Observation",
+                    "name": {
+                        "en": "Damage State Observation"
+                    },
                     "nodegroup_id": "4f4f4326-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -412,11 +580,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Condition Assessment",
+                    "name": {
+                        "en": "Condition Assessment"
+                    },
                     "nodegroup_id": "4f4f4329-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true
@@ -431,11 +607,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Recommendation Plan",
+                    "name": {
+                        "en": "Recommendation Plan"
+                    },
                     "nodegroup_id": "4f4f432c-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -450,11 +634,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Radiocarbon Dates",
+                    "name": {
+                        "en": "Radiocarbon Dates"
+                    },
                     "nodegroup_id": "5989d1e5-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -469,11 +661,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "HP Assessment Summary",
+                    "name": {
+                        "en": "HP Assessment Summary"
+                    },
                     "nodegroup_id": "55f017a0-9bf9-11ed-826a-bd1a2523ba5d",
                     "sortorder": 0,
                     "visible": false
@@ -488,11 +688,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "MAPSS_HP_ID",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": false,
+                    "name": {
+                        "en": "MAPSS_HP_ID"
+                    },
                     "nodegroup_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": false
@@ -507,11 +715,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Artifact Category",
+                    "name": {
+                        "en": "Artifact Category"
+                    },
                     "nodegroup_id": "25402880-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -526,11 +742,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Archaeological Assessment",
+                    "name": {
+                        "en": "Archaeological Assessment"
+                    },
                     "nodegroup_id": "ae362224-770a-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true
@@ -545,11 +769,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Measurements",
+                    "name": {
+                        "en": "Measurements"
+                    },
                     "nodegroup_id": "ba7aadb7-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true
@@ -573,11 +805,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Geography",
+                    "name": {
+                        "en": "Geography"
+                    },
                     "nodegroup_id": "bc936975-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true
@@ -592,11 +832,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Environment Assessment Summary",
+                    "name": {
+                        "en": "Environment Assessment Summary"
+                    },
                     "nodegroup_id": "d095a929-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -611,11 +859,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Topography",
+                    "name": {
+                        "en": "Topography"
+                    },
                     "nodegroup_id": "d095a92c-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -630,11 +886,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Land Cover",
+                    "name": {
+                        "en": "Land Cover"
+                    },
                     "nodegroup_id": "d095a92f-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -649,11 +913,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Geology",
+                    "name": {
+                        "en": "Geology"
+                    },
                     "nodegroup_id": "d095a932-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -668,11 +940,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Elevation",
+                    "name": {
+                        "en": "Elevation"
+                    },
                     "nodegroup_id": "d095a935-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true
@@ -687,11 +967,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Environment Assessment",
+                    "name": {
+                        "en": "Environment Assessment"
+                    },
                     "nodegroup_id": "d095a938-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true
@@ -715,11 +1003,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Geometry",
+                    "name": {
+                        "en": "Geometry"
+                    },
                     "nodegroup_id": "f298baf3-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true
@@ -734,11 +1030,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Feature, feature group, site, landscape, etc.",
-                    "is_editable": true,
-                    "name": "Heritage Place Type",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Feature, feature group, site, landscape, etc."
+                    },
+                    "is_editable": false,
+                    "name": {
+                        "en": "Heritage Place Type"
+                    },
                     "nodegroup_id": "ffe10dc7-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true
@@ -753,11 +1057,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": false,
-                    "name": "Place Name",
+                    "name": {
+                        "en": "Place Name"
+                    },
                     "nodegroup_id": "ffe10dca-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -772,11 +1084,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Comments or remarks about site/feature recording",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Comments or remarks about site/feature recording"
+                    },
                     "is_editable": true,
-                    "name": "Comments",
+                    "name": {
+                        "en": "Comments"
+                    },
                     "nodegroup_id": "ffe10dcd-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true
@@ -791,11 +1111,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Official Designation",
+                    "name": {
+                        "en": "Official Designation"
+                    },
                     "nodegroup_id": "ffe10dd0-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true
@@ -810,11 +1138,19 @@
                     "description": null,
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Parent, child, or overlapping sites",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Parent, child, or overlapping sites"
+                    },
                     "is_editable": true,
-                    "name": "Related Heritage Resources",
+                    "name": {
+                        "en": "Related Heritage Resources"
+                    },
                     "nodegroup_id": "ffe10dd3-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 7,
                     "visible": true
@@ -829,11 +1165,19 @@
                     "description": "",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": false,
-                    "name": "Resource Summary",
+                    "name": {
+                        "en": "Resource Summary"
+                    },
                     "nodegroup_id": "ffe10dd6-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true
@@ -844,11 +1188,18 @@
                     "card_id": "5d2c918c-9c1f-11ed-826a-bd1a2523ba5d",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related Site Feature(s)",
-                        "placeholder": "Add relationship with Site Feature from Heritage Place, Remote Sensing Object, or External Dataset"
+                        "placeholder": {
+                            "en": "Add relationship with Site Feature from Heritage Place, Remote Sensing Object, or External Dataset"
+                        }
                     },
                     "id": "0b21a1b4-9c21-11ed-826a-bd1a2523ba5d",
-                    "label": "Related Site Feature(s)",
+                    "label": {
+                        "en": "Related Site Feature(s)"
+                    },
                     "node_id": "b099478c-9c1f-11ed-826a-bd1a2523ba5d",
                     "sortorder": 2,
                     "visible": true,
@@ -857,15 +1208,27 @@
                 {
                     "card_id": "5d2c918c-9c1f-11ed-826a-bd1a2523ba5d",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Site Feature Interpretation Identifier (number, letter, or name)",
                         "maxLength": null,
-                        "placeholder": "Enter optional internal identification name or number to clarify feature assignments",
+                        "placeholder": {
+                            "en": "Enter optional internal identification name or number to clarify feature assignments"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "0b21a1b6-9c21-11ed-826a-bd1a2523ba5d",
-                    "label": "Site Feature Interpretation Identifier (number, letter, or name)",
+                    "label": {
+                        "en": "Site Feature Interpretation Identifier (number, letter, or name)"
+                    },
                     "node_id": "8aa74f56-9c1f-11ed-826a-bd1a2523ba5d",
                     "sortorder": 0,
                     "visible": true,
@@ -875,11 +1238,18 @@
                     "card_id": "5d2c918c-9c1f-11ed-826a-bd1a2523ba5d",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Site Feature Assessor",
-                        "placeholder": "Add Feature Assessor (if applicable)"
+                        "placeholder": {
+                            "en": "Add Feature Assessor (if applicable)"
+                        }
                     },
                     "id": "0b21a1b8-9c21-11ed-826a-bd1a2523ba5d",
-                    "label": "Site Feature Assessor",
+                    "label": {
+                        "en": "Site Feature Assessor"
+                    },
                     "node_id": "2dac5b10-9c20-11ed-826a-bd1a2523ba5d",
                     "sortorder": 1,
                     "visible": true,
@@ -889,11 +1259,18 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "External Heritage Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "165ebe41-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "External Heritage Resource",
+                    "label": {
+                        "en": "External Heritage Resource"
+                    },
                     "node_id": "165ebe40-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 7,
                     "visible": true,
@@ -903,11 +1280,18 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Imagery & Cartography",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "165ebe42-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Imagery & Cartography",
+                    "label": {
+                        "en": "Imagery & Cartography"
+                    },
                     "node_id": "165ebe3c-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 8,
                     "visible": true,
@@ -917,11 +1301,18 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Bibliography",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "165ebe43-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Bibliography",
+                    "label": {
+                        "en": "Bibliography"
+                    },
                     "node_id": "165ebe3f-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 9,
                     "visible": true,
@@ -939,7 +1330,9 @@
                         "viewMode": "days"
                     },
                     "id": "165ebe44-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessment Date",
+                    "label": {
+                        "en": "Archaeological Assessment Date"
+                    },
                     "node_id": "165ebe39-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -949,12 +1342,19 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessment Activity Sub-type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "165ebe45-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessment Activity Sub-type",
+                    "label": {
+                        "en": "Archaeological Assessment Activity Sub-type"
+                    },
                     "node_id": "165ebe3b-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -964,12 +1364,19 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Archaeological Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "165ebe46-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Overall Archaeological Certainty",
+                    "label": {
+                        "en": "Overall Archaeological Certainty"
+                    },
                     "node_id": "165ebe3d-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 10,
                     "visible": true,
@@ -979,12 +1386,19 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessor Role Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "165ebe47-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessor Role Type",
+                    "label": {
+                        "en": "Archaeological Assessor Role Type"
+                    },
                     "node_id": "165ebe3e-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": false,
@@ -994,11 +1408,18 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessor",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "165ebe48-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessor",
+                    "label": {
+                        "en": "Archaeological Assessor"
+                    },
                     "node_id": "165ebe3a-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1008,12 +1429,19 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessment Activity Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "165ebe49-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessment Activity Type",
+                    "label": {
+                        "en": "Archaeological Assessment Activity Type"
+                    },
                     "node_id": "165ebe38-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1022,15 +1450,27 @@
                 {
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Description",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "18e98831-7a18-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Description",
+                    "label": {
+                        "en": "Archaeological Description"
+                    },
                     "node_id": "47d216b2-7a13-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -1040,12 +1480,19 @@
                     "card_id": "165ebe37-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Description Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "18e98833-7a18-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Description Type",
+                    "label": {
+                        "en": "Archaeological Description Type"
+                    },
                     "node_id": "a51bec62-7a13-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -1055,12 +1502,19 @@
                     "card_id": "235fb10c-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Function Sub-type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "235fb111-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Function Sub-type",
+                    "label": {
+                        "en": "Heritage Place Function Sub-type"
+                    },
                     "node_id": "235fb107-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1070,12 +1524,19 @@
                     "card_id": "235fb10c-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Function Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "235fb112-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Function Type",
+                    "label": {
+                        "en": "Heritage Place Function Type"
+                    },
                     "node_id": "235fb10d-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1085,12 +1546,19 @@
                     "card_id": "235fb10c-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Function Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "235fb113-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Function Certainty",
+                    "label": {
+                        "en": "Heritage Place Function Certainty"
+                    },
                     "node_id": "235fb10f-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1100,12 +1568,19 @@
                     "card_id": "235fb10c-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Function Sub-type Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "235fb114-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Function Sub-type Certainty",
+                    "label": {
+                        "en": "Heritage Place Function Sub-type Certainty"
+                    },
                     "node_id": "235fb10e-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1115,12 +1590,19 @@
                     "card_id": "2cab4cd7-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Form Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d02-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Form Certainty",
+                    "label": {
+                        "en": "Heritage Place Form Certainty"
+                    },
                     "node_id": "2cab4ceb-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1130,12 +1612,19 @@
                     "card_id": "2cab4cd7-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Site Feature Shape",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d03-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Site Feature Shape",
+                    "label": {
+                        "en": "Site Feature Shape"
+                    },
                     "node_id": "2cab4cde-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1145,12 +1634,19 @@
                     "card_id": "2cab4cd7-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Form Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d04-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Form Type",
+                    "label": {
+                        "en": "Heritage Place Form Type"
+                    },
                     "node_id": "2cab4ced-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1160,12 +1656,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d05-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Type",
+                    "label": {
+                        "en": "Component Type"
+                    },
                     "node_id": "2cab4ce7-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1176,19 +1679,32 @@
                     "config": {
                         "defaultValue": 0,
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Component Number/Count",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2cab4d06-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Number/Count",
+                    "label": {
+                        "en": "Component Number/Count"
+                    },
                     "node_id": "2cab4cfe-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -1198,12 +1714,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Deposition Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d07-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Deposition Type",
+                    "label": {
+                        "en": "Component Deposition Type"
+                    },
                     "node_id": "2cab4d01-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1213,12 +1736,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Measurement Unit",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d08-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Measurement Unit",
+                    "label": {
+                        "en": "Component Measurement Unit"
+                    },
                     "node_id": "2cab4cf7-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 9,
                     "visible": true,
@@ -1227,15 +1757,27 @@
                 {
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Measurement(s)",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2cab4d09-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Measurement(s)",
+                    "label": {
+                        "en": "Component Measurement(s)"
+                    },
                     "node_id": "2cab4cfa-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 8,
                     "visible": true,
@@ -1245,11 +1787,18 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Equivalent Heritage Feature",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "2cab4d0a-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Equivalent Heritage Feature",
+                    "label": {
+                        "en": "Equivalent Heritage Feature"
+                    },
                     "node_id": "2cab4cfc-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 12,
                     "visible": false,
@@ -1259,12 +1808,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Shape Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d0b-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Shape Type",
+                    "label": {
+                        "en": "Component Shape Type"
+                    },
                     "node_id": "2cab4cf0-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1274,12 +1830,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Material Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d0c-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Material Type",
+                    "label": {
+                        "en": "Component Material Type"
+                    },
                     "node_id": "2cab4cf4-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -1289,11 +1852,18 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Equivalent Heritage Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "2cab4d0d-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Equivalent Heritage Resource",
+                    "label": {
+                        "en": "Equivalent Heritage Resource"
+                    },
                     "node_id": "2cab4ce9-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1303,12 +1873,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Dimension Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d0e-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Dimension Type",
+                    "label": {
+                        "en": "Component Dimension Type"
+                    },
                     "node_id": "2cab4cf5-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 10,
                     "visible": true,
@@ -1317,15 +1894,27 @@
                 {
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Remark",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2cab4d0f-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Remark",
+                    "label": {
+                        "en": "Component Remark"
+                    },
                     "node_id": "2cab4cf6-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 11,
                     "visible": true,
@@ -1335,12 +1924,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Construction Technique",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d10-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Construction Technique",
+                    "label": {
+                        "en": "Component Construction Technique"
+                    },
                     "node_id": "2cab4cee-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 7,
                     "visible": true,
@@ -1350,12 +1946,19 @@
                     "card_id": "2cab4ce3-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Material Class",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d11-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Component Material Class",
+                    "label": {
+                        "en": "Component Material Class"
+                    },
                     "node_id": "2cab4cf3-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -1365,12 +1968,19 @@
                     "card_id": "2cab4ce0-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Shape Orientation",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d12-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Shape Orientation",
+                    "label": {
+                        "en": "Heritage Place Shape Orientation"
+                    },
                     "node_id": "2cab4cea-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1380,12 +1990,19 @@
                     "card_id": "2cab4ce0-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Feature Shape Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d13-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Feature Shape Type",
+                    "label": {
+                        "en": "Heritage Feature Shape Type"
+                    },
                     "node_id": "2cab4cde-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -1395,12 +2012,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Function Sub Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d14-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Function Sub Type",
+                    "label": {
+                        "en": "Function Sub Type"
+                    },
                     "node_id": "2cab4cff-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 7,
                     "visible": false,
@@ -1410,12 +2034,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Interpretation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d15-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Interpretation Type",
+                    "label": {
+                        "en": "Heritage Place Interpretation Type"
+                    },
                     "node_id": "2cab4cf9-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1425,12 +2056,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Interpretation Sub-type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d16-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Interpretation Sub-type",
+                    "label": {
+                        "en": "Heritage Place Interpretation Sub-type"
+                    },
                     "node_id": "2cab4ce8-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1440,12 +2078,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Period",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d17-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Cultural Period",
+                    "label": {
+                        "en": "Cultural Period"
+                    },
                     "node_id": "2cab4d00-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1455,12 +2100,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Sub-period",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d18-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Cultural Sub-period",
+                    "label": {
+                        "en": "Cultural Sub-period"
+                    },
                     "node_id": "2cab4cfb-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -1470,12 +2122,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Interpretation Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d19-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Interpretation Certainty",
+                    "label": {
+                        "en": "Interpretation Certainty"
+                    },
                     "node_id": "2cab4cf8-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -1485,12 +2144,19 @@
                     "card_id": "2cab4cda-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Interpretation Qualifier",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d1a-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Interpretation Qualifier",
+                    "label": {
+                        "en": "Interpretation Qualifier"
+                    },
                     "node_id": "2cab4cf1-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -1500,12 +2166,19 @@
                     "card_id": "2cab4cdd-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Material Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d1b-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Material Type",
+                    "label": {
+                        "en": "Heritage Place Material Type"
+                    },
                     "node_id": "2cab4cef-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1515,12 +2188,19 @@
                     "card_id": "2cab4cdd-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Material Class",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d1c-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Material Class",
+                    "label": {
+                        "en": "Heritage Place Material Class"
+                    },
                     "node_id": "2cab4cfd-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1530,12 +2210,19 @@
                     "card_id": "2cab4cdd-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Construction Technique",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d1d-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Construction Technique",
+                    "label": {
+                        "en": "Heritage Place Construction Technique"
+                    },
                     "node_id": "2cab4cf2-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1545,12 +2232,19 @@
                     "card_id": "2cab4cdd-77a5-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Materials & Construction Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2cab4d1e-77a5-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Materials & Construction Certainty",
+                    "label": {
+                        "en": "Heritage Place Materials & Construction Certainty"
+                    },
                     "node_id": "2cab4cec-77a5-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1560,11 +2254,18 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Information Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "4f4f4345-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Information Resource",
+                    "label": {
+                        "en": "Information Resource"
+                    },
                     "node_id": "4f4f4337-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -1574,11 +2275,18 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Condition Assessor",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "4f4f4346-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Condition Assessor",
+                    "label": {
+                        "en": "Condition Assessor"
+                    },
                     "node_id": "4f4f4334-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1588,12 +2296,19 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Condition Assessor Role Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4347-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Condition Assessor Role Type",
+                    "label": {
+                        "en": "Condition Assessor Role Type"
+                    },
                     "node_id": "4f4f4336-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": false,
@@ -1611,7 +2326,9 @@
                         "viewMode": "days"
                     },
                     "id": "4f4f4348-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Condition Assessment Date",
+                    "label": {
+                        "en": "Condition Assessment Date"
+                    },
                     "node_id": "4f4f4342-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -1621,12 +2338,19 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Condition",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4349-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Overall Condition",
+                    "label": {
+                        "en": "Overall Condition"
+                    },
                     "node_id": "4f4f4344-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1636,11 +2360,18 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Associated Detailed Condition Assessment",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "4f4f434a-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Associated Detailed Condition Assessment",
+                    "label": {
+                        "en": "Associated Detailed Condition Assessment"
+                    },
                     "node_id": "4f4f4341-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -1650,12 +2381,19 @@
                     "card_id": "4f4f431c-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "b0bfb57d-9e7d-4eea-81be-2adc3525f4ee",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Condition Assessment Activity Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f434b-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Condition Assessment Activity Type",
+                    "label": {
+                        "en": "Condition Assessment Activity Type"
+                    },
                     "node_id": "4f4f432f-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1665,12 +2403,19 @@
                     "card_id": "4f4f432b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Estimated Damage Extent",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f434c-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Estimated Damage Extent",
+                    "label": {
+                        "en": "Estimated Damage Extent"
+                    },
                     "node_id": "4f4f431d-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -1680,12 +2425,19 @@
                     "card_id": "4f4f4316-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Recommendation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f434d-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Recommendation Type",
+                    "label": {
+                        "en": "Recommendation Type"
+                    },
                     "node_id": "4f4f4338-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1695,12 +2447,19 @@
                     "card_id": "4f4f4316-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Intervention Activity Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f434e-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Intervention Activity Type",
+                    "label": {
+                        "en": "Intervention Activity Type"
+                    },
                     "node_id": "4f4f4314-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1710,12 +2469,19 @@
                     "card_id": "4f4f4313-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Category",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f434f-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Cause Category",
+                    "label": {
+                        "en": "Disturbance Cause Category"
+                    },
                     "node_id": "4f4f4331-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -1725,12 +2491,19 @@
                     "card_id": "4f4f4313-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4350-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Cause Certainty",
+                    "label": {
+                        "en": "Disturbance Cause Certainty"
+                    },
                     "node_id": "4f4f433b-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1740,12 +2513,19 @@
                     "card_id": "4f4f4313-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4351-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Cause Type",
+                    "label": {
+                        "en": "Disturbance Cause Type"
+                    },
                     "node_id": "4f4f4330-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1763,7 +2543,9 @@
                         "viewMode": "days"
                     },
                     "id": "4f4f4352-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Occurred Before",
+                    "label": {
+                        "en": "Disturbance Occurred Before"
+                    },
                     "node_id": "4f4f4333-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1781,7 +2563,9 @@
                         "viewMode": "days"
                     },
                     "id": "4f4f4353-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Occurred On",
+                    "label": {
+                        "en": "Disturbance Occurred On"
+                    },
                     "node_id": "4f4f433d-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1799,7 +2583,9 @@
                         "viewMode": "days"
                     },
                     "id": "4f4f4354-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Date From",
+                    "label": {
+                        "en": "Disturbance Date From"
+                    },
                     "node_id": "4f4f4332-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1817,7 +2603,9 @@
                         "viewMode": "days"
                     },
                     "id": "4f4f4355-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Disturbance Date To",
+                    "label": {
+                        "en": "Disturbance Date To"
+                    },
                     "node_id": "4f4f433e-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -1827,12 +2615,19 @@
                     "card_id": "4f4f4325-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Driver Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4356-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Threat Driver Type",
+                    "label": {
+                        "en": "Threat Driver Type"
+                    },
                     "node_id": "4f4f4340-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1842,12 +2637,19 @@
                     "card_id": "4f4f4325-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Probability",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4357-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Threat Probability",
+                    "label": {
+                        "en": "Threat Probability"
+                    },
                     "node_id": "4f4f433a-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1857,12 +2659,19 @@
                     "card_id": "4f4f4325-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4358-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Threat Type",
+                    "label": {
+                        "en": "Threat Type"
+                    },
                     "node_id": "4f4f433c-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1872,12 +2681,19 @@
                     "card_id": "4f4f4322-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Damage Effect",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f4359-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Damage Effect",
+                    "label": {
+                        "en": "Damage Effect"
+                    },
                     "node_id": "4f4f4343-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1887,12 +2703,19 @@
                     "card_id": "4f4f4322-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Damage Effect Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "4f4f435a-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Damage Effect Certainty",
+                    "label": {
+                        "en": "Damage Effect Certainty"
+                    },
                     "node_id": "4f4f433f-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1903,19 +2726,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "% Confidence",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5989d1ef-770f-11ed-bbf8-11bf15c87075",
-                    "label": "% Confidence",
+                    "label": {
+                        "en": "% Confidence"
+                    },
                     "node_id": "5989d1ee-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -1924,15 +2760,27 @@
                 {
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Laboratory",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5989d1f0-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Laboratory",
+                    "label": {
+                        "en": "Laboratory"
+                    },
                     "node_id": "5989d1ec-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -1942,11 +2790,18 @@
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Calibrated Mean Date BCE",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "5989d1f1-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Calibrated Mean Date BCE",
+                    "label": {
+                        "en": "Calibrated Mean Date BCE"
+                    },
                     "node_id": "5989d1e8-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -1955,15 +2810,27 @@
                 {
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Lab Number",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5989d1f2-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Lab Number",
+                    "label": {
+                        "en": "Lab Number"
+                    },
                     "node_id": "5989d1e9-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -1973,11 +2840,18 @@
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Uncalibrated Minimum Date BP",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "5989d1f3-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Uncalibrated Minimum Date BP",
+                    "label": {
+                        "en": "Uncalibrated Minimum Date BP"
+                    },
                     "node_id": "5989d1ea-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -1987,11 +2861,18 @@
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Uncalibrated Maximum Date BP",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "5989d1f4-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Uncalibrated Maximum Date BP",
+                    "label": {
+                        "en": "Uncalibrated Maximum Date BP"
+                    },
                     "node_id": "5989d1eb-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -2000,15 +2881,27 @@
                 {
                     "card_id": "5989d1e7-770f-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Radiocarbon Notes",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5989d1f5-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Radiocarbon Notes",
+                    "label": {
+                        "en": "Radiocarbon Notes"
+                    },
                     "node_id": "5989d1ed-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -2017,15 +2910,27 @@
                 {
                     "card_id": "63df21bd-7707-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "MAPSS_HP_ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "63df21be-7707-11ed-bbf8-11bf15c87075",
-                    "label": "MAPSS_HP_ID",
+                    "label": {
+                        "en": "MAPSS_HP_ID"
+                    },
                     "node_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": false,
@@ -2035,12 +2940,19 @@
                     "card_id": "1c4d7bbe-7a22-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Verification Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b74bff1d-7a27-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Verification Type",
+                    "label": {
+                        "en": "Archaeological Verification Type"
+                    },
                     "node_id": "0c4382a2-7a27-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2050,12 +2962,19 @@
                     "card_id": "1c4d7bbe-7a22-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Validity",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b74bff1f-7a27-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Validity",
+                    "label": {
+                        "en": "Archaeological Validity"
+                    },
                     "node_id": "1ed36dc4-7a22-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2065,12 +2984,19 @@
                     "card_id": "1c4d7bbe-7a22-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessment Qualifier",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b74bff21-7a27-11ed-bbf8-11bf15c87075",
-                    "label": "Archaeological Assessment Qualifier",
+                    "label": {
+                        "en": "Archaeological Assessment Qualifier"
+                    },
                     "node_id": "4c9b9312-7a27-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -2080,12 +3006,19 @@
                     "card_id": "ba7aadb9-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Measurement Source Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ba7aadbf-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Measurement Source Type",
+                    "label": {
+                        "en": "Heritage Place Measurement Source Type"
+                    },
                     "node_id": "ba7aadba-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -2094,15 +3027,27 @@
                 {
                     "card_id": "ba7aadb9-770f-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Measurement Remark",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ba7aadc0-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Measurement Remark",
+                    "label": {
+                        "en": "Measurement Remark"
+                    },
                     "node_id": "ba7aadbd-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -2113,19 +3058,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Heritage Place Measurement Number",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ba7aadc1-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Measurement Number",
+                    "label": {
+                        "en": "Heritage Place Measurement Number"
+                    },
                     "node_id": "ba7aadbc-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2135,12 +3093,19 @@
                     "card_id": "ba7aadb9-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Measurement Unit Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ba7aadc2-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Measurement Unit Type",
+                    "label": {
+                        "en": "Heritage Place Measurement Unit Type"
+                    },
                     "node_id": "ba7aadbe-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2150,12 +3115,19 @@
                     "card_id": "ba7aadb9-770f-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Dimension Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ba7aadc3-770f-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Dimension Type",
+                    "label": {
+                        "en": "Heritage Place Dimension Type"
+                    },
                     "node_id": "ba7aadbb-770f-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -2165,11 +3137,18 @@
                     "card_id": "bc936977-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "MAPSS Grid",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "bc93697e-7707-11ed-bbf8-11bf15c87075",
-                    "label": "MAPSS Grid",
+                    "label": {
+                        "en": "MAPSS Grid"
+                    },
                     "node_id": "bc936978-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2179,12 +3158,19 @@
                     "card_id": "bc936977-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Orientation",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "bc93697f-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Orientation",
+                    "label": {
+                        "en": "Orientation"
+                    },
                     "node_id": "bc93697c-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -2194,12 +3180,19 @@
                     "card_id": "bc936977-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Soum/District",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "bc936980-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Soum/District",
+                    "label": {
+                        "en": "Soum/District"
+                    },
                     "node_id": "bc93697b-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -2209,12 +3202,19 @@
                     "card_id": "bc936977-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Aimag/Province",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "bc936981-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Aimag/Province",
+                    "label": {
+                        "en": "Aimag/Province"
+                    },
                     "node_id": "bc93697a-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2223,15 +3223,27 @@
                 {
                     "card_id": "bc936977-7707-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Bag/Sub-district",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "bc936982-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Bag/Sub-district",
+                    "label": {
+                        "en": "Bag/Sub-district"
+                    },
                     "node_id": "bc936979-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -2241,12 +3253,19 @@
                     "card_id": "d095a92b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Assessment Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a94b-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Overall Assessment Certainty",
+                    "label": {
+                        "en": "Overall Assessment Certainty"
+                    },
                     "node_id": "d095a942-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2264,7 +3283,9 @@
                         "viewMode": "days"
                     },
                     "id": "d095a94c-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Environment Assessment Date",
+                    "label": {
+                        "en": "Environment Assessment Date"
+                    },
                     "node_id": "d095a947-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2274,11 +3295,18 @@
                     "card_id": "d095a92b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Environment Assessor",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "d095a94d-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Environment Assessor",
+                    "label": {
+                        "en": "Environment Assessor"
+                    },
                     "node_id": "d095a949-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2288,12 +3316,19 @@
                     "card_id": "d095a92b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Environment Assessment Activity Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a94e-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Environment Assessment Activity Type",
+                    "label": {
+                        "en": "Environment Assessment Activity Type"
+                    },
                     "node_id": "d095a948-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2303,11 +3338,18 @@
                     "card_id": "d095a92b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Associated Geoarchaeology Assessment",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "d095a94f-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Associated Geoarchaeology Assessment",
+                    "label": {
+                        "en": "Associated Geoarchaeology Assessment"
+                    },
                     "node_id": "d095a93e-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2317,11 +3359,18 @@
                     "card_id": "d095a92b-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Information Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "d095a950-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Information Resource",
+                    "label": {
+                        "en": "Information Resource"
+                    },
                     "node_id": "d095a93c-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2332,19 +3381,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Minimum Elevation",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "d095a951-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Minimum Elevation",
+                    "label": {
+                        "en": "Minimum Elevation"
+                    },
                     "node_id": "d095a943-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 7,
                     "visible": true,
@@ -2354,12 +3416,19 @@
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Surficial Geology Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a952-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Surficial Geology Type",
+                    "label": {
+                        "en": "Surficial Geology Type"
+                    },
                     "node_id": "d095a94a-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -2369,12 +3438,19 @@
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Land Cover Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a953-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Land Cover Type",
+                    "label": {
+                        "en": "Land Cover Type"
+                    },
                     "node_id": "d095a944-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2384,12 +3460,19 @@
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Bedrock Geology",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a954-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Bedrock Geology",
+                    "label": {
+                        "en": "Bedrock Geology"
+                    },
                     "node_id": "d095a945-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -2399,12 +3482,19 @@
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Topography Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a955-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Topography Type",
+                    "label": {
+                        "en": "Topography Type"
+                    },
                     "node_id": "d095a940-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2413,15 +3503,27 @@
                 {
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Datum Description",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "d095a956-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Datum Description",
+                    "label": {
+                        "en": "Datum Description"
+                    },
                     "node_id": "d095a941-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 5,
                     "visible": true,
@@ -2432,19 +3534,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Maximum Elevation",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "d095a957-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Maximum Elevation",
+                    "label": {
+                        "en": "Maximum Elevation"
+                    },
                     "node_id": "d095a93b-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 6,
                     "visible": true,
@@ -2454,12 +3569,19 @@
                     "card_id": "d095a93a-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Depositional Process Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d095a958-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Depositional Process Type",
+                    "label": {
+                        "en": "Depositional Process Type"
+                    },
                     "node_id": "d095a946-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -2504,7 +3626,9 @@
                         "zoom": 3.694889781227644
                     },
                     "id": "f298bafc-7706-11ed-bbf8-11bf15c87075",
-                    "label": "Geometric Place Expression",
+                    "label": {
+                        "en": "Geometric Place Expression"
+                    },
                     "node_id": "f298bafa-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2514,12 +3638,19 @@
                     "card_id": "f298baf5-7706-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Location Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "f298bafd-7706-11ed-bbf8-11bf15c87075",
-                    "label": "Location Certainty",
+                    "label": {
+                        "en": "Location Certainty"
+                    },
                     "node_id": "f298baf6-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2528,15 +3659,27 @@
                 {
                     "card_id": "f298baf5-7706-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Geometry Remarks",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f298bafe-7706-11ed-bbf8-11bf15c87075",
-                    "label": "Geometry Remarks",
+                    "label": {
+                        "en": "Geometry Remarks"
+                    },
                     "node_id": "f298baf9-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 4,
                     "visible": true,
@@ -2545,15 +3688,27 @@
                 {
                     "card_id": "f298baf5-7706-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Spatial Coordinates Reference System",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f298baff-7706-11ed-bbf8-11bf15c87075",
-                    "label": "Spatial Coordinates Reference System",
+                    "label": {
+                        "en": "Spatial Coordinates Reference System"
+                    },
                     "node_id": "f298bafb-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 3,
                     "visible": true,
@@ -2563,12 +3718,19 @@
                     "card_id": "f298baf5-7706-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Geometry Extent Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "f298bb00-7706-11ed-bbf8-11bf15c87075",
-                    "label": "Geometry Extent Certainty",
+                    "label": {
+                        "en": "Geometry Extent Certainty"
+                    },
                     "node_id": "f298baf8-7706-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": false,
@@ -2579,19 +3741,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Sample Area (m)",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f6eddcfb-9d70-11ed-826a-bd1a2523ba5d",
-                    "label": "Sample Area (m)",
+                    "label": {
+                        "en": "Sample Area (m)"
+                    },
                     "node_id": "8f1b6f80-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2600,15 +3775,27 @@
                 {
                     "card_id": "22485924-770e-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Description of Finds",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f6eddcfd-9d70-11ed-826a-bd1a2523ba5d",
-                    "label": "Description of Finds",
+                    "label": {
+                        "en": "Description of Finds"
+                    },
                     "node_id": "d3af452c-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2618,12 +3805,19 @@
                     "card_id": "22485924-770e-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Artifact Density",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "f6eddcff-9d70-11ed-826a-bd1a2523ba5d",
-                    "label": "Artifact Density",
+                    "label": {
+                        "en": "Artifact Density"
+                    },
                     "node_id": "728baa9c-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": false,
@@ -2634,19 +3828,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Artifact Count",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f6eddd01-9d70-11ed-826a-bd1a2523ba5d",
-                    "label": "Artifact Count",
+                    "label": {
+                        "en": "Artifact Count"
+                    },
                     "node_id": "b0f33bec-770e-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2655,15 +3862,27 @@
                 {
                     "card_id": "ffe10dcc-7707-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Place Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ffe10de0-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Place Name",
+                    "label": {
+                        "en": "Place Name"
+                    },
                     "node_id": "ffe10dca-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2673,12 +3892,19 @@
                     "card_id": "ffe10dcc-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Name Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ffe10de1-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Name Type",
+                    "label": {
+                        "en": "Name Type"
+                    },
                     "node_id": "ffe10ddf-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2688,12 +3914,19 @@
                     "card_id": "ffe10dd2-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Designation",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ffe10de2-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Designation",
+                    "label": {
+                        "en": "Designation"
+                    },
                     "node_id": "ffe10dd0-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2711,7 +3944,9 @@
                         "viewMode": "days"
                     },
                     "id": "ffe10de3-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Designation From Date",
+                    "label": {
+                        "en": "Designation From Date"
+                    },
                     "node_id": "ffe10ddb-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 1,
                     "visible": true,
@@ -2729,7 +3964,9 @@
                         "viewMode": "days"
                     },
                     "id": "ffe10de4-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Designation To Date",
+                    "label": {
+                        "en": "Designation To Date"
+                    },
                     "node_id": "ffe10ddd-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 2,
                     "visible": true,
@@ -2738,15 +3975,27 @@
                 {
                     "card_id": "ffe10dcf-7707-11ed-bbf8-11bf15c87075",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Comment on Recording",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "ffe10de6-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Comment on Recording",
+                    "label": {
+                        "en": "Comment on Recording"
+                    },
                     "node_id": "ffe10dde-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": 0,
                     "visible": true,
@@ -2756,12 +4005,19 @@
                     "card_id": "ffe10dc9-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Place Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ffe10de7-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Heritage Place Type",
+                    "label": {
+                        "en": "Heritage Place Type"
+                    },
                     "node_id": "ffe10dc7-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2771,11 +4027,18 @@
                     "card_id": "ffe10dd5-7707-11ed-bbf8-11bf15c87075",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related Heritage Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "ffe10de8-7707-11ed-bbf8-11bf15c87075",
-                    "label": "Related Heritage Resource",
+                    "label": {
+                        "en": "Related Heritage Resource"
+                    },
                     "node_id": "ffe10dd3-7707-11ed-bbf8-11bf15c87075",
                     "sortorder": null,
                     "visible": true,
@@ -2786,7 +4049,9 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -4313,20 +5578,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "19",
-                        "prefix": "MAPSS-HP-",
-                        "selected_nodegroup": "63df21bb-7707-11ed-bbf8-11bf15c87075",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "63df21bb-7707-11ed-bbf8-11bf15c87075",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
-                    "id": "22010c3a-8ec2-49bc-b0b3-b6d016d75e4e"
-                },
-                {
-                    "config": {
                         "description": {
                             "nodegroup_id": "235fb10a-77a5-11ed-bbf8-11bf15c87075",
                             "string_template": "<Heritage Place Function Type>"
@@ -4357,16 +5608,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
-                    "id": "74b1e47b-cb36-4149-b173-7d2006e4fe18"
+                    "id": "36f7a759-4308-4efa-a5f3-398b7430235d"
                 }
             ],
             "graphid": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
             "iconclass": "fa fa-bank",
             "is_editable": false,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Heritage Place",
+            "name": {
+                "en": "Heritage Place"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -4652,7 +5904,7 @@
                 },
                 {
                     "alias": "archaeological_assessment_summary",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -4906,7 +6158,7 @@
                 },
                 {
                     "alias": "field_assessment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4970,7 +6222,7 @@
                 },
                 {
                     "alias": "heritage_place_function_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -5056,7 +6308,7 @@
                 },
                 {
                     "alias": "heritage_place_function_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5076,7 +6328,7 @@
                 },
                 {
                     "alias": "archaeological_description_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5118,7 +6370,7 @@
                 },
                 {
                     "alias": "occupied_timespan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5138,7 +6390,7 @@
                 },
                 {
                     "alias": "site_feature_form_type_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5158,7 +6410,7 @@
                 },
                 {
                     "alias": "site_feature_interpretation_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5178,7 +6430,7 @@
                 },
                 {
                     "alias": "site_feature_construction_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5220,7 +6472,7 @@
                 },
                 {
                     "alias": "site_feature_component_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -5240,7 +6492,7 @@
                 },
                 {
                     "alias": "site_feature_assessment_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -5592,7 +6844,7 @@
                 },
                 {
                     "alias": "component_remark",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -5678,7 +6930,7 @@
                 },
                 {
                     "alias": "component_measurement",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -5771,7 +7023,7 @@
                 },
                 {
                     "alias": "component_number",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -5919,7 +7171,7 @@
                 },
                 {
                     "alias": "archaeological_description",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -5961,7 +7213,7 @@
                 },
                 {
                     "alias": "disturbance_cause_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6003,7 +7255,7 @@
                 },
                 {
                     "alias": "disturbance_event_timespan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6065,7 +7317,7 @@
                 },
                 {
                     "alias": "disturbance_effect_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6085,7 +7337,7 @@
                 },
                 {
                     "alias": "threat_making_inference",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6105,7 +7357,7 @@
                 },
                 {
                     "alias": "damage_state_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6125,7 +7377,7 @@
                 },
                 {
                     "alias": "condition_assessment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -6145,7 +7397,7 @@
                 },
                 {
                     "alias": "recommendation_plan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6403,7 +7655,7 @@
                 },
                 {
                     "alias": "priority_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -6672,7 +7924,7 @@
                 },
                 {
                     "alias": "site_feature_assessment_summary",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -6692,7 +7944,7 @@
                 },
                 {
                     "alias": "radiocarbon_dates",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -6740,7 +7992,7 @@
                 },
                 {
                     "alias": "lab_number",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -6816,7 +8068,7 @@
                 },
                 {
                     "alias": "laboratory",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -6836,7 +8088,7 @@
                 },
                 {
                     "alias": "radiocarbon_notes",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -6856,7 +8108,7 @@
                 },
                 {
                     "alias": "confidence",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -6876,7 +8128,7 @@
                 },
                 {
                     "alias": "mapss_hp_id",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
@@ -6974,7 +8226,7 @@
                 },
                 {
                     "alias": "site_feature_interpretation_identifier",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -6994,7 +8246,7 @@
                 },
                 {
                     "alias": "sample_area_cm_",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -7014,7 +8266,7 @@
                 },
                 {
                     "alias": "archaeological_verification",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7034,7 +8286,7 @@
                 },
                 {
                     "alias": "heritage_place",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -7076,7 +8328,7 @@
                 },
                 {
                     "alias": "archaeological_assessment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7137,7 +8389,7 @@
                 },
                 {
                     "alias": "artifact_count",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -7157,7 +8409,7 @@
                 },
                 {
                     "alias": "archaeological_validation_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7177,7 +8429,7 @@
                 },
                 {
                     "alias": "detailed_measurement",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -7241,7 +8493,7 @@
                 },
                 {
                     "alias": "heritage_feature_measurement_number",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -7261,7 +8513,7 @@
                 },
                 {
                     "alias": "measurement_remark",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -7303,7 +8555,7 @@
                 },
                 {
                     "alias": "geography",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -7354,7 +8606,7 @@
                 },
                 {
                     "alias": "sub_district",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -7440,7 +8692,7 @@
                 },
                 {
                     "alias": "administrative_region_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7480,7 +8732,7 @@
                 },
                 {
                     "alias": "topography",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7500,7 +8752,7 @@
                 },
                 {
                     "alias": "land_cover",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7520,7 +8772,7 @@
                 },
                 {
                     "alias": "geology",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7540,7 +8792,7 @@
                 },
                 {
                     "alias": "elevation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7560,7 +8812,7 @@
                 },
                 {
                     "alias": "environment_assessment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -7580,7 +8832,7 @@
                 },
                 {
                     "alias": "maximum_elevation",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -7624,7 +8876,7 @@
                 },
                 {
                     "alias": "datum",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7668,7 +8920,7 @@
                 },
                 {
                     "alias": "datum_type",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -7710,7 +8962,7 @@
                 },
                 {
                     "alias": "datum_description_epsg_code",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -7752,7 +9004,7 @@
                 },
                 {
                     "alias": "minimum_elevation",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -7933,7 +9185,7 @@
                 },
                 {
                     "alias": "description_of_finds",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -7953,7 +9205,7 @@
                 },
                 {
                     "alias": "geometry",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -7995,7 +9247,7 @@
                 },
                 {
                     "alias": "geometry_location_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -8037,7 +9289,7 @@
                 },
                 {
                     "alias": "geometry_remarks",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -8100,7 +9352,7 @@
                 },
                 {
                     "alias": "spatial_coordinates_reference_system",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -8120,7 +9372,7 @@
                 },
                 {
                     "alias": "absolute_chronology_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -8184,7 +9436,7 @@
                 },
                 {
                     "alias": "place_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -8204,7 +9456,7 @@
                 },
                 {
                     "alias": "comment_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -8282,7 +9534,7 @@
                 },
                 {
                     "alias": "resource_summary",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -8302,7 +9554,7 @@
                 },
                 {
                     "alias": "designation_event_timespan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -8344,7 +9596,7 @@
                 },
                 {
                     "alias": "heritage_place_type_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -8386,7 +9638,7 @@
                 },
                 {
                     "alias": "comment",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -8428,11 +9680,12 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "heritage_place",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -8450,7 +9703,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "Archaeological sites, site features, and site feature groups",
+            "subtitle": {
+                "en": "Archaeological sites, site features, and site feature groups"
+            },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }

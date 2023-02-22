@@ -13,11 +13,19 @@
                     "description": null,
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Description Assignment",
+                    "name": {
+                        "en": "Description Assignment"
+                    },
                     "nodegroup_id": "0f96223a-1177-11ec-946e-005056957f92",
                     "sortorder": 4,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Lifespan",
+                    "name": {
+                        "en": "Lifespan"
+                    },
                     "nodegroup_id": "28a5f1fc-1176-11ec-946e-005056957f92",
                     "sortorder": 2,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": "",
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Appellation",
+                    "name": {
+                        "en": "Appellation"
+                    },
                     "nodegroup_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
                     "sortorder": 0,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Role",
+                    "name": {
+                        "en": "Role"
+                    },
                     "nodegroup_id": "76bf8dc4-1173-11ec-946e-005056957f92",
                     "sortorder": 1,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": null,
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Person/Organization Image",
+                    "name": {
+                        "en": "Person/Organization Image"
+                    },
                     "nodegroup_id": "e4d2cd7e-1175-11ec-946e-005056957f92",
                     "sortorder": 3,
                     "visible": true
@@ -103,15 +143,27 @@
                 {
                     "card_id": "76bf8dc6-1173-11ec-946e-005056957f92",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Institution/Organization",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "000e3a4b-16e1-11ec-b7c9-005056957f92",
-                    "label": "Institution/Organization",
+                    "label": {
+                        "en": "Institution/Organization"
+                    },
                     "node_id": "94c2f7bc-16e0-11ec-b7c9-005056957f92",
                     "sortorder": 2,
                     "visible": true,
@@ -126,7 +178,9 @@
                         "rerender": true
                     },
                     "id": "0310632a-1176-11ec-946e-005056957f92",
-                    "label": "Person/Organization Image",
+                    "label": {
+                        "en": "Person/Organization Image"
+                    },
                     "node_id": "e4d2cd7e-1175-11ec-946e-005056957f92",
                     "sortorder": 0,
                     "visible": true,
@@ -135,15 +189,27 @@
                 {
                     "card_id": "2ea3fea1-1173-11ec-946e-005056957f92",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Appellation",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2ea3fea3-1173-11ec-946e-005056957f92",
-                    "label": "Appellation",
+                    "label": {
+                        "en": "Appellation"
+                    },
                     "node_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
                     "sortorder": 0,
                     "visible": true,
@@ -161,7 +227,9 @@
                         "viewMode": "days"
                     },
                     "id": "61211899-1178-11ec-946e-005056957f92",
-                    "label": "Role Date From",
+                    "label": {
+                        "en": "Role Date From"
+                    },
                     "node_id": "eb8ec470-1174-11ec-946e-005056957f92",
                     "sortorder": 3,
                     "visible": true,
@@ -179,7 +247,9 @@
                         "viewMode": "days"
                     },
                     "id": "6121189b-1178-11ec-946e-005056957f92",
-                    "label": "Role Date To",
+                    "label": {
+                        "en": "Role Date To"
+                    },
                     "node_id": "0bad62e8-1175-11ec-946e-005056957f92",
                     "sortorder": 4,
                     "visible": true,
@@ -189,12 +259,19 @@
                     "card_id": "76bf8dc6-1173-11ec-946e-005056957f92",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Role",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "92a64002-1173-11ec-946e-005056957f92",
-                    "label": "Role",
+                    "label": {
+                        "en": "Role"
+                    },
                     "node_id": "76bf8dc4-1173-11ec-946e-005056957f92",
                     "sortorder": 0,
                     "visible": true,
@@ -204,12 +281,19 @@
                     "card_id": "76bf8dc6-1173-11ec-946e-005056957f92",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Field of Work",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ec7a362e-1173-11ec-946e-005056957f92",
-                    "label": "Field of Work",
+                    "label": {
+                        "en": "Field of Work"
+                    },
                     "node_id": "98bc1a3c-1173-11ec-946e-005056957f92",
                     "sortorder": 1,
                     "visible": true,
@@ -222,7 +306,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -375,16 +461,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
-                    "id": "e7f74a5d-40b1-440f-b66d-6b4fbccc4fa6"
+                    "id": "152c5898-faf2-48b7-ae4a-992363b2fe0a"
                 }
             ],
             "graphid": "c9402aff-03f4-11ec-946e-005056957f92",
             "iconclass": "fa fa-group",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Person_Organization",
+            "name": {
+                "en": "Person_Organization"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -442,7 +529,7 @@
                 },
                 {
                     "alias": "description_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -462,7 +549,7 @@
                 },
                 {
                     "alias": "lifespan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -482,7 +569,7 @@
                 },
                 {
                     "alias": "appellation",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
@@ -502,7 +589,7 @@
                 },
                 {
                     "alias": "appellation_transliteration",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -522,7 +609,7 @@
                 },
                 {
                     "alias": "description",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -586,7 +673,7 @@
                 },
                 {
                     "alias": "institution_organization",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -628,7 +715,7 @@
                 },
                 {
                     "alias": "person_organization",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -716,11 +803,12 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "person_organization",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -738,7 +826,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "Actor resources such as individual people, groups of people,  and organizations",
+            "subtitle": {
+                "en": "Actor resources such as individual people, groups of people,  and organizations"
+            },
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }

@@ -13,11 +13,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Damage State Observation",
+                    "name": {
+                        "en": "Damage State Observation"
+                    },
                     "nodegroup_id": "55cdb653-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Event Timespan",
+                    "name": {
+                        "en": "Disturbance Event Timespan"
+                    },
                     "nodegroup_id": "55cdb656-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Estimated Damage Extent",
+                    "name": {
+                        "en": "Estimated Damage Extent"
+                    },
                     "nodegroup_id": "55cdb659-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": null,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Effect Belief",
+                    "name": {
+                        "en": "Disturbance Effect Belief"
+                    },
                     "nodegroup_id": "55cdb65c-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Threat Making Inference",
+                    "name": {
+                        "en": "Threat Making Inference"
+                    },
                     "nodegroup_id": "55cdb65f-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true
@@ -108,11 +148,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Resource Summary",
+                    "name": {
+                        "en": "Resource Summary"
+                    },
                     "nodegroup_id": "55cdb662-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true
@@ -167,11 +215,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Remote Sensing Object Assessment",
+                    "name": {
+                        "en": "Remote Sensing Object Assessment"
+                    },
                     "nodegroup_id": "55cdb668-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true
@@ -186,11 +242,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Parent, child, or overlapping sites",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Parent, child, or overlapping sites"
+                    },
                     "is_editable": true,
-                    "name": "Related Sites",
+                    "name": {
+                        "en": "Related Sites"
+                    },
                     "nodegroup_id": "55cdb66b-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true
@@ -214,11 +278,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Location",
+                    "name": {
+                        "en": "Location"
+                    },
                     "nodegroup_id": "55cdb671-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true
@@ -233,11 +305,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Remote Sensing Component Observation",
+                    "name": {
+                        "en": "Remote Sensing Component Observation"
+                    },
                     "nodegroup_id": "55cdb677-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true
@@ -252,11 +332,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Measurements",
+                    "name": {
+                        "en": "Measurements"
+                    },
                     "nodegroup_id": "55cdb67a-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true
@@ -271,11 +359,19 @@
                     "description": "",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "MAPSS_ML_ID",
+                    "name": {
+                        "en": "MAPSS_ML_ID"
+                    },
                     "nodegroup_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 6,
                     "visible": false
@@ -290,11 +386,19 @@
                     "description": null,
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Disturbance Cause Belief",
+                    "name": {
+                        "en": "Disturbance Cause Belief"
+                    },
                     "nodegroup_id": "55cdb680-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true
@@ -305,12 +409,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Cultural Period",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6ec-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Cultural Period",
+                    "label": {
+                        "en": "Remote Sensing Cultural Period"
+                    },
                     "node_id": "55cdb6b6-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": false,
@@ -320,12 +431,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Period - HP",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6ed-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Cultural Period - HP",
+                    "label": {
+                        "en": "Cultural Period - HP"
+                    },
                     "node_id": "55cdb684-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 5,
                     "visible": true,
@@ -335,12 +453,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Condition Assessment",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6ee-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Overall Condition Assessment",
+                    "label": {
+                        "en": "Overall Condition Assessment"
+                    },
                     "node_id": "55cdb68c-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 17,
                     "visible": true,
@@ -350,15 +475,22 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Type",
                         "maxLength": null,
                         "options": [],
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb6ef-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Type",
+                    "label": {
+                        "en": "Disturbance Type"
+                    },
                     "node_id": "55cdb6e7-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 18,
                     "visible": true,
@@ -368,12 +500,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Material Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f0-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Material Type",
+                    "label": {
+                        "en": "Component Material Type"
+                    },
                     "node_id": "55cdb699-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true,
@@ -383,12 +522,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Dimension Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f1-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Dimension Type",
+                    "label": {
+                        "en": "Component Dimension Type"
+                    },
                     "node_id": "55cdb69a-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 7,
                     "visible": true,
@@ -398,12 +544,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Construction Technique",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f2-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Construction Technique",
+                    "label": {
+                        "en": "Component Construction Technique"
+                    },
                     "node_id": "55cdb689-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 8,
                     "visible": true,
@@ -413,12 +566,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Deposition Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f3-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Deposition Type",
+                    "label": {
+                        "en": "Component Deposition Type"
+                    },
                     "node_id": "55cdb68a-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 9,
                     "visible": true,
@@ -428,12 +588,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Shape Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f4-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Shape Type",
+                    "label": {
+                        "en": "Component Shape Type"
+                    },
                     "node_id": "55cdb68b-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -442,15 +609,27 @@
                 {
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Measurement",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb6f5-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Measurement",
+                    "label": {
+                        "en": "Component Measurement"
+                    },
                     "node_id": "55cdb6dd-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 5,
                     "visible": true,
@@ -460,12 +639,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Period Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f6-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Cultural Period Certainty",
+                    "label": {
+                        "en": "Cultural Period Certainty"
+                    },
                     "node_id": "55cdb6de-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 6,
                     "visible": true,
@@ -475,12 +661,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Sub-period",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f7-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Cultural Sub-period",
+                    "label": {
+                        "en": "Cultural Sub-period"
+                    },
                     "node_id": "55cdb6d4-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 7,
                     "visible": true,
@@ -490,12 +683,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Sub-period Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f8-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Cultural Sub-period Type",
+                    "label": {
+                        "en": "Cultural Sub-period Type"
+                    },
                     "node_id": "55cdb698-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 8,
                     "visible": false,
@@ -505,12 +705,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cultural Sub-period Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6f9-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Cultural Sub-period Certainty",
+                    "label": {
+                        "en": "Cultural Sub-period Certainty"
+                    },
                     "node_id": "55cdb6da-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 9,
                     "visible": true,
@@ -521,19 +728,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Component Number",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb6fa-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Number",
+                    "label": {
+                        "en": "Component Number"
+                    },
                     "node_id": "55cdb6cb-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -543,12 +763,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6fb-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Type",
+                    "label": {
+                        "en": "Component Type"
+                    },
                     "node_id": "55cdb6b1-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -558,12 +785,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Measurement Unit",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6fc-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Measurement Unit",
+                    "label": {
+                        "en": "Component Measurement Unit"
+                    },
                     "node_id": "55cdb6b9-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 6,
                     "visible": true,
@@ -573,12 +807,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Object Shape",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6fd-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Object Shape",
+                    "label": {
+                        "en": "Remote Sensing Object Shape"
+                    },
                     "node_id": "55cdb6c6-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -588,12 +829,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Interpretation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6fe-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Interpretation Type",
+                    "label": {
+                        "en": "Remote Sensing Interpretation Type"
+                    },
                     "node_id": "55cdb6ad-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -603,12 +851,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Interpretation Sub-type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb6ff-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Interpretation Sub-type",
+                    "label": {
+                        "en": "Remote Sensing Interpretation Sub-type"
+                    },
                     "node_id": "55cdb6c2-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -618,12 +873,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Interpretation Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb700-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Interpretation Certainty",
+                    "label": {
+                        "en": "Remote Sensing Interpretation Certainty"
+                    },
                     "node_id": "55cdb69d-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true,
@@ -632,15 +894,27 @@
                 {
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Remark",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb701-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Remark",
+                    "label": {
+                        "en": "Component Remark"
+                    },
                     "node_id": "55cdb6b5-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 10,
                     "visible": true,
@@ -650,12 +924,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Component Material Class",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb702-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Component Material Class",
+                    "label": {
+                        "en": "Component Material Class"
+                    },
                     "node_id": "55cdb6b2-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true,
@@ -665,11 +946,18 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Equivalent Site Feature",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "55cdb703-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Equivalent Site Feature",
+                    "label": {
+                        "en": "Equivalent Site Feature"
+                    },
                     "node_id": "55cdb685-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 11,
                     "visible": true,
@@ -679,12 +967,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Construction Technique",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb704-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Construction Technique",
+                    "label": {
+                        "en": "Construction Technique"
+                    },
                     "node_id": "55cdb6d5-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 13,
                     "visible": false,
@@ -694,12 +989,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Feature Shape Orientation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb705-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Heritage Feature Shape Orientation Type",
+                    "label": {
+                        "en": "Heritage Feature Shape Orientation Type"
+                    },
                     "node_id": "55cdb692-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 10,
                     "visible": false,
@@ -709,12 +1011,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Material Class",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb706-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Material Class",
+                    "label": {
+                        "en": "Material Class"
+                    },
                     "node_id": "55cdb6ae-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 11,
                     "visible": true,
@@ -724,12 +1033,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Material Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb707-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Material Type",
+                    "label": {
+                        "en": "Material Type"
+                    },
                     "node_id": "55cdb6af-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 12,
                     "visible": true,
@@ -739,12 +1055,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Object Construction Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb708-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Object Construction Certainty",
+                    "label": {
+                        "en": "Remote Sensing Object Construction Certainty"
+                    },
                     "node_id": "55cdb6a0-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 14,
                     "visible": false,
@@ -754,12 +1077,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Object Form Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb709-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Object Form Certainty",
+                    "label": {
+                        "en": "Object Form Certainty"
+                    },
                     "node_id": "55cdb6ac-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 15,
                     "visible": false,
@@ -769,12 +1099,19 @@
                     "card_id": "55cdb66a-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Object Form Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb70a-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Object Form Type",
+                    "label": {
+                        "en": "Object Form Type"
+                    },
                     "node_id": "55cdb688-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 16,
                     "visible": false,
@@ -783,15 +1120,27 @@
                 {
                     "card_id": "55cdb67f-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "MAPSS_RSO_ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb70b-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "MAPSS_RSO_ID",
+                    "label": {
+                        "en": "MAPSS_RSO_ID"
+                    },
                     "node_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": false,
@@ -800,15 +1149,27 @@
                 {
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Assessment Source",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb70c-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Assessment Source",
+                    "label": {
+                        "en": "Assessment Source"
+                    },
                     "node_id": "55cdb6b4-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -818,6 +1179,9 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Verification/Ground Truthing",
                         "options": [
                             {
@@ -853,11 +1217,15 @@
                                 "text": "VHR Imagery Identification"
                             }
                         ],
-                        "placeholder": "Select an option",
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
                         "url": "/concepts/dropdown?conceptid=c83e5dc5-17fb-4188-81bb-4a0fc1e57912"
                     },
                     "id": "55cdb70d-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Verification/Ground Truthing",
+                    "label": {
+                        "en": "Verification/Ground Truthing"
+                    },
                     "node_id": "55cdb6e8-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 9,
                     "visible": true,
@@ -867,12 +1235,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "43684c9f-153d-4611-813e-4836dcfd51e1",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Place Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb70e-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Place Type",
+                    "label": {
+                        "en": "Remote Sensing Place Type"
+                    },
                     "node_id": "55cdb694-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true,
@@ -890,7 +1265,9 @@
                         "viewMode": "days"
                     },
                     "id": "55cdb70f-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Assessment Date",
+                    "label": {
+                        "en": "Assessment Date"
+                    },
                     "node_id": "55cdb6d2-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 8,
                     "visible": true,
@@ -900,12 +1277,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Archaeological Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb710-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Overall Archaeological Certainty",
+                    "label": {
+                        "en": "Overall Archaeological Certainty"
+                    },
                     "node_id": "55cdb6be-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 7,
                     "visible": true,
@@ -915,12 +1299,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Object Function Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb711-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Object Function Type",
+                    "label": {
+                        "en": "Remote Sensing Object Function Type"
+                    },
                     "node_id": "55cdb6df-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 10,
                     "visible": true,
@@ -930,12 +1321,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "b9503512-4933-4930-b3f2-c5b4dac90871",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Archaeological Assessment Activity Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb712-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Archaeological Assessment Activity Type",
+                    "label": {
+                        "en": "Archaeological Assessment Activity Type"
+                    },
                     "node_id": "55cdb6a5-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 6,
                     "visible": true,
@@ -945,12 +1343,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "9db19640-76e1-4a24-bf3e-9e4db1a798c4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Name Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb713-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Name Type",
+                    "label": {
+                        "en": "Name Type"
+                    },
                     "node_id": "55cdb6b0-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true,
@@ -959,15 +1364,27 @@
                 {
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Object Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb714-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Object Name",
+                    "label": {
+                        "en": "Remote Sensing Object Name"
+                    },
                     "node_id": "55cdb6c1-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -977,11 +1394,18 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Assessor",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "55cdb715-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Assessor",
+                    "label": {
+                        "en": "Remote Sensing Assessor"
+                    },
                     "node_id": "55cdb693-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 5,
                     "visible": true,
@@ -991,12 +1415,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remark Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb716-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remark Type",
+                    "label": {
+                        "en": "Remark Type"
+                    },
                     "node_id": "55cdb6cd-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 13,
                     "visible": false,
@@ -1005,15 +1436,27 @@
                 {
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remark",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb717-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remark",
+                    "label": {
+                        "en": "Remark"
+                    },
                     "node_id": "55cdb6cc-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 12,
                     "visible": true,
@@ -1023,12 +1466,19 @@
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Remote Sensing Object Function Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb718-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Remote Sensing Object Function Certainty",
+                    "label": {
+                        "en": "Remote Sensing Object Function Certainty"
+                    },
                     "node_id": "55cdb68f-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 11,
                     "visible": true,
@@ -1038,11 +1488,18 @@
                     "card_id": "55cdb66d-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related Site",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "55cdb719-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Related Site",
+                    "label": {
+                        "en": "Related Site"
+                    },
                     "node_id": "55cdb66b-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1052,11 +1509,18 @@
                     "card_id": "55cdb66d-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related External Dataset Resource",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "55cdb71a-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Related External Dataset Resource",
+                    "label": {
+                        "en": "Related External Dataset Resource"
+                    },
                     "node_id": "55cdb6d3-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1066,12 +1530,19 @@
                     "card_id": "55cdb67c-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Feature Dimension Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb721-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Heritage Feature Dimension Type",
+                    "label": {
+                        "en": "Heritage Feature Dimension Type"
+                    },
                     "node_id": "55cdb6dc-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -1080,15 +1551,27 @@
                 {
                     "card_id": "55cdb67c-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Measurement Remark",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb722-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Measurement Remark",
+                    "label": {
+                        "en": "Measurement Remark"
+                    },
                     "node_id": "55cdb697-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true,
@@ -1098,12 +1581,19 @@
                     "card_id": "55cdb67c-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "251f5e49-55d4-4f7a-86be-b2e31f3f6b27",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Feature Measurement Source Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb723-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Heritage Feature Measurement Source Type",
+                    "label": {
+                        "en": "Heritage Feature Measurement Source Type"
+                    },
                     "node_id": "55cdb6cf-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true,
@@ -1114,19 +1604,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Heritage Feature Measurement Number",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb724-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Heritage Feature Measurement Number",
+                    "label": {
+                        "en": "Heritage Feature Measurement Number"
+                    },
                     "node_id": "55cdb6d1-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1136,12 +1639,19 @@
                     "card_id": "55cdb67c-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "93788246-5bbc-417b-ac10-e86fdb390795",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Heritage Feature Measurement Unit Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb725-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Heritage Feature Measurement Unit Type",
+                    "label": {
+                        "en": "Heritage Feature Measurement Unit Type"
+                    },
                     "node_id": "55cdb6b7-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1151,12 +1661,19 @@
                     "card_id": "55cdb682-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb72e-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Cause Type",
+                    "label": {
+                        "en": "Disturbance Cause Type"
+                    },
                     "node_id": "55cdb6e0-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1166,12 +1683,19 @@
                     "card_id": "55cdb682-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb72f-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Cause Certainty",
+                    "label": {
+                        "en": "Disturbance Cause Certainty"
+                    },
                     "node_id": "55cdb6a7-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -1181,12 +1705,19 @@
                     "card_id": "55cdb682-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Disturbance Cause Category",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb730-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Cause Category",
+                    "label": {
+                        "en": "Disturbance Cause Category"
+                    },
                     "node_id": "55cdb696-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1204,7 +1735,9 @@
                         "viewMode": "days"
                     },
                     "id": "55cdb731-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Occurred Before",
+                    "label": {
+                        "en": "Disturbance Occurred Before"
+                    },
                     "node_id": "55cdb6a3-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1222,7 +1755,9 @@
                         "viewMode": "days"
                     },
                     "id": "55cdb732-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Date From",
+                    "label": {
+                        "en": "Disturbance Date From"
+                    },
                     "node_id": "55cdb6e6-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -1240,7 +1775,9 @@
                         "viewMode": "days"
                     },
                     "id": "55cdb733-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Date To",
+                    "label": {
+                        "en": "Disturbance Date To"
+                    },
                     "node_id": "55cdb6a4-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": true,
@@ -1258,7 +1795,9 @@
                         "viewMode": "days"
                     },
                     "id": "55cdb734-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Disturbance Occurred On",
+                    "label": {
+                        "en": "Disturbance Occurred On"
+                    },
                     "node_id": "55cdb6e1-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1268,12 +1807,19 @@
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Soum",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb735-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Soum",
+                    "label": {
+                        "en": "Soum"
+                    },
                     "node_id": "55cdb6a2-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 6,
                     "visible": true,
@@ -1282,15 +1828,27 @@
                 {
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Spatial Coordinates Reference System/EPSG",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb736-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Spatial Coordinates Reference System/EPSG",
+                    "label": {
+                        "en": "Spatial Coordinates Reference System/EPSG"
+                    },
                     "node_id": "55cdb6e9-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 3,
                     "visible": false,
@@ -1299,15 +1857,27 @@
                 {
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Bag",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb737-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Bag",
+                    "label": {
+                        "en": "Bag"
+                    },
                     "node_id": "55cdb690-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 7,
                     "visible": true,
@@ -1317,12 +1887,19 @@
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Aimag",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb738-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Aimag",
+                    "label": {
+                        "en": "Aimag"
+                    },
                     "node_id": "55cdb6bb-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 5,
                     "visible": true,
@@ -1367,7 +1944,9 @@
                         "zoom": 2.8003307947813387
                     },
                     "id": "55cdb739-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Geometric Place Expression",
+                    "label": {
+                        "en": "Geometric Place Expression"
+                    },
                     "node_id": "55cdb6a1-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1378,19 +1957,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Elevation",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb73a-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Elevation",
+                    "label": {
+                        "en": "Elevation"
+                    },
                     "node_id": "55cdb6bc-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -1400,12 +1992,19 @@
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Location Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb73b-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Location Certainty",
+                    "label": {
+                        "en": "Location Certainty"
+                    },
                     "node_id": "55cdb6d0-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": false,
@@ -1414,15 +2013,27 @@
                 {
                     "card_id": "55cdb673-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Geometry Remarks",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55cdb73c-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Geometry Remarks",
+                    "label": {
+                        "en": "Geometry Remarks"
+                    },
                     "node_id": "55cdb686-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 4,
                     "visible": true,
@@ -1432,12 +2043,19 @@
                     "card_id": "55cdb65e-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Damage Effect",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb73d-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Damage Effect",
+                    "label": {
+                        "en": "Damage Effect"
+                    },
                     "node_id": "55cdb6e5-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1447,12 +2065,19 @@
                     "card_id": "55cdb65e-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Damage Effect Certainty",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb73e-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Damage Effect Certainty",
+                    "label": {
+                        "en": "Damage Effect Certainty"
+                    },
                     "node_id": "55cdb6bd-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1462,12 +2087,19 @@
                     "card_id": "55cdb661-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb73f-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Threat Type",
+                    "label": {
+                        "en": "Threat Type"
+                    },
                     "node_id": "55cdb6c0-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 0,
                     "visible": true,
@@ -1477,12 +2109,19 @@
                     "card_id": "55cdb661-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Probability",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb740-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Threat Probability",
+                    "label": {
+                        "en": "Threat Probability"
+                    },
                     "node_id": "55cdb6bf-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 2,
                     "visible": true,
@@ -1492,12 +2131,19 @@
                     "card_id": "55cdb661-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat Driver Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "55cdb741-8dcf-11ed-81a0-eba1186aefad",
-                    "label": "Threat Driver Type",
+                    "label": {
+                        "en": "Threat Driver Type"
+                    },
                     "node_id": "55cdb6b3-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": 1,
                     "visible": true,
@@ -1506,15 +2152,27 @@
                 {
                     "card_id": "55cdb664-8dcf-11ed-81a0-eba1186aefad",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Grid Square",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "6461796b-91a0-11ed-81a0-eba1186aefad",
-                    "label": "Grid Square",
+                    "label": {
+                        "en": "Grid Square"
+                    },
                     "node_id": "55cdb6eb-8dcf-11ed-81a0-eba1186aefad",
                     "sortorder": null,
                     "visible": true,
@@ -1558,7 +2216,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -2476,30 +3136,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                    "id": "2d53fb88-4ca2-4315-b131-e990aed52856"
-                },
-                {
-                    "config": {
-                        "last_value": "9334",
-                        "prefix": "MAPSS-MLO-",
-                        "selected_nodegroup": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                    "id": "ae614d40-9d66-401f-b399-5f08762a4a72"
+                    "id": "5acf87ae-5126-424d-a18a-247ad1cb7ef7"
                 }
             ],
             "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
             "iconclass": "fa fa-laptop",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Remote Sensing Object - Machine Learning",
+            "name": {
+                "en": "Remote Sensing Object - Machine Learning"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -2583,7 +3230,7 @@
             "nodes": [
                 {
                     "alias": "damage_state_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2603,7 +3250,7 @@
                 },
                 {
                     "alias": "disturbance_event_timespan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2645,7 +3292,7 @@
                 },
                 {
                     "alias": "disturbance_effect_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2665,7 +3312,7 @@
                 },
                 {
                     "alias": "threat_making_inference",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2685,7 +3332,7 @@
                 },
                 {
                     "alias": "resource_summary",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2705,7 +3352,7 @@
                 },
                 {
                     "alias": "remote_sensing_object_assessment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2762,7 +3409,7 @@
                 },
                 {
                     "alias": "location",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2782,7 +3429,7 @@
                 },
                 {
                     "alias": "remote_sensing_component_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2802,7 +3449,7 @@
                 },
                 {
                     "alias": "measurements",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2822,7 +3469,7 @@
                 },
                 {
                     "alias": "mapss_ml_id",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
@@ -2842,7 +3489,7 @@
                 },
                 {
                     "alias": "disturbance_cause_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2914,7 +3561,7 @@
                 },
                 {
                     "alias": "geometry_remarks",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -3044,7 +3691,7 @@
                 },
                 {
                     "alias": "heritage_place_function_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3086,7 +3733,7 @@
                 },
                 {
                     "alias": "sub_district",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -3181,7 +3828,7 @@
                 },
                 {
                     "alias": "remote_sensing_place_type_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -3223,7 +3870,7 @@
                 },
                 {
                     "alias": "measurement_remark",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -3309,7 +3956,7 @@
                 },
                 {
                     "alias": "geometry_location_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3504,7 +4151,7 @@
                 },
                 {
                     "alias": "geography",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3546,7 +4193,7 @@
                 },
                 {
                     "alias": "cultural_sub_period_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3566,7 +4213,7 @@
                 },
                 {
                     "alias": "site_feature_form_type_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3586,7 +4233,7 @@
                 },
                 {
                     "alias": "description_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3782,7 +4429,7 @@
                 },
                 {
                     "alias": "assessment_source",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -3802,7 +4449,7 @@
                 },
                 {
                     "alias": "component_remark",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -3866,7 +4513,7 @@
                 },
                 {
                     "alias": "administrative_region_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -3908,7 +4555,7 @@
                 },
                 {
                     "alias": "cultural_period_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -3950,7 +4597,7 @@
                 },
                 {
                     "alias": "elevation",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -4058,7 +4705,7 @@
                 },
                 {
                     "alias": "remote_sensing_object_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -4100,7 +4747,7 @@
                 },
                 {
                     "alias": "remote_sensing_assessment_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4120,7 +4767,7 @@
                 },
                 {
                     "alias": "cultural_period_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4140,7 +4787,7 @@
                 },
                 {
                     "alias": "remote_sensing_interpretation_belief",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4182,7 +4829,7 @@
                 },
                 {
                     "alias": "site_feature_construction_observation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4202,7 +4849,7 @@
                 },
                 {
                     "alias": "remote_sensing_function_assignment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -4222,7 +4869,7 @@
                 },
                 {
                     "alias": "component_number",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -4242,7 +4889,7 @@
                 },
                 {
                     "alias": "remark",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -4328,7 +4975,7 @@
                 },
                 {
                     "alias": "heritage_feature_measurement_number",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -4487,7 +5134,7 @@
                 },
                 {
                     "alias": "component_measurement",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -4685,7 +5332,7 @@
                 },
                 {
                     "alias": "spatial_coordinates_reference_system",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -4705,7 +5352,7 @@
                 },
                 {
                     "alias": "remote_sensing_object_machine_learning",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -4725,7 +5372,7 @@
                 },
                 {
                     "alias": "grid_square",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -4745,11 +5392,12 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "remote_sensing_object_machine_learning",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -4767,7 +5415,9 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "Archaeological sites, site feature groups, and other objects detected through remote sensing",
+            "subtitle": {
+                "en": "Archaeological sites, site feature groups, and other objects detected through remote sensing"
+            },
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
