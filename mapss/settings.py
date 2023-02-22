@@ -145,8 +145,7 @@ GRAPH_MODEL_CACHE_TIMEOUT = 3600 * 24 * 30  # seconds * hours * days = ~1mo
 USER_GRAPH_PERMITTED_CARDS_TIMEOUT = 3600 * 24 * 30  # seconds * hours * days = ~1mo
 USER_GRAPH_CARDWIDGETS_TIMEOUT = 3600 * 24 * 30  # seconds * hours * days = ~1mo
 
-MOBILE_OAUTH_CLIENT_ID = ""
-MOBILE_DEFAULT_ONLINE_BASEMAP = {"default": "mapbox://styles/mapbox/streets-v9"}
+OAUTH_CLIENT_ID = ""
 
 APP_TITLE = "MAPSS"
 COPYRIGHT_TEXT = "All Rights Reserved."
