@@ -5638,6 +5638,20 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "7a9340b6-a25f-11ed-826a-bd1a2523ba5d",
                     "id": "9c585c4e-c053-439d-8f2f-90debd7ddf02"
+                },
+                {
+                    "config": {
+                        "last_value": "7518",
+                        "prefix": "MAPSS-ER-",
+                        "selected_nodegroup": "7a934102-a25f-11ed-826a-bd1a2523ba5d",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "7a934102-a25f-11ed-826a-bd1a2523ba5d",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "7a9340b6-a25f-11ed-826a-bd1a2523ba5d",
+                    "id": "8344e125-a25f-11ed-826a-bd1a2523ba5d"
                 }
             ],
             "graphid": "7a9340b6-a25f-11ed-826a-bd1a2523ba5d",

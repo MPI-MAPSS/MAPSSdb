@@ -5823,6 +5823,20 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
                     "id": "44e0d4d1-fb31-4200-94d5-efae0e59aa01"
+                },
+                {
+                    "config": {
+                        "last_value": "26",
+                        "prefix": "MAPSS-HP-",
+                        "selected_nodegroup": "e039a667-a18d-11ed-826a-bd1a2523ba5d",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "e039a667-a18d-11ed-826a-bd1a2523ba5d",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                    "id": "e8d99d91-a18d-11ed-826a-bd1a2523ba5d"
                 }
             ],
             "graphid": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",

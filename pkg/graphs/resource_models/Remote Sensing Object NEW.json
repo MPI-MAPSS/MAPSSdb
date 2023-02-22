@@ -3661,6 +3661,20 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
                     "id": "bcd5c2bc-6c7a-4211-a12f-baac4dca34e5"
+                },
+                {
+                    "config": {
+                        "last_value": "45962",
+                        "prefix": "MAPSS-RSO-",
+                        "selected_nodegroup": "96ecc109-a25f-11ed-826a-bd1a2523ba5d",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "96ecc109-a25f-11ed-826a-bd1a2523ba5d",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                    "id": "9d946055-a25f-11ed-826a-bd1a2523ba5d"
                 }
             ],
             "graphid": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",

@@ -4687,6 +4687,20 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "id": "dfe6e282-b6c1-4ac7-998f-e6d6258bddea"
+                },
+                {
+                    "config": {
+                        "last_value": "103",
+                        "prefix": "GEOARCH-",
+                        "selected_nodegroup": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "id": "e8d60ba8-5295-11ec-aa6d-25dfccb47c3f"
                 }
             ],
             "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",

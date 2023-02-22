@@ -3125,6 +3125,19 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                     "id": "5acf87ae-5126-424d-a18a-247ad1cb7ef7"
+                },{
+                    "config": {
+                        "last_value": "9334",
+                        "prefix": "MAPSS-MLO-",
+                        "selected_nodegroup": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                    "id": "29d9b277-91a3-11ed-81a0-eba1186aefad"
                 }
             ],
             "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",

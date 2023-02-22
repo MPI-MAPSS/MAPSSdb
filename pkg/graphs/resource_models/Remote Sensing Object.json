@@ -3608,6 +3608,19 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "be1df87a-5365-11ec-aa6d-25dfccb47c3f",
                     "id": "45e1f31d-66f9-4c53-9df9-134de2aaba9d"
+                },{
+                    "config": {
+                        "last_value": "12",
+                        "prefix": "MAPSS-HP-",
+                        "selected_nodegroup": "be1df89f-5365-11ec-aa6d-25dfccb47c3f",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "be1df89f-5365-11ec-aa6d-25dfccb47c3f",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "be1df87a-5365-11ec-aa6d-25dfccb47c3f",
+                    "id": "c2ee3375-5365-11ec-aa6d-25dfccb47c3f"
                 }
             ],
             "graphid": "be1df87a-5365-11ec-aa6d-25dfccb47c3f",

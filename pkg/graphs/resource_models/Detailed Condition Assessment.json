@@ -3178,6 +3178,20 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                     "id": "9ae20b46-e9c6-4544-b3e9-750c426d50ee"
+                },
+                {
+                    "config": {
+                        "last_value": "110",
+                        "prefix": "CONDITION-",
+                        "selected_nodegroup": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                    "id": "d78f765e-5295-11ec-aa6d-25dfccb47c3f"
                 }
             ],
             "graphid": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
