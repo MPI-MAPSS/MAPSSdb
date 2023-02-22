@@ -12,3 +12,4 @@ mapss/settings_local.py
 uploads/*
 db_backups/*
 .vscode/
+mapss/webpack/webpack-stats.json
