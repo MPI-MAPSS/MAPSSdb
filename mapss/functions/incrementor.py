@@ -21,7 +21,7 @@ details = {
 
 class IncrementorFunction(BaseFunction):
 
-    def post_save(self, tile, request):
+    def post_save(self, tile, request, **kwargs):
         tile_already_exists = models.TileModel.objects.filter(resourceinstance_id=tile.resourceinstance_id).filter(nodegroup_id=self.config["selected_nodegroup"]).exists()
         if not tile_already_exists: 
             try:
@@ -30,7 +30,8 @@ class IncrementorFunction(BaseFunction):
                 else:
                     new_number = str(int(self.config['last_value']) + 1)
                     
-                new_value =self.config['prefix'] + ((7 - len(new_number)) * '0') + new_number + self.config['suffix'] #EAMENA numbers are 7 digits long
+                new_id = self.config['prefix'] + ((7 - len(new_number)) * '0') + new_number + self.config['suffix'] #EAMENA numbers are 7 digits long
+                new_value = {"en":{"value":new_id,"direction":"ltr"}}
                 fn = models.FunctionXGraph.objects.get(Q(function_id="2cc07b0a-adbd-4721-86ce-dad1699caa86"), Q(graph_id=tile.resourceinstance.graph_id))
                 fn.config['last_value'] = new_number
                 fn.save()
