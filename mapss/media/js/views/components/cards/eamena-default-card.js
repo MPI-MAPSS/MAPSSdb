@@ -1,7 +1,8 @@
 define([
     'knockout',
+    'templates/views/components/cards/eamena-default-card.htm',
     'viewmodels/card-component'
-], function(ko, CardComponentViewModel) {
+], function(ko, compositeCardTemplate, CardComponentViewModel) {
 
     var viewModel = function(params) {
         var self = this;
@@ -178,10 +179,9 @@ define([
 
         CardComponentViewModel.apply(this, [params]);
     };
-    return ko.components.register('eamena-default-card', {
+    ko.components.register('eamena-default-card', {
         viewModel: viewModel,
-        template: {
-            require: 'text!templates/views/components/cards/eamena-default-card.htm'
-        }
+        template: compositeCardTemplate
     });
+    return viewModel;
 });

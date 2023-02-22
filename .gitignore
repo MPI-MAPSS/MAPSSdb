@@ -4,6 +4,8 @@ mapss/logs
 mapss/export_deliverables
 mapss/cantaloupe/*
 mapss/media/packages
+mapss/media/build
+mapss/media/node_modules
 mapss/uploadedfiles/*
 CACHE/*
 mapss/settings_local.py
