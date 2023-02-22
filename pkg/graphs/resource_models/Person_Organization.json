@@ -431,31 +431,19 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "76bf8dc4-1173-11ec-946e-005056957f92",
-                            "string_template": "<Role>"
-                        },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "76bf8dc4-1173-11ec-946e-005056957f92",
+                                "string_template": "<Role>"
                             },
                             "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
+                                "string_template": "<Appellation>"
                             },
                             "name": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
+                                "string_template": "<Appellation> <Appellation Transliteration>"
                             }
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
-                            "string_template": "<Appellation>"
-                        },
-                        "name": {
-                            "nodegroup_id": "2ea3fe9f-1173-11ec-946e-005056957f92",
-                            "string_template": "<Appellation> <Appellation Transliteration>"
                         },
                         "triggering_nodegroups": []
                     },

@@ -5578,37 +5578,39 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "235fb10a-77a5-11ed-bbf8-11bf15c87075",
-                            "string_template": "<Heritage Place Function Type>"
-                        },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "235fb10a-77a5-11ed-bbf8-11bf15c87075",
+                                "string_template": "<Heritage Place Function Type>"
                             },
                             "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
+                                "string_template": "<MAPSS_HP_ID>"
                             },
                             "name": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
+                                "string_template": "<MAPSS_HP_ID>"
                             }
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
-                            "string_template": "<MAPSS_HP_ID>"
-                        },
-                        "name": {
-                            "nodegroup_id": "63df21bb-7707-11ed-bbf8-11bf15c87075",
-                            "string_template": "<MAPSS_HP_ID>"
                         },
                         "triggering_nodegroups": []
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
                     "id": "36f7a759-4308-4efa-a5f3-398b7430235d"
+                },
+                {
+                    "config": {
+                        "last_value": "19",
+                        "prefix": "MAPSS-HP-",
+                        "selected_nodegroup": "63df21bb-7707-11ed-bbf8-11bf15c87075",
+                        "starting_value": "0000001",
+                        "suffix": "",
+                        "target_node": "63df21bb-7707-11ed-bbf8-11bf15c87075",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",
+                    "id": "de1d58a9-77ab-11ed-bbf8-11bf15c87075"
                 }
             ],
             "graphid": "a2f2bb51-76fd-11ed-bbf8-11bf15c87075",

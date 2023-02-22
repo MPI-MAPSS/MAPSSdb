@@ -3106,31 +3106,19 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "55cdb662-8dcf-11ed-81a0-eba1186aefad",
-                            "string_template": "<Remote Sensing Object Name>   <Remote Sensing Place Type>   <Heritage Place Function Sub-Type>"
-                        },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "55cdb662-8dcf-11ed-81a0-eba1186aefad",
+                                "string_template": "<Remote Sensing Object Name>   <Remote Sensing Place Type>   <Heritage Place Function Sub-Type>"
                             },
                             "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
+                                "string_template": "<MAPSS_ML_ID>"
                             },
                             "name": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
+                                "string_template": "<MAPSS_ML_ID>"
                             }
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
-                            "string_template": "<MAPSS_ML_ID>"
-                        },
-                        "name": {
-                            "nodegroup_id": "55cdb67d-8dcf-11ed-81a0-eba1186aefad",
-                            "string_template": "<MAPSS_ML_ID>"
                         },
                         "triggering_nodegroups": []
                     },

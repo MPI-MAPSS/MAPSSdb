@@ -3159,31 +3159,19 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "7ef3aa74-fbf0-11e9-b345-06f597a7d5ce",
-                            "string_template": "<Heritage Place>  <Assessment Activity Date>"
-                        },
                         "descriptor_types": {
                             "description": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "7ef3aa74-fbf0-11e9-b345-06f597a7d5ce",
+                                "string_template": "<Heritage Place>  <Assessment Activity Date>"
                             },
                             "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                                "string_template": "<CONDITION ID>"
                             },
                             "name": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
+                                "string_template": "<CONDITION ID>"
                             }
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                            "string_template": "<CONDITION ID>"
-                        },
-                        "name": {
-                            "nodegroup_id": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                            "string_template": "<CONDITION ID>"
                         },
                         "triggering_nodegroups": []
                     },

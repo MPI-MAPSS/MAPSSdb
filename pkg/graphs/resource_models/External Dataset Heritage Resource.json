@@ -525,31 +525,19 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "",
-                            "string_template": ""
-                        },
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "",
                                 "string_template": ""
-                            },
+                            },   
                             "map_popup": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "0f451036-122d-11ec-946e-005056957f92",
+                                "string_template": "<MAPSS_ER_ID>"
                             },
                             "name": {
-                                "nodegroup_id": "",
-                                "string_template": ""
+                                "nodegroup_id": "0f451036-122d-11ec-946e-005056957f92",
+                                "string_template": "<MAPSS_ER_ID> - <External Resource Function Type>"
                             }
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "0f451036-122d-11ec-946e-005056957f92",
-                            "string_template": "<MAPSS_ER_ID>"
-                        },
-                        "name": {
-                            "nodegroup_id": "0f451036-122d-11ec-946e-005056957f92",
-                            "string_template": "<MAPSS_ER_ID> - <External Resource Function Type>"
                         },
                         "triggering_nodegroups": []
                     },
