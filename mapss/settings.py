@@ -4,6 +4,8 @@ Django settings for mapss project.
 
 import os
 import arches
+import json
+import sys
 import inspect
 from django.utils.translation import gettext_lazy as _
 
@@ -13,8 +15,20 @@ except ImportError:
     pass
 
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-STATICFILES_DIRS = (os.path.join(APP_ROOT, "media"),) + STATICFILES_DIRS
-STATIC_ROOT = ""
+
+STATICFILES_DIRS = (
+    os.path.join(APP_ROOT, "media", "build"),
+    os.path.join(APP_ROOT, "media"),
+) + STATICFILES_DIRS
+
+STATIC_ROOT = os.path.join(ROOT_DIR, "staticfiles")
+STATIC_URL = "/static/"
+
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "STATS_FILE": os.path.join(APP_ROOT, "webpack/webpack-stats.json"),
+    },
+}
 
 DATATYPE_LOCATIONS.append("mapss.datatypes")
 FUNCTION_LOCATIONS.append("mapss.functions")
@@ -48,6 +62,7 @@ LANGUAGES = [
 SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
 INSTALLED_APPS = (
+    "webpack_loader",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -173,18 +188,41 @@ ONTOLOGY_NAMESPACES = {
 
 DOCKER = False
 
+ARCHES_NAMESPACE_FOR_DATA_EXPORT = 'http://localhost:8000'
+
 try:
     from .package_settings import *
 except ImportError:
-    pass
+    try:
+        from package_settings import *
+    except ImportError as e:
+        pass
 
 try:
     from .settings_local import *
-except ImportError:
-    pass
+except ImportError as e:
+    try:
+        from settings_local import *
+    except ImportError as e:
+        pass
 
 if DOCKER:
     try:
         from .settings_docker import *
     except ImportError:
         pass
+
+
+if __name__ == "__main__":
+    print(
+        json.dumps(
+            {
+                "ARCHES_NAMESPACE_FOR_DATA_EXPORT": ARCHES_NAMESPACE_FOR_DATA_EXPORT,
+                "STATIC_URL": STATIC_URL,
+                "ROOT_DIR": ROOT_DIR,
+                "APP_ROOT": APP_ROOT,
+                "WEBPACK_DEVELOPMENT_SERVER_PORT": WEBPACK_DEVELOPMENT_SERVER_PORT,
+            }
+        )
+    )
+    sys.stdout.flush()
