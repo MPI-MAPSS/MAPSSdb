@@ -1,0 +1,13 @@
+{% extends "javascript.htm" %}
+
+{% load static %}
+{% load l10n %}
+{% load i18n %}
+
+
+{% block arches_translations %}
+{{ block.super }}
+<div class="arches-translations"
+    delete-this='{% trans "Delete this" as deleteThis %} "{{ deleteThis|escapejs }}"'
+></div>
+{% endblock arches_translations %}
