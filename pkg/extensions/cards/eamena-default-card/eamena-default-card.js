@@ -27,14 +27,14 @@ define([
             // This loop simply fills the 'values' array with enough observable values for the number
             // of widgets we're going to render.
             var k = 0;
-            for(i = 0; i <= this.card.cards().length; i++)
+            for(let i = 0; i <= this.card.cards().length; i++)
             {
                 var card = this.card.cards()[i];
                 if(card)
                 {
                     self.uimapping[i] = [];
                     var c = card.widgets().length;
-                    for(j = 0; j < c; j++)
+                    for(let j = 0; j < c; j++)
                     {
                         self.values.push(ko.observable(""));
                         self.uimapping[i][j] = k;
@@ -56,39 +56,39 @@ define([
         this.mapValue = function(i, j)
         {
             return(self.uimapping[i][j]);
-        }
+        };
 
         this.clearValue = function(arg)
         {
             var index = arg();
             var valueindex = self.uimapping[index];
 
-            for(i = 0; i < valueindex.length; i++)
+            for(let i = 0; i < valueindex.length; i++)
             {
-//                savevalues[i] = this.values()[valueindex[i]]();
+            // savevalues[i] = this.values()[valueindex[i]]();
             }
-        }
+        };
 
         this.dirty = function(arg)
         {
             return this.isformdirty(arg);
-        }
+        };
 
         this.isformdirty = function(arg)
-	{
+        {
             var index = arg();
             var valueindex = self.uimapping[index];
             var ret = false;
 
-            for(var i = 0; i < valueindex.length; i++)
+            for(let i = 0; i < valueindex.length; i++)
             {
                 if(this.values()[valueindex[i]]() != '') { ret = true; }
             }
             return ret;
-	}
+        };
 
-	this.clearInput = function(arg)
-	{
+        this.clearInput = function(arg)
+        {
             var index = arg();
             var valueindex = self.uimapping[index];
 
@@ -96,24 +96,24 @@ define([
             {
                 this.values()[valueindex[i]]('');
             }
-	}
+        };
 
         this.saveValue = function(arg)
         {
             var index = arg();
             var valueindex = self.uimapping[index];
-            var savevalues = []
+            var savevalues = [];
             var alltiles = this.card.tiles();
             var atile = null;
             if(alltiles.length > 0)
             {
-               for(i = 0; i < alltiles.length; i++)
-               {
-                   if(alltiles[i].selected()) { atile = alltiles[i]; }
-               }
+                for( let i = 0; i < alltiles.length; i++)
+                {
+                    if(alltiles[i].selected()) { atile = alltiles[i]; }
+                }
             }
 
-            for(i = 0; i < valueindex.length; i++)
+            for(let i = 0; i < valueindex.length; i++)
             {
                 savevalues[i] = this.values()[valueindex[i]]();
             }
@@ -129,45 +129,45 @@ define([
                     var newcard = topcard.tiles()[0].cards[index];
                     var newtile = newcard.getNewTile();
                     var keys = Object.keys(newtile.data);
-                    var value_id = 0;
-                    var savevalue = savevalues[value_id];
-                    for(i = 0; i < keys.length; i++)
+                    var valueId = 0;
+                    var savevalue = savevalues[valueId];
+                    for(let i = 0; i < keys.length; i++)
                     {
                         if(keys[i].startsWith('_')) { continue; }
-                        if(savevalue == '') { value_id++; continue; }
+                        if(savevalue == '') { valueId++; continue; }
                         if(typeof newtile.data[keys[i]] === "function")
                         {
                             newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
-                            value_id++;
-                            savevalue = savevalues[value_id];
+                            valueId++;
+                            savevalue = savevalues[valueId];
                         } else {
                             newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
-                            value_id++;
-                            savevalue = savevalues[value_id];
+                            valueId++;
+                            savevalue = savevalues[valueId];
                         }
                     }
                     newtile.save(null, function(created){ newcard.parent.selected(true); });
-		});
+                });
             } else {
                 // This code block runs if there is a node, and we are just adding a value to it
                 var newcard = atile.cards[index];
                 var newtile = newcard.getNewTile();
                 var keys = Object.keys(newtile.data);
-                var value_id = 0;
-                var savevalue = savevalues[value_id];
-                for(i = 0; i < keys.length; i++)
+                var valueId = 0;
+                var savevalue = savevalues[valueId];
+                for(let i = 0; i < keys.length; i++)
                 {
                     if(keys[i].startsWith('_')) { continue; }
-                    if(savevalue == '') { value_id++; continue; }
+                    if(savevalue == '') { valueId++; continue; }
                     if(typeof newtile.data[keys[i]] === "function")
                     {
                         newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
-                        value_id++;
-                        savevalue = savevalues[value_id];
+                        valueId++;
+                        savevalue = savevalues[valueId];
                     } else {
                         newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
-                        value_id++;
-                        savevalue = savevalues[value_id];
+                        valueId++;
+                        savevalue = savevalues[valueId];
                     }
                 }
 
