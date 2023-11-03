@@ -6,7 +6,7 @@ define([
 ], function (
     ko, _, FileWidgetViewModel, widgetTemplate) {
     return ko.components.register('three-dimensional-widget', {
-        // Reimplement file metadata-related portions of the FileWidgetViewModel.
+        // Reimplement file metadata-related and image-related portions of the FileWidgetViewModel.
         viewModel: function(params) {
             var self = this;
             FileWidgetViewModel.apply(this, [params]);
@@ -150,6 +150,40 @@ define([
                     }
                 });
             }, this, 'beforeChange');
+
+            this.reportFiles = ko.computed(function() {
+                return self.uploadedFiles().filter(function(file) {
+                    const fileName = ko.unwrap(file.name);
+                    if (fileName && fileName.endsWith('.glb')) {
+                        return false;
+                    }
+                    var fileType = ko.unwrap(file.type);
+                    if (fileType) {
+                        var ext = fileType.split('/').pop();
+                        return fileType.indexOf('image') < 0 || self.unsupportedImageTypes.indexOf(ext) > -1;
+                    }
+                    return true;
+                });
+            });
+
+            this.reportImages = ko.computed(function() {
+                return self.uploadedFiles().filter(function(file) {
+                    const fileName = ko.unwrap(file.name);
+                    if (fileName && fileName.endsWith('.glb')) {
+                        return false;
+                    }
+                    var fileType = ko.unwrap(file.type);
+                    if (fileType) {
+                        var ext = fileType.split('/').pop();
+                        return fileType.indexOf('image') >= 0 && self.unsupportedImageTypes.indexOf(ext) <= 0;
+                    }
+                    return false;
+                });
+            });
+
+            this.reportGlbModels = ko.computed(function() {
+                return self.uploadedFiles().filter(file => ko.unwrap(file.name).endsWith('.glb'));
+            });
         },
         template: widgetTemplate,
     });

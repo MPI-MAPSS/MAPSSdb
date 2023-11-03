@@ -30,3 +30,45 @@
         </div>
     </div>
 {% endblock file-metadata %}
+
+{% block report %}
+    <!-- ko foreach: reportGlbModels() -->
+    <dt class="first" data-bind="text: $parent.label, class: $parent.nodeCssClasses"></dt>
+    <dd class="first" data-bind="class: $parent.nodeCssClasses">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + $index()}">
+            Launch 3D View
+        </button>
+
+        <div class="modal fade" data-bind="class: 'modal-' + $parent.unique_id + $index()" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" data-bind="text: title[$parent.activeLanguage].value"></h4>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dd>
+    <!-- ko if: title[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.title"></dt>
+    <dd data-bind="text: title[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: altText[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.alternativeText"></dt>
+    <dd data-bind="text: altText[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: attribution[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.attribution"></dt>
+    <dd data-bind="text: attribution[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: description[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.description"></dt>
+    <dd data-bind="text: description[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- /ko -->
+    {{ block.super }}
+{% endblock report %}
