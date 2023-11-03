@@ -1,0 +1,5 @@
+.file-metadata label:not(:first) {
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: clip;
+}

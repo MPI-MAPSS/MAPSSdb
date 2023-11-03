@@ -1,0 +1,32 @@
+{% extends "views/components/widgets/file.htm" %}
+{% load i18n %}
+
+{% block file-metadata %}
+    {{ block.super }}
+    <div class="row collapse" data-bind="class: 'file-metadata-additional-' + $parent.unique_id + $index()">
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.longitudeXCoordinate"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.lng, attr: {'aria-label': $root.translations.longitudeXCoordinate}"
+            />
+        </div>
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.latitudeYCoordinate"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.lat, attr: {'aria-label': $root.translations.latitudeYCoordinate}"
+            />
+        </div>
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.bearing"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.bearing, attr: {'aria-label': $root.translations.bearing}"
+            />
+        </div>
+    </div>
+{% endblock file-metadata %}

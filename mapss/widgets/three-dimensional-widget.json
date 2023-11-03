@@ -1,0 +1,11 @@
+{
+    "name": "three-dimensional-widget",
+    "component": "views/components/widgets/three-dimensional-widget",
+    "defaultconfig": {
+        "lng": 0,
+        "lat": 0,
+        "bearing": 0
+    },
+    "helptext": null,
+    "datatype": "file-list"
+}
