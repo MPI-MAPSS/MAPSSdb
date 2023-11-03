@@ -36,12 +36,12 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" />
+    <link rel="shortcut icon" href="{% webpack_static 'img/favicon.png' %}" />
 
     {% block css %}
-        <link href="{% static 'css/arches.css' %}" rel="stylesheet">
-        <link href="{% static 'css/package.css' %}" rel="stylesheet">
-        <link href="{% static 'css/project.css' %}" rel="stylesheet">
+        <link href="{% webpack_static 'css/arches.css' %}" rel="stylesheet">
+        <link href="{% webpack_static 'css/package.css' %}" rel="stylesheet">
+        <link href="{% webpack_static 'css/project.css' %}" rel="stylesheet">
     {% endblock css%}
 
 </head>
