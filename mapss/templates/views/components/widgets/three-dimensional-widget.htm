@@ -34,13 +34,14 @@
 {% block report %}
     <!-- ko foreach: reportModels() -->
     <dt class="first" data-bind="text: $parent.label, class: $parent.nodeCssClasses"></dt>
-    <dd class="first" data-bind="class: $parent.nodeCssClasses, click: $parent.renderWithDeck($data)">
+    <dd class="first" data-bind="class: $parent.nodeCssClasses">
         <button
             type="button"
             class="btn btn-primary btn-lg"
             data-toggle="modal"
-            data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) }"
-    >
+            data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) },
+                click: $parent.renderWithDeck($data)"
+        >
             Launch 3D View
         </button>
 

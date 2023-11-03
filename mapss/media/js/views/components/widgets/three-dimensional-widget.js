@@ -4,10 +4,12 @@ define([
     'mapbox-gl',
     '@deck.gl/mesh-layers',
     '@deck.gl/mapbox',
+    '@loaders.gl/core',
+    '@loaders.gl/gltf',
     'viewmodels/file-widget',
     'templates/views/components/widgets/three-dimensional-widget.htm'
 ], function (
-    ko, _, mapboxgl, meshLayers, deckMapbox, FileWidgetViewModel, widgetTemplate) {
+    ko, _, mapboxgl, meshLayers, deckMapbox, loaders, gltfLoader, FileWidgetViewModel, widgetTemplate) {
     return ko.components.register('three-dimensional-widget', {
         // Reimplement file metadata-related and image-related portions of the FileWidgetViewModel.
         viewModel: function(params) {
@@ -190,49 +192,62 @@ define([
 
             this.renderedModels = new Set();  // file_ids
 
-            this.renderWithDeck = function(model) {
+            this.renderWithDeck = (model) => async function() {
                 const containerId = `modal-body-${self.unique_id}-${ko.unwrap(model.file_id)}`;
                 if (document.getElementById(containerId) && !self.renderedModels.has(ko.unwrap(model.file_id))) {
-                    const map = new mapboxgl.Map({
-                        container: containerId,
-                        style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
-                        center: [Number.parseFloat(ko.unwrap(model.lng)), Number.parseFloat(ko.unwrap(model.lat))],
-                        zoom: 8,
-                        pitch: 30,
-                        maxPitch: 60,
-                        maxZoom: 25,
-                        bearing: Number.parseFloat(ko.unwrap(model.bearing)),
+                    const url = self.getFileUrl(ko.unwrap(model.url));
+                    await fetch(url)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Failure to load gltf');
+                            }
+                            return response;
+                        })
+                        .then(async(response) => { return await response.arrayBuffer() })
+                        .then(buffer => { self.createMap(buffer, model, containerId) });
+                }
+            };
+
+            this.createMap = (buffer, model, containerId) => {
+                const map = new mapboxgl.Map({
+                    container: containerId,
+                    style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
+                    center: [Number.parseFloat(ko.unwrap(model.lng)), Number.parseFloat(ko.unwrap(model.lat))],
+                    zoom: 8,
+                    pitch: 30,
+                    maxPitch: 60,
+                    maxZoom: 25,
+                    bearing: Number.parseFloat(ko.unwrap(model.bearing)),
+                });
+
+                const deckOverlay = new deckMapbox.MapboxOverlay({
+                    layers: [
+                        new meshLayers.ScenegraphLayer({
+                            scenegraph: loaders.parse(buffer, gltfLoader.GLTFLoader),
+
+                            id: 'ScenegraphLayer',
+
+                            _animations: {
+                                '*': {speed: 5}
+                            },
+                            _lighting: 'flat',
+                            getOrientation: d => [0, Math.random() * 180, 90],
+                            getPosition: d => d.coordinates,
+                            sizeScale: 1,
+                            pickable: true,
+                        }),
+                    ],
                     });
 
-                    const deckOverlay = new deckMapbox.MapboxOverlay({
-                        layers: [
-                            new meshLayers.ScenegraphLayer({
-                                data: self.getFileUrl(ko.unwrap(model.url)),
+                map.addControl(deckOverlay);
+                map.addControl(new mapboxgl.NavigationControl());
 
-                                id: 'ScenegraphLayer',
+                // Force the map to resize after bootstrap modal CSS is applied.
+                setTimeout(() => {
+                    map.resize();
+                }, 250);
 
-                                _animations: {
-                                    '*': {speed: 5}
-                                },
-                                _lighting: 'flat',
-                                getOrientation: d => [0, Math.random() * 180, 90],
-                                getPosition: d => d.coordinates,
-                                sizeScale: 1,
-                                pickable: true,
-                            }),
-                        ],
-                      });
-
-                    map.addControl(deckOverlay);
-                    map.addControl(new mapboxgl.NavigationControl());
-
-                    // Force the map to resize after bootstrap modal CSS is applied.
-                    setTimeout(() => {
-                        map.resize();
-                    }, 250);
-
-                    self.renderedModels.add(ko.unwrap(model.file_id));
-                }
+                self.renderedModels.add(ko.unwrap(model.file_id));
             };
         },
         template: widgetTemplate,
