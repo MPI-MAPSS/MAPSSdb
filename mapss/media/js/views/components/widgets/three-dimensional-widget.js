@@ -192,25 +192,22 @@ define([
 
             this.renderWithDeck = function(model) {
                 const containerId = `modal-body-${self.unique_id}-${ko.unwrap(model.file_id)}`;
-                if (document.getElementById(containerId) && !self.renderedModels.has(model.file_id())) {
-                    // do stuff: attach the layer, make the blob or whatever
+                if (document.getElementById(containerId) && !self.renderedModels.has(ko.unwrap(model.file_id))) {
                     const map = new mapboxgl.Map({
                         container: containerId,
                         style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
-                        center: [Number.parseFloat(model.lng()), Number.parseFloat(model.lat())],
-                        // latitude: 37.8272,
-                        // longitude: -122.2913,
+                        center: [Number.parseFloat(ko.unwrap(model.lng)), Number.parseFloat(ko.unwrap(model.lat))],
                         zoom: 8,
                         pitch: 30,
                         maxPitch: 60,
                         maxZoom: 25,
-                        bearing: Number.parseFloat(model.bearing()),
+                        bearing: Number.parseFloat(ko.unwrap(model.bearing)),
                     });
 
-                    const deckOverlay = new deckMapbox.DeckOverlay({
+                    const deckOverlay = new deckMapbox.MapboxOverlay({
                         layers: [
                             new meshLayers.ScenegraphLayer({
-                                data: self.getFileUrl(model.url),
+                                data: self.getFileUrl(ko.unwrap(model.url)),
 
                                 id: 'ScenegraphLayer',
 
@@ -229,7 +226,12 @@ define([
                     map.addControl(deckOverlay);
                     map.addControl(new mapboxgl.NavigationControl());
 
-                    self.renderedModels.add(model.file_id());
+                    // Force the map to resize after bootstrap modal CSS is applied.
+                    setTimeout(() => {
+                        map.resize();
+                    }, 250);
+
+                    self.renderedModels.add(ko.unwrap(model.file_id));
                 }
             };
         },
