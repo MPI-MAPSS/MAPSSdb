@@ -1,10 +1,13 @@
 define([
     'knockout',
     'underscore',
+    'mapbox-gl',
+    '@deck.gl/mesh-layers',
+    '@deck.gl/mapbox',
     'viewmodels/file-widget',
     'templates/views/components/widgets/three-dimensional-widget.htm'
 ], function (
-    ko, _, FileWidgetViewModel, widgetTemplate) {
+    ko, _, mapboxgl, meshLayers, deckMapbox, FileWidgetViewModel, widgetTemplate) {
     return ko.components.register('three-dimensional-widget', {
         // Reimplement file metadata-related and image-related portions of the FileWidgetViewModel.
         viewModel: function(params) {
@@ -181,9 +184,54 @@ define([
                 });
             });
 
-            this.reportGlbModels = ko.computed(function() {
+            this.reportModels = ko.computed(function() {
                 return self.uploadedFiles().filter(file => ko.unwrap(file.name).endsWith('.glb'));
             });
+
+            this.renderedModels = new Set();  // file_ids
+
+            this.renderWithDeck = function(model) {
+                const containerId = `modal-body-${self.unique_id}-${ko.unwrap(model.file_id)}`;
+                if (document.getElementById(containerId) && !self.renderedModels.has(model.file_id())) {
+                    // do stuff: attach the layer, make the blob or whatever
+                    const map = new mapboxgl.Map({
+                        container: containerId,
+                        style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
+                        center: [Number.parseFloat(model.lng()), Number.parseFloat(model.lat())],
+                        // latitude: 37.8272,
+                        // longitude: -122.2913,
+                        zoom: 8,
+                        pitch: 30,
+                        maxPitch: 60,
+                        maxZoom: 25,
+                        bearing: Number.parseFloat(model.bearing()),
+                    });
+
+                    const deckOverlay = new deckMapbox.DeckOverlay({
+                        layers: [
+                            new meshLayers.ScenegraphLayer({
+                                data: self.getFileUrl(model.url),
+
+                                id: 'ScenegraphLayer',
+
+                                _animations: {
+                                    '*': {speed: 5}
+                                },
+                                _lighting: 'flat',
+                                getOrientation: d => [0, Math.random() * 180, 90],
+                                getPosition: d => d.coordinates,
+                                sizeScale: 1,
+                                pickable: true,
+                            }),
+                        ],
+                      });
+
+                    map.addControl(deckOverlay);
+                    map.addControl(new mapboxgl.NavigationControl());
+
+                    self.renderedModels.add(model.file_id());
+                }
+            };
         },
         template: widgetTemplate,
     });

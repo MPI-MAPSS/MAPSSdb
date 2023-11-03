@@ -32,22 +32,26 @@
 {% endblock file-metadata %}
 
 {% block report %}
-    <!-- ko foreach: reportGlbModels() -->
+    <!-- ko foreach: reportModels() -->
     <dt class="first" data-bind="text: $parent.label, class: $parent.nodeCssClasses"></dt>
-    <dd class="first" data-bind="class: $parent.nodeCssClasses">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + $index()}">
+    <dd class="first" data-bind="class: $parent.nodeCssClasses, click: $parent.renderWithDeck($data)">
+        <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-toggle="modal"
+            data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) }"
+    >
             Launch 3D View
         </button>
 
-        <div class="modal fade" data-bind="class: 'modal-' + $parent.unique_id + $index()" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" data-bind="class: 'modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id)" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" data-bind="text: title[$parent.activeLanguage].value"></h4>
                     </div>
-                    <div class="modal-body">
-                    ...
+                    <div class="modal-body" data-bind="attr: { id: 'modal-body-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) }">
                     </div>
                 </div>
             </div>
