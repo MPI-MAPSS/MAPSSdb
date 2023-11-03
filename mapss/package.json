@@ -1,6 +1,7 @@
 {
     "name": "mapss",
     "dependencies": {
+        "@deck.gl/mesh-layers": "^8.9.32",
         "arches": "archesproject/arches#dev/7.5.x"
     },
     "devDependencies": {
