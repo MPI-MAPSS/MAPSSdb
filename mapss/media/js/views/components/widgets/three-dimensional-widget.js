@@ -225,7 +225,7 @@ define([
                     container: containerId,
                     style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
                     center: [lng, lat],
-                    zoom: 8,
+                    zoom: 20,
                     pitch: 30,
                     maxPitch: 60,
                     maxZoom: 25,
