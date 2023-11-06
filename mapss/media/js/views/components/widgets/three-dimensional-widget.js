@@ -195,16 +195,23 @@ define([
             this.renderWithDeck = (model) => async function() {
                 const containerId = `modal-body-${self.unique_id}-${ko.unwrap(model.file_id)}`;
                 if (document.getElementById(containerId) && !self.renderedModels.has(ko.unwrap(model.file_id))) {
-                    const url = self.getFileUrl(ko.unwrap(model.url));
-                    await fetch(url)
+                    let url = self.getFileUrl(ko.unwrap(model.url));
+                    let redirected = false;
+                    let response = await fetch(url)
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error('Failure to load gltf');
                             }
+                            if (response.redirected) {
+                                redirected = true;
+                                url = response.url;
+                            }
                             return response;
-                        })
-                        .then(async(response) => { return await response.arrayBuffer() })
-                        .then(buffer => { self.createMap(buffer, model, containerId) });
+                        });
+                    if (redirected) {
+                        response = await fetch(url);
+                    }
+                    await response.arrayBuffer().then(buffer => { self.createMap(buffer, model, containerId) });
                 }
             };
 
