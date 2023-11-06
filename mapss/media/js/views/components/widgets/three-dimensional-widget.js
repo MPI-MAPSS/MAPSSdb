@@ -186,6 +186,9 @@ define([
                 });
             });
 
+
+            /** Customizations for 3d data */
+
             this.reportModels = ko.computed(function() {
                 return self.uploadedFiles().filter(file => ko.unwrap(file.name).endsWith('.glb'));
             });
@@ -216,10 +219,12 @@ define([
             };
 
             this.createMap = (buffer, model, containerId) => {
+                const lng = Number.parseFloat(ko.unwrap(model.lng));
+                const lat =  Number.parseFloat(ko.unwrap(model.lat));
                 const map = new mapboxgl.Map({
                     container: containerId,
                     style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
-                    center: [Number.parseFloat(ko.unwrap(model.lng)), Number.parseFloat(ko.unwrap(model.lat))],
+                    center: [lng, lat],
                     zoom: 8,
                     pitch: 30,
                     maxPitch: 60,
@@ -231,7 +236,7 @@ define([
                     layers: [
                         new meshLayers.ScenegraphLayer({
                             scenegraph: loaders.parse(buffer, gltfLoader.GLTFLoader),
-
+                            data: [{ coordinates: [lng, lat] }],
                             id: 'ScenegraphLayer',
 
                             _animations: {
