@@ -1,0 +1,79 @@
+{% extends "views/components/widgets/file.htm" %}
+{% load i18n %}
+
+{% block file-metadata %}
+    {{ block.super }}
+    <div class="row collapse" data-bind="class: 'file-metadata-additional-' + $parent.unique_id + $index()">
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.longitudeXCoordinate"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.lng, attr: {'aria-label': $root.translations.longitudeXCoordinate}"
+            />
+        </div>
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.latitudeYCoordinate"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.lat, attr: {'aria-label': $root.translations.latitudeYCoordinate}"
+            />
+        </div>
+        <div class="file-metadata col-sm-4">
+            <label data-bind="text: $root.translations.bearing"></label>
+            <input
+                type="number"
+                class="form-control"
+                data-bind="textInput: $data.bearing, attr: {'aria-label': $root.translations.bearing}"
+            />
+        </div>
+    </div>
+{% endblock file-metadata %}
+
+{% block report %}
+    <!-- ko foreach: reportModels() -->
+    <dt class="first" data-bind="text: $parent.label, class: $parent.nodeCssClasses"></dt>
+    <dd class="first" data-bind="class: $parent.nodeCssClasses">
+        <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-toggle="modal"
+            data-bind="attr: {'data-target': '.modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) },
+                click: $parent.renderWithDeck($data)"
+        >
+            Launch 3D View
+        </button>
+
+        <div class="modal fade" data-bind="class: 'modal-' + $parent.unique_id + '-' + ko.unwrap($data.file_id)" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" data-bind="text: title[$parent.activeLanguage].value"></h4>
+                    </div>
+                    <div class="modal-body" data-bind="attr: { id: 'modal-body-' + $parent.unique_id + '-' + ko.unwrap($data.file_id) }">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dd>
+    <!-- ko if: title[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.title"></dt>
+    <dd data-bind="text: title[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: altText[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.alternativeText"></dt>
+    <dd data-bind="text: altText[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: attribution[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.attribution"></dt>
+    <dd data-bind="text: attribution[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- ko if: description[$parent.activeLanguage].value -->
+    <dt data-bind="text: $root.translations.description"></dt>
+    <dd data-bind="text: description[$parent.activeLanguage].value"></dd>
+    <!-- /ko -->
+    <!-- /ko -->
+    {{ block.super }}
+{% endblock report %}

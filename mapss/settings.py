@@ -16,10 +16,13 @@ except ImportError:
 
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
-STATICFILES_DIRS = (
-    os.path.join(APP_ROOT, "media", "build"),
-    os.path.join(APP_ROOT, "media"),
-) + STATICFILES_DIRS
+ARCHES_APPLICATIONS = ()
+
+STATICFILES_DIRS = build_staticfiles_dirs(
+    root_dir=ROOT_DIR,
+    app_root=APP_ROOT,
+    arches_applications=ARCHES_APPLICATIONS,
+)
 
 STATIC_ROOT = os.path.join(ROOT_DIR, "staticfiles")
 STATIC_URL = "/static/"
@@ -34,9 +37,12 @@ DATATYPE_LOCATIONS.append("mapss.datatypes")
 FUNCTION_LOCATIONS.append("mapss.functions")
 ETL_MODULE_LOCATIONS.append("mapss.etl_modules")
 SEARCH_COMPONENT_LOCATIONS.append("mapss.search_components")
-TEMPLATES[0]["DIRS"].append(os.path.join(APP_ROOT, "functions", "templates"))
-TEMPLATES[0]["DIRS"].append(os.path.join(APP_ROOT, "widgets", "templates"))
-TEMPLATES[0]["DIRS"].insert(0, os.path.join(APP_ROOT, "templates"))
+TEMPLATES = build_templates_config(
+    root_dir=ROOT_DIR,
+    debug=DEBUG,
+    app_root=APP_ROOT,
+    arches_applications=ARCHES_APPLICATIONS,
+)
 TEMPLATES[0]["OPTIONS"]["context_processors"].append("mapss.utils.context_processors.project_settings")
 APP_PATHNAME = ""
 
@@ -214,15 +220,11 @@ if DOCKER:
 
 
 if __name__ == "__main__":
-    print(
-        json.dumps(
-            {
-                "ARCHES_NAMESPACE_FOR_DATA_EXPORT": ARCHES_NAMESPACE_FOR_DATA_EXPORT,
-                "STATIC_URL": STATIC_URL,
-                "ROOT_DIR": ROOT_DIR,
-                "APP_ROOT": APP_ROOT,
-                "WEBPACK_DEVELOPMENT_SERVER_PORT": WEBPACK_DEVELOPMENT_SERVER_PORT,
-            }
-        )
+    transmit_webpack_django_config(
+        root_dir=ROOT_DIR,
+        app_root=APP_ROOT,
+        arches_applications=ARCHES_APPLICATIONS,
+        public_server_address=PUBLIC_SERVER_ADDRESS,
+        static_url=STATIC_URL,
+        webpack_development_server_port=WEBPACK_DEVELOPMENT_SERVER_PORT,
     )
-    sys.stdout.flush()
