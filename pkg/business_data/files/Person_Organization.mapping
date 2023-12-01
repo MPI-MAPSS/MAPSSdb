@@ -1,0 +1,85 @@
+{
+    "resource_model_id": "c9402aff-03f4-11ec-946e-005056957f92",
+    "resource_model_name": "Person_Organization",
+    "nodes": [
+        {
+            "arches_nodeid": "2ea3fe9f-1173-11ec-946e-005056957f92",
+            "arches_node_name": "Appellation",
+            "file_field_name": "Appellation",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "2ea3fea2-1173-11ec-946e-005056957f92",
+            "arches_node_name": "Appellation Transliteration",
+            "file_field_name": "Appellation Transliteration",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "380a36bc-1176-11ec-946e-005056957f92",
+            "arches_node_name": "Beginning of Existence",
+            "file_field_name": "Beginning of Existence",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "31cb0604-1177-11ec-946e-005056957f92",
+            "arches_node_name": "Description",
+            "file_field_name": "Description",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "f1246622-1176-11ec-946e-005056957f92",
+            "arches_node_name": "End of Existence",
+            "file_field_name": "End of Existence",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "98bc1a3c-1173-11ec-946e-005056957f92",
+            "arches_node_name": "Field of Work",
+            "file_field_name": "Field of Work",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "94c2f7bc-16e0-11ec-b7c9-005056957f92",
+            "arches_node_name": "Institution/Organization",
+            "file_field_name": "Institution/Organization",
+            "data_type": "string",
+            "export": true
+        },
+        {
+            "arches_nodeid": "e4d2cd7e-1175-11ec-946e-005056957f92",
+            "arches_node_name": "Person/Organization Image",
+            "file_field_name": "Person/Organization Image",
+            "data_type": "file-list",
+            "export": true
+        },
+        {
+            "arches_nodeid": "76bf8dc4-1173-11ec-946e-005056957f92",
+            "arches_node_name": "Role",
+            "file_field_name": "Role",
+            "data_type": "concept",
+            "concept_export_value": "label",
+            "export": true
+        },
+        {
+            "arches_nodeid": "eb8ec470-1174-11ec-946e-005056957f92",
+            "arches_node_name": "Role Date From",
+            "file_field_name": "Role Date From",
+            "data_type": "date",
+            "export": true
+        },
+        {
+            "arches_nodeid": "0bad62e8-1175-11ec-946e-005056957f92",
+            "arches_node_name": "Role Date To",
+            "file_field_name": "Role Date To",
+            "data_type": "date",
+            "export": true
+        }
+    ]
+}
