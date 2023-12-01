@@ -167,7 +167,14 @@
                         "strokepointopacity": 1,
                         "strokepointradius": 6
                     },
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "3444eda1-b0b8-11ea-9b1f-02e7594ce0a0",
+                            "constraintid": "7782a805-7df3-4cee-a12b-12bb81b2b026",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
@@ -1128,7 +1135,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Intervention Activity Type / \u0646\u0648\u0639 \u0646\u0634\u0627\u0637 \u0627\u0644\u062a\u062f\u062e\u0644",
+                        "label": "Intervention Activity Type",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -1388,7 +1395,7 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": null,
-                        "label": "Relationship to Date / \u0639\u0644\u0627\u0642\u0629 \u062d\u062f\u064a\u062b\u0629",
+                        "label": "Relationship to Date",
                         "maxDate": null,
                         "minDate": null,
                         "placeholder": "Enter date",
@@ -1415,7 +1422,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Relationship Comments / \u062a\u0639\u0644\u064a\u0642\u0627\u062a \u0627\u0644\u0639\u0644\u0627\u0642\u0629",
+                        "label": "Relationship Comments",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -1437,7 +1444,7 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": null,
-                        "label": "Relationship from Date / \u0639\u0644\u0627\u0642\u0629 \u0642\u062f\u064a\u0645\u0629",
+                        "label": "Relationship from Date",
                         "maxDate": null,
                         "minDate": null,
                         "placeholder": "Enter date",
@@ -1459,7 +1466,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Information Resource / \u0645\u0635\u062f\u0631 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a",
+                        "label": "Information Resource",
                         "placeholder": {
                             "en": null
                         }
@@ -1531,12 +1538,16 @@
                             "en": {
                                 "direction": "ltr",
                                 "value": null
+                            },
+                            "mn": {
+                                "direction": "ltr",
+                                "value": ""
                             }
                         },
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Damage Assessment Assessor / \u0627\u0644\u0645\u062a\u062d\u0642\u0642 \u0645\u0646 \u0627\u0644\u0636\u0631\u0631",
+                        "label": "Damage Assessment Assesso",
                         "maxLength": null,
                         "placeholder": {
                             "en": null
@@ -2358,7 +2369,8 @@
             "deploymentdate": null,
             "deploymentfile": null,
             "description": {
-                "en": "Field Condition & Conservation Assessment for Site Visits"
+                "en": "Field Condition & Conservation Assessment for Site Visits",
+                "mn": "Field Condition & Conservation Assessment for Site Visits"
             },
             "edges": [
                 {
@@ -3166,20 +3178,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "110",
-                        "prefix": "CONDITION-",
-                        "selected_nodegroup": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "8ecd31fc-50f1-4802-9237-120281799020"
-                },
-                {
-                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "7ef3aa74-fbf0-11e9-b345-06f597a7d5ce",
@@ -3198,7 +3196,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "e4950027-a3ec-4776-b7d2-d14483602a51"
+                    "id": "d4968b85-2eca-4a0c-ae04-4793fab8f466"
                 }
             ],
             "graphid": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
@@ -3207,7 +3205,8 @@
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "Detailed Condition Assessment"
+                "en": "Detailed Condition Assessment",
+                "mn": "Detailed Condition Assessment"
             },
             "nodegroups": [
                 {
@@ -5777,14 +5776,22 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": {
-                "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "notes": null,
-                "publicationid": "fa68d6e4-b2f3-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:46.632",
-                "user_id": 1
-            },
-            "relatable_resource_model_ids": [],
+            "publication": null,
+            "relatable_resource_model_ids": [
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "c3009111-0417-11ec-946e-005056957f92",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "detailed_condition_assessment",
@@ -5807,10 +5814,17 @@
             },
             "slug": null,
             "subtitle": {
-                "en": "Field Condition & Conservation Assessment for Site Visits"
+                "en": "Field Condition & Conservation Assessment for Site Visits",
+                "mn": "Field Condition & Conservation Assessment for Site Visits"
             },
             "template_id": "50000000-0000-0000-0000-000000000004",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }

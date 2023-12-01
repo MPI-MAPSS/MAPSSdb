@@ -14,15 +14,15 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Grid Square"
                     },
@@ -67,13 +67,13 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -103,15 +103,15 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Grid Square Geometric Expression"
                     },
@@ -325,7 +325,7 @@
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
-                                "string_template": "<Grid Square Assignee>"
+                                "string_template": "<Grid ID>"
                             },
                             "map_popup": {
                                 "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
@@ -340,12 +340,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
-                    "id": "df41c78d-bd02-4dcd-ac09-2ce9f527f12e"
+                    "id": "1f318fcf-b1c3-4a63-b5c4-7ccd296146cf"
                 }
             ],
             "graphid": "37d8eff1-03f5-11ec-946e-005056957f92",
             "iconclass": "fa fa-th",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -505,17 +505,17 @@
                 {
                     "alias": "grid_square_geometric_expression",
                     "config": {
-                        "addToMap": false,
+                        "addToMap": true,
                         "advancedStyle": "",
                         "advancedStyling": false,
-                        "clusterDistance": 20,
+                        "clusterDistance": "1000",
                         "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
+                        "clusterMinPoints": "1000",
                         "fillColor": "rgba(130, 130, 130, 0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "",
+                        "layerIcon": "fa fa-th",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
@@ -550,11 +550,25 @@
             "publication": {
                 "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "faeae59e-b2f3-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:47.484",
-                "user_id": 1
+                "publicationid": "1e8be09a-6cf6-11ee-b65a-005056956d5e",
+                "published_time": "2023-10-17T09:04:42.530",
+                "user_id": 3
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "c3009111-0417-11ec-946e-005056957f92",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "grid_square",
@@ -582,5 +596,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }

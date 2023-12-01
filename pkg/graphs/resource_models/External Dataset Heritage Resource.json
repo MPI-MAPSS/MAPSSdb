@@ -14,13 +14,13 @@
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -41,13 +41,13 @@
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -68,10 +68,10 @@
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "Notes, Comments, Descriptions, etc."
@@ -95,13 +95,13 @@
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -122,13 +122,13 @@
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -136,6 +136,86 @@
                     },
                     "nodegroup_id": "0f45103f-122d-11ec-946e-005056957f92",
                     "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "29813d2e-096b-4179-9bc2-0f86b835c2a6",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "29813d2e-096b-4179-9bc2-0f86b835c2a6",
+                            "constraintid": "d399f265-0762-483a-a177-191ba56a8549",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "29813d2e-096b-4179-9bc2-0f86b835c2a6",
+                            "constraintid": "a37ade07-50f3-4542-a707-0a9f1a621850",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "NCCH Number"
+                    },
+                    "nodegroup_id": "ff3e45ac-1b15-11ee-8132-005056956d5e",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "76900a5c-f83e-456c-b25c-a5dd6a97dfd5",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "76900a5c-f83e-456c-b25c-a5dd6a97dfd5",
+                            "constraintid": "a2f170f1-26b2-4bdd-a274-3de46ce31543",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "76900a5c-f83e-456c-b25c-a5dd6a97dfd5",
+                            "constraintid": "f3e2a3c9-e6db-4941-a362-a560f2edf1e9",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Geometric Place Expression"
+                    },
+                    "nodegroup_id": "6b0c3816-1b16-11ee-8132-005056956d5e",
+                    "sortorder": null,
                     "visible": true
                 }
             ],
@@ -376,6 +456,53 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "76900a5c-f83e-456c-b25c-a5dd6a97dfd5",
+                    "config": {
+                        "basemap": "satellite",
+                        "bearing": 0,
+                        "centerX": 103.1328128298644,
+                        "centerY": 46.87708465755142,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Geometric Place Expression",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 0
+                    },
+                    "id": "d716e16a-8c9c-4476-bfc8-c979f6b67235",
+                    "label": {
+                        "en": "Geometric Place Expression"
+                    },
+                    "node_id": "6b0c3816-1b16-11ee-8132-005056956d5e",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
@@ -386,6 +513,15 @@
                 "en": ""
             },
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "8a399bdc-03ff-11ec-946e-005056957f92",
+                    "edgeid": "0cfa2167-b484-4b57-b421-cae1dbd7baa5",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+                    "rangenode_id": "6b0c3816-1b16-11ee-8132-005056956d5e"
+                },
                 {
                     "description": null,
                     "domainnode_id": "0f451039-122d-11ec-946e-005056957f92",
@@ -520,23 +656,18 @@
                     "name": null,
                     "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "0f45103f-122d-11ec-946e-005056957f92"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8a399bdc-03ff-11ec-946e-005056957f92",
+                    "edgeid": "169829e5-5588-45bb-b8af-44e4e509d7b8",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "ff3e45ac-1b15-11ee-8132-005056956d5e"
                 }
             ],
             "functions_x_graphs": [
-                {
-                    "config": {
-                        "last_value": "3",
-                        "prefix": "MAPSS-ER-",
-                        "selected_nodegroup": "0f451036-122d-11ec-946e-005056957f92",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "0f45104b-122d-11ec-946e-005056957f92",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
-                    "id": "7e0e5c57-0278-4e63-8f88-d40b39fa4dd7"
-                },
                 {
                     "config": {
                         "descriptor_types": {
@@ -557,7 +688,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
-                    "id": "e56dadb3-17db-45c6-b3ad-52e1f400ce87"
+                    "id": "e58a4cc1-4403-4835-8802-dadd7c28a31e"
                 }
             ],
             "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
@@ -597,6 +728,18 @@
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "0f45103f-122d-11ec-946e-005056957f92",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "6b0c3816-1b16-11ee-8132-005056956d5e",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "ff3e45ac-1b15-11ee-8132-005056956d5e",
                     "parentnodegroup_id": null
                 }
             ],
@@ -916,6 +1059,49 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "geometric_place_expression",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "fa fa-database",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(92,193,65,0.7)",
+                        "pointHaloColor": "rgba(144,234,146,0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geometric Place Expression",
+                    "nodegroup_id": "6b0c3816-1b16-11ee-8132-005056956d5e",
+                    "nodeid": "6b0c3816-1b16-11ee-8132-005056956d5e",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+                    "sortorder": 0
+                },
+                {
                     "alias": "external_dataset_heritage_resource",
                     "config": {},
                     "datatype": "semantic",
@@ -934,17 +1120,53 @@
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
                     "parentproperty": "",
                     "sortorder": 0
+                },
+                {
+                    "alias": "ncch_number",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "NCCH_Num",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "NCCH Number",
+                    "nodegroup_id": "ff3e45ac-1b15-11ee-8132-005056956d5e",
+                    "nodeid": "ff3e45ac-1b15-11ee-8132-005056956d5e",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": {
                 "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "00767d2a-b2f4-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:56.788",
-                "user_id": 1
+                "publicationid": "228af372-6ce0-11ee-8be2-005056956d5e",
+                "published_time": "2023-10-17T06:27:20.307",
+                "user_id": 3
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "c3009111-0417-11ec-946e-005056957f92"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "external_dataset_heritage_resource",
@@ -972,5 +1194,11 @@
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }
