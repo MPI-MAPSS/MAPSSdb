@@ -32,6 +32,7 @@ class IncrementorFunction(BaseFunction):
                     
                 new_id = self.config['prefix'] + ((7 - len(new_number)) * '0') + new_number + self.config['suffix'] #EAMENA numbers are 7 digits long
                 new_value = {"en":{"value":new_id,"direction":"ltr"}}
+                print("NEW_VALUE",new_value)
                 fn = models.FunctionXGraph.objects.get(Q(function_id="2cc07b0a-adbd-4721-86ce-dad1699caa86"), Q(graph_id=tile.resourceinstance.graph_id))
                 fn.config['last_value'] = new_number
                 fn.save()

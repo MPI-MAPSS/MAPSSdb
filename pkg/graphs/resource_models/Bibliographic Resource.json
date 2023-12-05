@@ -186,7 +186,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Bibliography"
                     },
@@ -762,7 +762,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Publication Title"
                     },
@@ -2297,20 +2297,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "144913",
-                        "prefix": "INFORMATION-",
-                        "selected_nodegroup": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
-                        "starting_value": "0144731",
-                        "suffix": "",
-                        "target_node": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                    "id": "652e0da5-5550-4904-9e94-0be9dcb56107"
-                },
-                {
-                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "54c62e2e-524f-11ea-a3f7-02e7594ce0a0",
@@ -2329,12 +2315,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                    "id": "a936bb69-37e6-41d5-a98b-4ba8b105fb2d"
+                    "id": "84f06ea9-6e80-4f29-8d01-0a1b9aa23218"
                 }
             ],
             "graphid": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
             "iconclass": "fa fa-file-image-o",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -3601,7 +3587,14 @@
                 "published_time": "2023-02-22T15:00:51.481",
                 "user_id": 1
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "8a399bdd-03ff-11ec-946e-005056957f92"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "bibliographic_resource",
@@ -3629,5 +3622,11 @@
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }

@@ -3027,7 +3027,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Threat Inference Making Assessor Name / \u0627\u0633\u0645 \u0627\u0644\u0645\u0642\u064a\u0645 \u0627\u0644\u0630\u064a \u0623\u062c\u0631\u0649 \u0627\u0644\u0627\u0633\u062a\u0646\u062a\u0646\u0627\u062c\u0627\u062a",
+                        "label": "Threat Inference Making Assessor Name",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -3249,7 +3249,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Threat Type / \u0646\u0648\u0639 \u0627\u0644\u062a\u0647\u062f\u064a\u062f",
+                        "label": "Threat Type",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -3336,7 +3336,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Threat Probability / \u0627\u0644\u062a\u0647\u062f\u064a\u062f \u0627\u0644\u0645\u062d\u062a\u0645\u0644",
+                        "label": "Threat Probability",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -4704,21 +4704,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "id": "7ae1ced9-5c80-4c7f-94f9-e63c4068905e"
-                },
-                {
-                    "config": {
-                        "last_value": "103",
-                        "prefix": "GEOARCH-",
-                        "selected_nodegroup": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
-                        "starting_value": "0000001",
-                        "suffix": "",
-                        "target_node": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "id": "c1525c9c-cb7b-4458-8123-83ffadd46d26"
+                    "id": "1e359d33-bbe7-43bd-8a58-d69639160b6e"
                 }
             ],
             "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -6556,10 +6542,20 @@
                     "config": {
                         "graphs": [
                             {
-                                "graphid": "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
-                                "inverseOntologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7i_is_contained_or_confined",
-                                "name": "Heritage Place",
-                                "ontologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7_contains_or_confines"
+                                "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
+                                "name": "External Dataset Heritage Resource"
+                            },
+                            {
+                                "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                                "name": "Remote Sensing Object - Machine Learning"
+                            },
+                            {
+                                "graphid": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                                "name": "Remote Sensing Object"
+                            },
+                            {
+                                "graphid": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                                "name": "Heritage Place"
                             }
                         ],
                         "searchDsl": "",
@@ -6770,14 +6766,16 @@
                     "alias": "google_earth_assessment",
                     "config": {
                         "falseLabel": {
-                            "en": "No"
+                            "en": "No",
+                            "mn": "No"
                         },
                         "i18n_properties": [
                             "trueLabel",
                             "falseLabel"
                         ],
                         "trueLabel": {
-                            "en": "Yes"
+                            "en": "Yes",
+                            "mn": "Yes"
                         }
                     },
                     "datatype": "boolean",
@@ -8063,14 +8061,15 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": {
-                "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "notes": null,
-                "publicationid": "01209e5e-b2f4-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:57.903",
-                "user_id": 1
-            },
-            "relatable_resource_model_ids": [],
+            "publication": null,
+            "relatable_resource_model_ids": [
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "8a399bdd-03ff-11ec-946e-005056957f92"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "geoarchaeology",
@@ -8098,5 +8097,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }

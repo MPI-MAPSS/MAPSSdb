@@ -22,7 +22,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Description Assignment"
                     },
@@ -49,7 +49,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Lifespan"
                     },
@@ -76,7 +76,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Appellation"
                     },
@@ -103,7 +103,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Role"
                     },
@@ -449,12 +449,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
-                    "id": "aeb8ad96-9af3-4dbc-a0de-dac28496777a"
+                    "id": "c89beff1-dc6a-482d-907a-2e2e46c2a85f"
                 }
             ],
             "graphid": "c9402aff-03f4-11ec-946e-005056957f92",
             "iconclass": "fa fa-group",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -798,7 +798,14 @@
                 "published_time": "2023-02-22T15:00:54.372",
                 "user_id": 1
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "person_organization",
@@ -826,5 +833,11 @@
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.10 (Ubuntu 14.10-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-89-generic"
+    }
 }
