@@ -16,3 +16,4 @@ mapss/webpack/webpack-stats.json
 static-media
 mapss/static-media
 staging
+.DS_Store
