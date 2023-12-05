@@ -13,3 +13,5 @@ uploads/*
 db_backups/*
 .vscode/
 mapss/webpack/webpack-stats.json
+static-media
+maps/static-media
