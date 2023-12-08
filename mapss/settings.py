@@ -22,7 +22,7 @@ STATICFILES_DIRS = (
 ) + STATICFILES_DIRS
 
 STATIC_ROOT = os.path.join(ROOT_DIR, "staticfiles")
-STATIC_URL = "/static/"
+#STATIC_URL = "/static/"
 
 WEBPACK_LOADER = {
     "DEFAULT": {
@@ -53,6 +53,7 @@ ELASTICSEARCH_PREFIX = "mapss"
 
 LANGUAGES = [
     ("en", _("English")),
+    ("mn",_("Mongolian")),
     # ("de", _("German")),
     # ("en-gb", _("British English")),
     # ("es", _("Spanish")),
@@ -102,7 +103,7 @@ MIDDLEWARE = [
     "arches.app.utils.middleware.SetAnonymousUser",
 ]
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["*"]
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, "system_settings", "System_Settings.json")
 WSGI_APPLICATION = "mapss.wsgi.application"
@@ -162,7 +163,7 @@ USER_GRAPH_CARDWIDGETS_TIMEOUT = 3600 * 24 * 30  # seconds * hours * days = ~1mo
 
 OAUTH_CLIENT_ID = ""
 
-APP_TITLE = "MAPSS"
+APP_TITLE = "mapss"
 COPYRIGHT_TEXT = "All Rights Reserved."
 COPYRIGHT_YEAR = "2019"
 
@@ -188,7 +189,7 @@ ONTOLOGY_NAMESPACES = {
 
 DOCKER = False
 
-ARCHES_NAMESPACE_FOR_DATA_EXPORT = 'http://localhost:8000'
+#ARCHES_NAMESPACE_FOR_DATA_EXPORT = 'http://localhost:8000'
 
 try:
     from .package_settings import *
