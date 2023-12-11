@@ -15,5 +15,8 @@ db_backups/*
 mapss/webpack/webpack-stats.json
 static-media
 mapss/static-media
+mapss/static/*
+mapss/static
+static
 staging
 .DS_Store
