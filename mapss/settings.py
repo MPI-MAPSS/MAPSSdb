@@ -59,6 +59,7 @@ ELASTICSEARCH_PREFIX = "mapss"
 
 LANGUAGES = [
     ("en", _("English")),
+    ("mn", _("Mongolian")),
     # ("de", _("German")),
     # ("en-gb", _("British English")),
     # ("es", _("Spanish")),
@@ -194,7 +195,7 @@ ONTOLOGY_NAMESPACES = {
 
 DOCKER = False
 
-ARCHES_NAMESPACE_FOR_DATA_EXPORT = 'http://localhost:8000'
+ARCHES_NAMESPACE_FOR_DATA_EXPORT = 'http://localhost:8001'
 
 try:
     from .package_settings import *
