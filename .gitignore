@@ -13,3 +13,11 @@ uploads/*
 db_backups/*
 .vscode/
 mapss/webpack/webpack-stats.json
+
+static-media
+mapss/static-media
+mapss/static/*
+mapss/static
+static
+staging
+.DS_Store
