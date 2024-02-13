@@ -1,16 +1,14 @@
 define([
-    'jquery',
-    'underscore',
     'templates/views/components/functions/incrementor-function.htm',
     'knockout',
     'viewmodels/function',
     'chosen'
 ],
-function($, _, incrementorTemplate, ko, FunctionViewModel) {
+function(incrementorTemplate, ko, FunctionViewModel) {
     const viewModel = function(params) {
         FunctionViewModel.apply(this, arguments);
-        var self = this;
-        var nodegroups = {};
+        const self = this;
+        const nodegroups = {};
         this.cards = ko.observableArray();
         this.nodes = ko.observableArray([]);
         this.selectedNodegroup = params.config.selected_nodegroup;
@@ -21,7 +19,7 @@ function($, _, incrementorTemplate, ko, FunctionViewModel) {
         this.suffix = params.config.suffix;
 
         this.selectedNodegroup.subscribe(function(selected){
-            var nodes = self.graph.nodes.filter(function(node){
+            const nodes = self.graph.nodes.filter(function(node){
                 return node.nodegroup_id === selected;
             });
             self.nodes.removeAll();
@@ -29,9 +27,7 @@ function($, _, incrementorTemplate, ko, FunctionViewModel) {
         });
 
         this.graph.cards.forEach(function(card){
-            var found = !!_.find(this.graph.nodegroups, function(nodegroup){
-                return nodegroup.parentnodegroup_id === card.nodegroup_id;
-            }, this);
+            const found = !!this.graph.nodegroups.find(nodegroup => nodegroup.parentnodegroup_id === card.nodegroup_id);
             if(!found && !(card.nodegroup_id in nodegroups)){
                 this.cards.push(card);
                 nodegroups[card.nodegroup_id] = true;
