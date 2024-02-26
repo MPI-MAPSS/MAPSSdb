@@ -14,6 +14,7 @@ try:
 except ImportError:
     pass
 
+APP_NAME = "mapss"
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 ARCHES_APPLICATIONS = ()
