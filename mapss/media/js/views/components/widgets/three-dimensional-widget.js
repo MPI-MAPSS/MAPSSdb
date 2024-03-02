@@ -1,6 +1,7 @@
 define([
     'knockout',
     'underscore',
+    'arches',
     'mapbox-gl',
     '@deck.gl/mesh-layers',
     '@deck.gl/mapbox',
@@ -9,14 +10,14 @@ define([
     'viewmodels/file-widget',
     'templates/views/components/widgets/three-dimensional-widget.htm'
 ], function (
-    ko, _, mapboxgl, meshLayers, deckMapbox, loaders, gltfLoader, FileWidgetViewModel, widgetTemplate) {
+    ko, _, arches, mapboxgl, meshLayers, deckMapbox, loaders, gltfLoader, FileWidgetViewModel, widgetTemplate) {
     return ko.components.register('three-dimensional-widget', {
         // Reimplement file metadata-related and image-related portions of the FileWidgetViewModel.
         viewModel: function(params) {
             var self = this;
+            this.arches = arches;
             FileWidgetViewModel.apply(this, [params]);
             this.params = params;
-
             this.filesJSON.dispose();  // terminate the inherited subscription
             this.filesJSON = ko.computed(function() {
                 var filesForUpload = self.filesForUpload();
@@ -221,9 +222,19 @@ define([
             this.createMap = (buffer, model, containerId) => {
                 const lng = Number.parseFloat(ko.unwrap(model.lng));
                 const lat =  Number.parseFloat(ko.unwrap(model.lat));
+                const satelliteLayer = self.arches.mapLayers.find(n => n.name === 'satellite').layer_definitions
+                const style = {
+                    version: 8,
+                    sources: self.arches.mapSources,
+                    sprite: self.arches.mapboxSprites,
+                    glyphs: self.arches.mapboxGlyphs,
+                    layers: satelliteLayer
+                };
+
                 const map = new mapboxgl.Map({
+                    accessToken: arches.mapboxApiKey,
                     container: containerId,
-                    style: 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json',
+                    style: style,
                     center: [lng, lat],
                     zoom: 20,
                     pitch: 30,
