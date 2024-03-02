@@ -1,0 +1,51 @@
+version: '3.8'
+name: mapss
+services:
+    mapss:
+      container_name: mapss
+      image: fargeo/mapss
+      build:
+        args:
+          # These are not delivered from the env_file - they're from --build-arg arguments.
+          ARCHES_CORE_HOST_DIR: ../arches/
+        context: ..
+        dockerfile: MAPSSdb/Dockerfile
+      command: run_arches
+      volumes:
+        # To change these variables, modify/add the .env file prior to launch - NOT env_file.env
+        - ${ARCHES_CORE_HOST_DIR:-../arches/}:/web_root/arches
+        - ./:/web_root/MAPSSdb
+        - $HOME/.aws/:/root/.aws/
+
+      ports:
+        - ${HOST_PROJECT_PORT:-8003}:80
+        - ${HOST_PROJECT_DEBUG_PORT:-5679}:5678
+      stdin_open: true
+      env_file:
+        - ./docker/env_file.env
+      tty: true
+      labels:
+        - traefik.http.routers.my-container.rule=Host(`mapss.local`)
+        - traefik.frontend.passHostHeader=true
+
+    mapss-webpack:
+      container_name: mapss-webpack
+      image: fargeo/mapss-webpack
+      build:
+        context: ..
+        dockerfile: MAPSSdb/docker/webpack/Dockerfile
+      command: run_webpack
+      volumes:
+        - ../arches/:/web_root/arches
+        - ./:/web_root/MAPSSdb
+      env_file:
+        - ./docker/webpack/env_file.env
+      ports:
+        - 8080:8080
+      stdin_open: true
+      tty: true
+
+networks:
+  default:
+    external: true
+    name: arches7-0-dev
