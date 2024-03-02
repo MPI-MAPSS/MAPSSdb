@@ -265,6 +265,16 @@ define([
                 map.addControl(deckOverlay);
                 map.addControl(new mapboxgl.NavigationControl());
 
+                self.zoomToBounds = function(){
+                    const bounds = new mapboxgl.LngLatBounds(
+                        [lng, lat],
+                        [lng, lat]
+                    );
+                    map.fitBounds(bounds, {
+                        padding: 60
+                    });
+                };
+
                 // Force the map to resize after bootstrap modal CSS is applied.
                 setTimeout(() => {
                     map.resize();
