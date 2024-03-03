@@ -6,7 +6,7 @@
       <div class="increment-function">
           <div>
             <label class="control-label widget-input-label"> {% trans "Card Name" %}</label>
-              <div class="widget-input" style="display:inline-block;"
+              <select class="widget-input" style="display:inline-block;"
               data-bind="select2Query: {
                   select2Config: {
                       clickBubble: false,
@@ -16,12 +16,12 @@
                       allowClear: false,
                       multiple: false,
                       placeholder: 'Select Node'}}">
-              </div>
+              </select>
           </div>
           <!--ko if: rerender() === true -->
           <div class="widget-input">
             <label class="control-label widget-input-label"> {% trans "Node to update" %}</label>
-              <div style="display:inline-block;"
+              <select style="display:inline-block;"
               data-bind="select2Query: {
                   select2Config: {
                       clickBubble: false,
@@ -31,7 +31,7 @@
                       allowClear: false,
                       multiple: false,
                       placeholder: 'Select Node'}}">
-              </div>
+                  </select>
           </div>
           <!--/ko-->
           
