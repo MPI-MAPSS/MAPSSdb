@@ -222,7 +222,7 @@ define([
             this.createMap = (buffer, model, containerId) => {
                 const lng = Number.parseFloat(ko.unwrap(model.lng));
                 const lat =  Number.parseFloat(ko.unwrap(model.lat));
-                const satelliteLayer = self.arches.mapLayers.find(n => n.name === 'satellite').layer_definitions
+                const satelliteLayer = self.arches.mapLayers.find(n => n.name === 'satellite').layer_definitions;
                 const style = {
                     version: 8,
                     sources: self.arches.mapSources,
