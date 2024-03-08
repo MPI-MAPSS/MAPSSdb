@@ -1,0 +1,922 @@
+{
+    "graph": [
+        {
+            "author": "Mike Fisher",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "301dea4f-84ec-4d55-a976-12e5dd11b5f0",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Dataset Geometries"
+                    },
+                    "nodegroup_id": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "68eeb66c-cc19-11ee-9674-005056951e74",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "{\"en\": \"\"}",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "VHR Imagery Used"
+                    },
+                    "nodegroup_id": "68eeb39c-cc19-11ee-9674-005056951e74",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "aa7e2061-4898-4a87-a4c1-d06c25cbcdb4",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Dataset Production"
+                    },
+                    "nodegroup_id": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "sortorder": 2,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Dataset Summary"
+                    },
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "sortorder": 0,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Object Form Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "1157c790-7f3d-4198-82eb-241d9475c28b",
+                    "label": {
+                        "en": "Object Form Type"
+                    },
+                    "node_id": "4f8f4862-ccc3-11ee-834a-005056951e74",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dataset Origin",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "1cdb1223-6b6b-4b61-8857-d0d1d1ea8a2f",
+                    "label": {
+                        "en": "Dataset Origin"
+                    },
+                    "node_id": "bea27870-ccc1-11ee-8c25-005056951e74",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "301dea4f-84ec-4d55-a976-12e5dd11b5f0",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Aimag",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2cefdad3-8cfb-4ea1-83c7-4f46b1969cc6",
+                    "label": {
+                        "en": "Aimag"
+                    },
+                    "node_id": "abc62bee-cca7-11ee-938b-005056951e74",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "301dea4f-84ec-4d55-a976-12e5dd11b5f0",
+                    "config": {
+                        "basemap": "satellite",
+                        "bearing": 0,
+                        "centerX": 105.36295854697482,
+                        "centerY": 43.97403322113664,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Dataset Geometries",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 3.5605663354844204
+                    },
+                    "id": "2f1a7aec-b66c-4f0e-a41c-13e63c74fd5b",
+                    "label": {
+                        "en": "Dataset Geometries"
+                    },
+                    "node_id": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "68eeb66c-cc19-11ee-9674-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "VHR Imagery Used",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "68eeb7a2-cc19-11ee-9674-005056951e74",
+                    "label": {
+                        "en": "VHR Imagery Used"
+                    },
+                    "node_id": "68eeb39c-cc19-11ee-9674-005056951e74",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Object Interpretation Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7ce93631-558f-41c8-af30-666be3ed4808",
+                    "label": {
+                        "en": "Object Interpretation Type"
+                    },
+                    "node_id": "62f19b3e-ccc4-11ee-834a-005056951e74",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Dataset Object Count",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "8a0bda24-8d13-4765-ad02-2b4988f67fab",
+                    "label": {
+                        "en": "Dataset Object Count"
+                    },
+                    "node_id": "7fb52f2c-ccc1-11ee-938b-005056951e74",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "af276dca-bd0d-4cfb-8d40-9b42430d63a2",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Comments",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "cd7dfe3b-4432-400c-8d0d-48cb9fe5c91c",
+                    "label": {
+                        "en": "Comments"
+                    },
+                    "node_id": "cb144d26-ccc2-11ee-938b-005056951e74",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": null,
+            "config": {
+                "basemap": "satellite",
+                "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 10
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "edgeid": "01a4fd1c-6698-452c-a61e-1fbd6f13f576",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
+                    "rangenode_id": "795a6b9a-cc19-11ee-a4f9-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "edgeid": "02ad1f58-0c58-4de6-afea-2b1f98bf5218",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "7fb52f2c-ccc1-11ee-938b-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "edgeid": "05fbcaad-f54d-456a-89c1-567dda7671bd",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "62f19b3e-ccc4-11ee-834a-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "edgeid": "1d9debf9-6648-477d-9a22-4653be598e26",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "bea27870-ccc1-11ee-8c25-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "e7526078-cc03-11ee-9674-005056951e74",
+                    "edgeid": "26e5e238-91d0-42e0-9349-a3e2789fd5f2",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by",
+                    "rangenode_id": "628ac5f0-cc18-11ee-a02f-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "edgeid": "80977c3f-443c-489e-b21b-cfeb679c5f46",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
+                    "rangenode_id": "68eeb39c-cc19-11ee-9674-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "edgeid": "9076da6e-c534-4933-b5ce-c8228c743c57",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "rangenode_id": "abc62bee-cca7-11ee-938b-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "edgeid": "aab6981b-ac9d-4f0a-bd59-3c01057fcee6",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "4f8f4862-ccc3-11ee-834a-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "edgeid": "b89aca16-e38b-4fd6-ae90-f260d7f026d4",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
+                    "rangenode_id": "cb144d26-ccc2-11ee-938b-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "e7526078-cc03-11ee-9674-005056951e74",
+                    "edgeid": "ba91800e-60a0-4b48-8d24-749e5c9c933a",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                    "rangenode_id": "a09314c6-cc16-11ee-9926-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "e7526078-cc03-11ee-9674-005056951e74",
+                    "edgeid": "d91faf9f-a492-48bd-94d1-55eeb3cf1394",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "rangenode_id": "fd0214b4-cca7-11ee-b026-005056951e74"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+            "iconclass": "fa fa-connectdevelop",
+            "is_editable": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Geospatial Dataset"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "68eeb39c-cc19-11ee-9674-005056951e74",
+                    "parentnodegroup_id": "628ac5f0-cc18-11ee-a02f-005056951e74"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "object_form_type",
+                    "config": {
+                        "rdmCollection": "f924697b-e849-448b-bf81-25f8dc6a5e37"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "ObjFormTyp",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Object Form Type",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "4f8f4862-ccc3-11ee-834a-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dataset_production",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Production",
+                    "nodegroup_id": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "nodeid": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E12_Production",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P92i_was_brought_into_existence_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "object_interpretation_type",
+                    "config": {
+                        "rdmCollection": "bdb82454-da93-4239-ae4d-253fe096622d"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "InterpType",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Object Interpretation Type",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "62f19b3e-ccc4-11ee-834a-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "vhr_imagery_used",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Imagery Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P165_incorporates",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": true,
+                    "fieldname": "ImageUsed",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "VHR Imagery Used",
+                    "nodegroup_id": "68eeb39c-cc19-11ee-9674-005056951e74",
+                    "nodeid": "68eeb39c-cc19-11ee-9674-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": "5f96ca3c-cc19-11ee-a4f9-005056951e74"
+                },
+                {
+                    "alias": "dataset_source",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Cultural Heritage Archival Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Bibliographic Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Machine Learning Training Dataset",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Imagery Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "InfDataset",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Source",
+                    "nodegroup_id": "628ac5f0-cc18-11ee-a02f-005056951e74",
+                    "nodeid": "795a6b9a-cc19-11ee-a4f9-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dataset_object_count",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "ObjCount",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Object Count",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "7fb52f2c-ccc1-11ee-938b-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dataset_geometries",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Geometries",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Geometries",
+                    "nodegroup_id": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "nodeid": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "province",
+                    "config": {
+                        "rdmCollection": "7299246b-4bb0-471a-8b08-b08a3fbb6a23"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Aimag",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Province",
+                    "nodegroup_id": "a09314c6-cc16-11ee-9926-005056951e74",
+                    "nodeid": "abc62bee-cca7-11ee-938b-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dataset_origin",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DataOrigin",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Origin",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "bea27870-ccc1-11ee-8c25-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "comments",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Comments",
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Comments",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "cb144d26-ccc2-11ee-938b-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E62_String",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Geospatial Dataset",
+                    "nodegroup_id": null,
+                    "nodeid": "e7526078-cc03-11ee-9674-005056951e74",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dataset_summary_information",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dataset Summary Information",
+                    "nodegroup_id": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "nodeid": "fd0214b4-cca7-11ee-b026-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": {
+                "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "notes": null,
+                "publicationid": "e3213d22-d49a-11ee-a841-005056951e74",
+                "published_time": "2024-02-26T12:33:39.572+01:00"
+            },
+            "relatable_resource_model_ids": [
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "c27eae6c-6b06-4746-93b8-76112c064c4f",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981"
+            ],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "hascustomalias": false,
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Geospatial Dataset",
+                "nodegroup_id": null,
+                "nodeid": "e7526078-cc03-11ee-9674-005056951e74",
+                "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D9_Data_Object",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Training Datasets for Running Machine and Deep Learning Models"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ]
+}
