@@ -41,18 +41,26 @@
                     "nodeid": "c3009110-0417-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": {
                 "graph_id": "c3009111-0417-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "ffd9af18-b2f3-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:55.760",
-                "user_id": 1
+                "publicationid": "90338b82-95c6-11ee-9d03-005056951e74",
+                "published_time": "2023-12-08T13:37:35.042+01:00"
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "bag",
@@ -71,7 +79,8 @@
                 "nodegroup_id": null,
                 "nodeid": "c3009110-0417-11ec-946e-005056957f92",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
             "subtitle": {
