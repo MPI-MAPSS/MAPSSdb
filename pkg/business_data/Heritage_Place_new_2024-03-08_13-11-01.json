@@ -1,1 +1,70 @@
-{"business_data": {"resources": [{"resourceinstance": {"descriptors": {"en": {"description": " Architectural/Settlement", "map_popup": "Undefined", "name": "MAPSS-0000017"}, "mn": {"description": " Architectural/Settlement", "map_popup": "Undefined", "name": "Undefined"}}, "graph_id": "e039a64e-a18d-11ed-826a-bd1a2523ba5d", "graph_publication_id": "a5d49f3e-d244-11ee-b0b5-005056951e74", "legacyid": null, "name": "MAPSS-0000017", "resourceinstanceid": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce", "publication_id": "a5d49f3e-d244-11ee-b0b5-005056951e74"}, "tiles": [{"data": {}, "nodegroup_id": "e039a697-a18d-11ed-826a-bd1a2523ba5d", "parenttile_id": null, "provisionaledits": null, "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce", "sortorder": 0, "tileid": "39957ede-27a8-40ae-8981-ca5be95484f3"}, {"data": {"e039a667-a18d-11ed-826a-bd1a2523ba5d": {"en": {"direction": "ltr", "value": "MAPSS-0000017"}}}, "nodegroup_id": "e039a667-a18d-11ed-826a-bd1a2523ba5d", "parenttile_id": null, "provisionaledits": null, "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce", "sortorder": 0, "tileid": "ec78691c-4ccb-47a7-896d-571bc7ceea17"}, {"data": {"e039a711-a18d-11ed-826a-bd1a2523ba5d": "4897e44b-f2f3-4e82-ae4b-05c991788002", "e039a712-a18d-11ed-826a-bd1a2523ba5d": "ea43adf9-3a65-45d7-9649-69d08869e9d7"}, "nodegroup_id": "e039a688-a18d-11ed-826a-bd1a2523ba5d", "parenttile_id": "39957ede-27a8-40ae-8981-ca5be95484f3", "provisionaledits": null, "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce", "sortorder": 0, "tileid": "d770de1c-210e-4031-bccd-57dce3aceeff"}, {"data": {"e039a711-a18d-11ed-826a-bd1a2523ba5d": "0f9d0dfe-0a6b-4b3d-9b19-61a8db3cf0c0", "e039a712-a18d-11ed-826a-bd1a2523ba5d": "ea43adf9-3a65-45d7-9649-69d08869e9d7"}, "nodegroup_id": "e039a688-a18d-11ed-826a-bd1a2523ba5d", "parenttile_id": "39957ede-27a8-40ae-8981-ca5be95484f3", "provisionaledits": null, "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce", "sortorder": 1, "tileid": "aab56789-e38d-4a9f-9234-b447175badf7"}]}]}}
+{
+    "business_data": {
+        "resources": [
+            {
+                "resourceinstance": {
+                    "descriptors": {
+                        "en": {
+                            "description": " Architectural/Settlement",
+                            "map_popup": "Undefined",
+                            "name": "MAPSS-0000017"
+                        },
+                        "mn": {
+                            "description": " Architectural/Settlement",
+                            "map_popup": "Undefined",
+                            "name": "Undefined"
+                        }
+                    },
+                    "graph_id": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                    "graph_publication_id": "a5d49f3e-d244-11ee-b0b5-005056951e74",
+                    "legacyid": null,
+                    "name": "MAPSS-0000017",
+                    "resourceinstanceid": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce",
+                    "publication_id": "a5d49f3e-d244-11ee-b0b5-005056951e74"
+                },
+                "tiles": [
+                    {
+                        "data": {
+                            "e039a667-a18d-11ed-826a-bd1a2523ba5d": {
+                                "en": {
+                                    "direction": "ltr",
+                                    "value": "MAPSS-0000017"
+                                }
+                            }
+                        },
+                        "nodegroup_id": "e039a667-a18d-11ed-826a-bd1a2523ba5d",
+                        "parenttile_id": null,
+                        "provisionaledits": null,
+                        "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce",
+                        "sortorder": 0,
+                        "tileid": "ec78691c-4ccb-47a7-896d-571bc7ceea17"
+                    },
+                    {
+                        "data": {
+                            "e039a711-a18d-11ed-826a-bd1a2523ba5d": "4897e44b-f2f3-4e82-ae4b-05c991788002",
+                            "e039a712-a18d-11ed-826a-bd1a2523ba5d": "ea43adf9-3a65-45d7-9649-69d08869e9d7"
+                        },
+                        "nodegroup_id": "e039a688-a18d-11ed-826a-bd1a2523ba5d",
+                        "parenttile_id": "39957ede-27a8-40ae-8981-ca5be95484f3",
+                        "provisionaledits": null,
+                        "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce",
+                        "sortorder": 0,
+                        "tileid": "d770de1c-210e-4031-bccd-57dce3aceeff"
+                    },
+                    {
+                        "data": {
+                            "e039a711-a18d-11ed-826a-bd1a2523ba5d": "0f9d0dfe-0a6b-4b3d-9b19-61a8db3cf0c0",
+                            "e039a712-a18d-11ed-826a-bd1a2523ba5d": "ea43adf9-3a65-45d7-9649-69d08869e9d7"
+                        },
+                        "nodegroup_id": "e039a688-a18d-11ed-826a-bd1a2523ba5d",
+                        "parenttile_id": "39957ede-27a8-40ae-8981-ca5be95484f3",
+                        "provisionaledits": null,
+                        "resourceinstance_id": "7ff38627-4be5-4f3d-b0e4-7e790942a0ce",
+                        "sortorder": 1,
+                        "tileid": "aab56789-e38d-4a9f-9234-b447175badf7"
+                    }
+                ]
+            }
+        ]
+    }
+}
