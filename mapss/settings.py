@@ -52,7 +52,7 @@ BYPASS_CARDINALITY_TILE_VALIDATION = False
 LOCALE_PATHS.append(os.path.join(APP_ROOT, "locale"))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = False
 
 ROOT_URLCONF = "mapss.urls"
 # a prefix to append to all elasticsearch indexes, note: must be lower case
@@ -153,7 +153,9 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 SESSION_COOKIE_NAME = "mapss"
 
 CACHES = {
-    "default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache", "LOCATION": "unique-snowflake"},
+    "default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache", 
+		"LOCATION": "os.path.join(APP_ROOT, 'tmp', 'djangocache'"},
+#		"LOCATION": "unique-snowflake"},
     "user_permission": {
         "BACKEND": "django.core.cache.backends.db.DatabaseCache",
         "LOCATION": "user_permission_cache",
@@ -172,7 +174,7 @@ OAUTH_CLIENT_ID = ""
 
 APP_TITLE = "MAPSS"
 COPYRIGHT_TEXT = "All Rights Reserved."
-COPYRIGHT_YEAR = "2019"
+COPYRIGHT_YEAR = "2024"
 
 CELERY_BROKER_URL = "amqp://guest:guest@localhost"
 CELERY_ACCEPT_CONTENT = ["json"]
