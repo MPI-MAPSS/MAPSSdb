@@ -12,7 +12,7 @@ The following screenshots were created using Blender Version 4.1.1 (2024-04-16).
 
 
 1. Open Blender. It will immediately create a new project with cube model by default. In the 'Scene Selection' right click on the cube entry and delete it.
-![Remove cube](/MAPSSdb/docs/a-remove-cube.png)
+![Remove cube](/MAPSSdb/docs/a-remove-cube.png?raw=true)
 *Remove cube*
 
 
