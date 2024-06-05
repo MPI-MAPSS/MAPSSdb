@@ -11,12 +11,12 @@ You can use Blender to convert .obj 3d models to .glb.
 The following screenshots were created using Blender Version 4.1.1 (2024-04-16). 
 
 
-1. Open Blender. It will immediately create a new project with cube model by default. In the 'Scene Selection' right click on the cube entry and delete it.
+1. Open Blender. It will immediately create a new project with a cube model by default. In the 'Scene Selection' panel, right click on the cube entry and delete it.
 ![Remove cube](docs/a-remove-cube.png?raw=true)
 *Remove cube*
 
 
-2. In the main menu select: `File > Import > Wavefront(.obj)` and select the `.obj` file you want to process. If you have an .mtl (material) fil and any related image files, be aware that you only need to select the .obj file. Blender will automatically import the other files.
+2. In the main menu select: `File > Import > Wavefront(.obj)` and select the `.obj` file you want to process. You only need to select the .obj file. Blender will automatically import any image and material (.mtl) files.
 ![import obj](docs/b-import-dialog.png)
 *Import obj*
 
