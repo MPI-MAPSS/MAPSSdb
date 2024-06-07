@@ -340,7 +340,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
-                    "id": "1f318fcf-b1c3-4a63-b5c4-7ccd296146cf"
+                    "id": "d4a78eaa-ce5b-4ac4-94d8-f542812a6eed"
                 }
             ],
             "graphid": "37d8eff1-03f5-11ec-946e-005056957f92",
@@ -510,7 +510,7 @@
                 {
                     "alias": "grid_square_geometric_expression",
                     "config": {
-                        "addToMap": false,
+                        "addToMap": true,
                         "advancedStyle": "",
                         "advancedStyling": false,
                         "clusterDistance": 1000000,
@@ -522,7 +522,7 @@
                         "layerActivated": true,
                         "layerIcon": "fa fa-th",
                         "layerLegend": "",
-                        "layerName": "",
+                        "layerName": "Grid Squares",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
                         "outlineColor": "rgba(200, 200, 200, 0.7)",
@@ -560,20 +560,14 @@
                 "published_time": "2023-12-08T13:37:35.674+01:00"
             },
             "relatable_resource_model_ids": [
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "c27eae6c-6b06-4746-93b8-76112c064c4f",
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                 "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "c3009111-0417-11ec-946e-005056957f92",
-                "c9402aff-03f4-11ec-946e-005056957f92",
-                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0"
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -603,5 +597,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-106-generic"
+    }
 }

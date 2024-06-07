@@ -450,7 +450,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
-                    "id": "c89beff1-dc6a-482d-907a-2e2e46c2a85f"
+                    "id": "c0fdfedd-847d-45de-a1dc-64cf3842294f"
                 }
             ],
             "graphid": "c9402aff-03f4-11ec-946e-005056957f92",
@@ -459,7 +459,7 @@
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "Person_Organization"
+                "en": "Person/Organization"
             },
             "nodegroups": [
                 {
@@ -725,7 +725,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Person_Organization",
+                    "name": "Person/Organization",
                     "nodegroup_id": null,
                     "nodeid": "c9402afe-03f4-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
@@ -737,6 +737,7 @@
                     "alias": "person_organization_image",
                     "config": {
                         "activateMax": false,
+                        "imagesOnly": false,
                         "maxFileSize": null,
                         "maxFiles": 3
                     },
@@ -809,18 +810,18 @@
             "publication": {
                 "graph_id": "c9402aff-03f4-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "0bc1e250-c121-11ee-9bc7-005056951e74",
-                "published_time": "2024-02-01T17:43:37.040+01:00"
+                "publicationid": "05c96726-e091-11ee-9b35-005056951e74",
+                "published_time": "2024-03-12T17:53:16.702+01:00"
             },
             "relatable_resource_model_ids": [
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "c27eae6c-6b06-4746-93b8-76112c064c4f",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d"
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -836,7 +837,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Person_Organization",
+                "name": "Person/Organization",
                 "nodegroup_id": null,
                 "nodeid": "c9402afe-03f4-11ec-946e-005056957f92",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
@@ -850,5 +851,11 @@
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-106-generic"
+    }
 }

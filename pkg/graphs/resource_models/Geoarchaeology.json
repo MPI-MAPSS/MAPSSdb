@@ -497,7 +497,7 @@
                         "en": "GEOARCH ID_new"
                     },
                     "nodegroup_id": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 8,
+                    "sortorder": 7,
                     "visible": false
                 },
                 {
@@ -1245,6 +1245,59 @@
                     },
                     "nodegroup_id": "ea8af48b-b15a-11ea-9b1f-02e7594ce0a0",
                     "sortorder": 6,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "component_id": "2d2e0ca3-089c-4f4c-96a5-fb7eb53963bd",
+                    "config": {
+                        "basemap": "streets",
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 10,
+                        "pointradius": 4,
+                        "selectRelatedSource": "",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "{\"en\": \"\"}",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Related Resources"
+                    },
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "sortorder": 8,
                     "visible": true
                 },
                 {
@@ -2545,6 +2598,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Cultural Heritage Resource",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "74dc85ef-c537-499c-bd76-94cbce176f5e",
+                    "label": {
+                        "en": "Related Cultural Heritage Resource"
+                    },
+                    "node_id": "faa693de-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
                     "card_id": "da76c756-8fad-11ea-a6a6-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -2858,6 +2932,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
                 {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Rock Art",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "98f72595-f8c5-4399-8241-84b786a68e52",
+                    "label": {
+                        "en": "Related Rock Art"
+                    },
+                    "node_id": "faa69514-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
                     "card_id": "a87443e4-abf7-11ea-b04a-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -2962,6 +3057,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Geoarchaeology Resource",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "dc875344-e6b5-4588-88a9-ec9a4dea358d",
+                    "label": {
+                        "en": "Related Geoarchaeology Resource"
+                    },
+                    "node_id": "faa68d4e-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "ea8af475-b15a-11ea-9b1f-02e7594ce0a0",
@@ -3374,6 +3490,90 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Heritage Place",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "faa695f0-249f-11ef-9eb5-005056951e74",
+                    "label": {
+                        "en": "Related Heritage Place"
+                    },
+                    "node_id": "faa68ede-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Remote Sensing Object",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "faa696d6-249f-11ef-9eb5-005056951e74",
+                    "label": {
+                        "en": "Related Remote Sensing Object"
+                    },
+                    "node_id": "faa69028-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Machine Learning Object",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "faa697a8-249f-11ef-9eb5-005056951e74",
+                    "label": {
+                        "en": "Related Machine Learning Object"
+                    },
+                    "node_id": "faa69172-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "faa68b78-249f-11ef-9eb5-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Imagery Resource",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "faa69866-249f-11ef-9eb5-005056951e74",
+                    "label": {
+                        "en": "Related Imagery Resource"
+                    },
+                    "node_id": "faa692a8-249f-11ef-9eb5-005056951e74",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
                     "card_id": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
@@ -3745,6 +3945,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
                     "rangenode_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5297faa8-8e16-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "23d9d15e-6c54-42fd-beb1-c4701d326db3",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "rangenode_id": "faa68876-249f-11ef-9eb5-005056951e74"
                 },
                 {
                     "description": null,
@@ -4681,6 +4890,69 @@
                     "name": null,
                     "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
                     "rangenode_id": "f4445434-8f9f-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c11a-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa68d4e-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c32c-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa68ede-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c48a-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa69028-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c5d4-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa69172-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c714-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa692a8-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c84a-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa69514-249f-11ef-9eb5-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "edgeid": "faa6c976-249f-11ef-9eb5-005056951e74",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "faa693de-249f-11ef-9eb5-005056951e74"
                 }
             ],
             "functions_x_graphs": [
@@ -4704,7 +4976,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "id": "1e359d33-bbe7-43bd-8a58-d69639160b6e"
+                    "id": "dae32d77-905a-4823-8ce8-301c22090e45"
                 }
             ],
             "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -4991,6 +5263,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
                     "parentnodegroup_id": "92f84dd8-8f9b-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "parentnodegroup_id": null
                 }
             ],
             "nodes": [
@@ -8201,19 +8479,293 @@
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_resources",
+                    "config": {
+                        "mn": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Resources",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_geoarchaeology_resource",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Geoarchaeology",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelGeoArch",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Geoarchaeology Resource",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa68d4e-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP2_Phenomenal_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_heritage_place_n1",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Heritage Place",
+                                "ontologyProperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Related_HP",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Heritage Place",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa68ede-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_remote_sensing_object",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Remote Sensing Object",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelatedMRS",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Remote Sensing Object",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa69028-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_machine_learning_object",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Machine Learning Object Detection Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Related_ML",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Machine Learning Object",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa69172-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_imagery_resource",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Imagery Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelImagery",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Imagery Resource",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa692a8-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_cultural_heritage_resource",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Cultural Heritage Archival Resource",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Rel_NCCH",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Cultural Heritage Resource",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa693de-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_rock_art",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/BM.PX_is_related_to",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Rock Art",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P132_overlaps_with",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelRockArt",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Rock Art",
+                    "nodegroup_id": "faa68876-249f-11ef-9eb5-005056951e74",
+                    "nodeid": "faa69514-249f-11ef-9eb5-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": null,
             "relatable_resource_model_ids": [
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
                 "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "c9402aff-03f4-11ec-946e-005056957f92",
                 "37d8eff1-03f5-11ec-946e-005056957f92",
                 "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "c27eae6c-6b06-4746-93b8-76112c064c4f",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "55cdb652-8dcf-11ed-81a0-eba1186aefad"
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -8243,5 +8795,11 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-106-generic"
+    }
 }

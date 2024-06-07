@@ -1,17 +1,17 @@
 {
     "graph": [
         {
-            "author": "Mike Fisher",
+            "author": " Mike Fisher",
             "cards": [
                 {
                     "active": true,
-                    "cardid": "9304d194-aa06-11ed-9ab0-79272b0a574f",
+                    "cardid": "ad063797-5163-4827-9932-1aca41242bfe",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
                     "description": null,
-                    "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "graph_id": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                     "helpenabled": false,
                     "helptext": {
                         "en": ""
@@ -22,18 +22,18 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": {
-                        "en": "Find Number"
+                        "en": "RockArt_Number"
                     },
-                    "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
+                    "nodegroup_id": "6ec68138-23fc-11ef-bd2b-005056951e74",
                     "sortorder": null,
                     "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "9304d194-aa06-11ed-9ab0-79272b0a574f",
+                    "card_id": "ad063797-5163-4827-9932-1aca41242bfe",
                     "config": {
                         "defaultValue": {
                             "en": {
@@ -44,7 +44,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Find Number",
+                        "label": "RockArt_Number",
                         "maxLength": null,
                         "placeholder": {
                             "en": "Enter text"
@@ -52,11 +52,11 @@
                         "uneditable": false,
                         "width": "100%"
                     },
-                    "id": "b1906bdc-aa06-11ed-9ab0-79272b0a574f",
+                    "id": "b8039cbb-07b1-496f-92e0-1db59b4dadf2",
                     "label": {
-                        "en": "Find Number"
+                        "en": "RockArt_Number"
                     },
-                    "node_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
+                    "node_id": "6ec68138-23fc-11ef-bd2b-005056951e74",
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
@@ -72,139 +72,125 @@
             "edges": [
                 {
                     "description": null,
-                    "domainnode_id": "2d0bcde2-aa05-11ed-9ab0-79272b0a574f",
-                    "edgeid": "9304d195-aa06-11ed-9ab0-79272b0a574f",
-                    "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "domainnode_id": "1c9294ae-1f3a-11ef-9c43-005056951e74",
+                    "edgeid": "5a3b4e46-3855-406b-8d17-0d01b7a6ce1b",
+                    "graph_id": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
-                    "rangenode_id": "9304d192-aa06-11ed-9ab0-79272b0a574f"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "6ec68138-23fc-11ef-bd2b-005056951e74"
                 }
             ],
-            "functions_x_graphs": [
-                {
-                    "config": {
-                        "descriptor_types": {
-                            "description": {
-                                "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
-                                "string_template": "<Find Number>"
-                            },
-                            "map_popup": {
-                                "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
-                                "string_template": "<Find Number>"
-                            },
-                            "name": {
-                                "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
-                                "string_template": "<Find Number>"
-                            }
-                        },
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "60000000-0000-0000-0000-000000000001",
-                    "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                    "id": "c2c2b9c4-4f9c-475e-aac4-4806c823a084"
-                }
-            ],
-            "graphid": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-            "iconclass": "fa fa-tags",
-            "is_editable": false,
+            "functions_x_graphs": [],
+            "graphid": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+            "iconclass": "fa fa-paint-brush",
+            "is_editable": true,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "Archaeological Find"
+                "en": "Rock Art"
             },
             "nodegroups": [
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "9304d192-aa06-11ed-9ab0-79272b0a574f",
+                    "nodegroupid": "6ec68138-23fc-11ef-bd2b-005056951e74",
                     "parentnodegroup_id": null
                 }
             ],
             "nodes": [
                 {
-                    "alias": "archaeological_find",
-                    "config": {},
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
-                    "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "graph_id": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Archaeological Find",
+                    "name": "Rock Art",
                     "nodegroup_id": null,
-                    "nodeid": "2d0bcde2-aa05-11ed-9ab0-79272b0a574f",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
+                    "nodeid": "1c9294ae-1f3a-11ef-9c43-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature",
                     "parentproperty": "",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
                 {
-                    "alias": "find_number",
-                    "config": {},
+                    "alias": "rockart_number",
+                    "config": {
+                        "en": ""
+                    },
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "FndNumber",
-                    "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                    "fieldname": "RockArtNum",
+                    "graph_id": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                     "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
-                    "name": "Find Number",
-                    "nodegroup_id": "9304d192-aa06-11ed-9ab0-79272b0a574f",
-                    "nodeid": "9304d192-aa06-11ed-9ab0-79272b0a574f",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
+                    "name": "RockArt_Number",
+                    "nodegroup_id": "6ec68138-23fc-11ef-bd2b-005056951e74",
+                    "nodeid": "6ec68138-23fc-11ef-bd2b-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": {
-                "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "notes": null,
-                "publicationid": "90a4d6a2-95c6-11ee-9d03-005056951e74",
-                "published_time": "2023-12-08T13:37:35.784+01:00"
-            },
+            "publication": null,
             "relatable_resource_model_ids": [
-                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                 "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
                 "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
-                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
                 "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "8a399bdd-03ff-11ec-946e-005056957f92"
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "c3009111-0417-11ec-946e-005056957f92",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c"
             ],
             "resource_2_resource_constraints": [],
             "root": {
-                "alias": "archaeological_find",
-                "config": {},
+                "alias": null,
+                "config": {
+                    "en": ""
+                },
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
-                "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "graph_id": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                 "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Archaeological Find",
+                "name": "Rock Art",
                 "nodegroup_id": null,
-                "nodeid": "2d0bcde2-aa05-11ed-9ab0-79272b0a574f",
-                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
+                "nodeid": "1c9294ae-1f3a-11ef-9c43-005056951e74",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature",
                 "sortorder": 0,
                 "sourcebranchpublication_id": null
             },
             "slug": null,
             "subtitle": {
-                "en": "Artifacts & Ecofacts"
+                "en": ""
             },
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""

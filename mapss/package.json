@@ -5,6 +5,8 @@
         "@deck.gl/mapbox": "^8.9.32",
         "@deck.gl/mesh-layers": "^8.9.32",
         "arches": "archesproject/arches#dev/7.5.x",
+        "datatables.net": "1.12.1",
+        "datatables.net-bs": "1.12.1",
         "vue": "^3.3.7"
     },
     "devDependencies": {

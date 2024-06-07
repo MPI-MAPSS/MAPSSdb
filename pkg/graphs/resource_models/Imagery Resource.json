@@ -14,17 +14,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Source(s)"
+                        "en": "Source(s)",
+                        "mn": "Source(s)"
                     },
                     "nodegroup_id": "6d9c3811-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 1,
@@ -41,17 +45,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Scale Type"
+                        "en": "Scale Type",
+                        "mn": "Scale Type"
                     },
                     "nodegroup_id": "6d9c3817-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 5,
@@ -68,17 +76,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Map Source Type"
+                        "en": "Map Source Type",
+                        "mn": "Map Source Type"
                     },
                     "nodegroup_id": "6d9c381a-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 0,
@@ -95,17 +107,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Creator(s)"
+                        "en": "Creator(s)",
+                        "mn": "Creator(s)"
                     },
                     "nodegroup_id": "6d9c3823-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 2,
@@ -122,17 +138,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Related Site"
+                        "en": "Related Site",
+                        "mn": "Related Site"
                     },
                     "nodegroup_id": "6d9c3826-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": null,
@@ -149,17 +169,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Cartography"
+                        "en": "Cartography",
+                        "mn": "Cartography"
                     },
                     "nodegroup_id": "6d9c3829-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 3,
@@ -176,17 +200,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Imagery"
+                        "en": "Imagery",
+                        "mn": "Imagery"
                     },
                     "nodegroup_id": "6d9c382f-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 2,
@@ -203,17 +231,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Resource Type"
+                        "en": "Resource Type",
+                        "mn": "Resource Type"
                     },
                     "nodegroup_id": "6d9c3832-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 0,
@@ -230,17 +262,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Restricted Access Record Designation"
+                        "en": "Restricted Access Record Designation",
+                        "mn": "Restricted Access Record Designation"
                     },
                     "nodegroup_id": "6d9c3835-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 1,
@@ -257,17 +293,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Related Detailed Condition Assessment"
+                        "en": "Related Detailed Condition Assessment",
+                        "mn": "Related Detailed Condition Assessment"
                     },
                     "nodegroup_id": "6d9c3838-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": null,
@@ -284,17 +324,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Place of publication"
+                        "en": "Place of publication",
+                        "mn": "Place of publication"
                     },
                     "nodegroup_id": "6d9c383b-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 3,
@@ -311,17 +355,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Information Carrier"
+                        "en": "Information Carrier",
+                        "mn": "Information Carrier"
                     },
                     "nodegroup_id": "6d9c383e-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": null,
@@ -338,17 +386,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Catalogue ID"
+                        "en": "Catalogue ID",
+                        "mn": "Catalogue ID"
                     },
                     "nodegroup_id": "6d9c3841-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 0,
@@ -365,17 +417,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Tile Square Appellation"
+                        "en": "Tile Square Appellation",
+                        "mn": "Tile Square Appellation"
                     },
                     "nodegroup_id": "6d9c384a-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 7,
@@ -392,17 +448,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Tile Square Details"
+                        "en": "Tile Square Details",
+                        "mn": "Tile Square Details"
                     },
                     "nodegroup_id": "6d9c384d-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 6,
@@ -419,17 +479,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Series Type"
+                        "en": "Series Type",
+                        "mn": "Series Type"
                     },
                     "nodegroup_id": "6d9c3856-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 2,
@@ -446,17 +510,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Projection Type"
+                        "en": "Projection Type",
+                        "mn": "Projection Type"
                     },
                     "nodegroup_id": "6d9c385c-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 4,
@@ -473,17 +541,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Imagery Sampled Resolution Type"
+                        "en": "Imagery Sampled Resolution Type",
+                        "mn": "Imagery Sampled Resolution Type"
                     },
                     "nodegroup_id": "6d9c3862-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 4,
@@ -500,17 +572,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Edition"
+                        "en": "Edition",
+                        "mn": "Edition"
                     },
                     "nodegroup_id": "6d9c3868-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 8,
@@ -536,17 +612,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Location"
+                        "en": "Location",
+                        "mn": "Location"
                     },
                     "nodegroup_id": "6d9c386e-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 5,
@@ -563,17 +643,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Additional Information"
+                        "en": "Additional Information",
+                        "mn": "Additional Information"
                     },
                     "nodegroup_id": "6d9c3871-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 9,
@@ -590,17 +674,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Copyright"
+                        "en": "Copyright",
+                        "mn": "Copyright"
                     },
                     "nodegroup_id": "6d9c3874-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 8,
@@ -617,17 +705,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": false,
                     "name": {
-                        "en": "2D Imagery Upload"
+                        "en": "2D Imagery Upload",
+                        "mn": "2D Imagery Upload"
                     },
                     "nodegroup_id": "6d9c3877-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 6,
@@ -644,17 +736,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "IMAGERY_RESOURCE_ID"
+                        "en": "IMAGERY_RESOURCE_ID",
+                        "mn": "IMAGERY_RESOURCE_ID"
                     },
                     "nodegroup_id": "6d9c387a-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 10,
@@ -663,25 +759,55 @@
                 {
                     "active": true,
                     "cardid": "6d9c387f-567d-11ec-aa6d-25dfccb47c3f",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
+                    "component_id": "2d2e0ca3-089c-4f4c-96a5-fb7eb53963bd",
+                    "config": {
+                        "basemap": "streets",
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 10,
+                        "pointradius": 4,
+                        "selectRelatedSource": "",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6
+                    },
                     "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Resource Relationships"
+                        "en": "Resource Relationships",
+                        "mn": "Resource Relationships"
                     },
                     "nodegroup_id": "6d9c387d-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 8,
@@ -698,17 +824,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Image Details"
+                        "en": "Image Details",
+                        "mn": "Image Details"
                     },
                     "nodegroup_id": "6d9c3883-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 3,
@@ -725,17 +855,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Processing Type"
+                        "en": "Processing Type",
+                        "mn": "Processing Type"
                     },
                     "nodegroup_id": "6d9c3886-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 5,
@@ -752,17 +886,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Creator"
+                        "en": "Creator",
+                        "mn": "Creator"
                     },
                     "nodegroup_id": "6d9c388c-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 1,
@@ -779,17 +917,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "URLs"
+                        "en": "URLs",
+                        "mn": "URLs"
                     },
                     "nodegroup_id": "6d9c3892-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 4,
@@ -806,17 +948,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Date of Creation"
+                        "en": "Date of Creation",
+                        "mn": "Date of Creation"
                     },
                     "nodegroup_id": "6d9c3898-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 9,
@@ -833,17 +979,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Date of File"
+                        "en": "Date of File",
+                        "mn": "Date of File"
                     },
                     "nodegroup_id": "6d9c389b-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 7,
@@ -860,17 +1010,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "is_editable": true,
                     "name": {
-                        "en": "Date of Acquisition"
+                        "en": "Date of Acquisition",
+                        "mn": "Date of Acquisition"
                     },
                     "nodegroup_id": "6d9c389e-567d-11ec-aa6d-25dfccb47c3f",
                     "sortorder": 6,
@@ -887,17 +1041,21 @@
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "helptitle": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
                     "instructions": {
-                        "en": ""
+                        "en": "",
+                        "mn": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
-                        "en": "3D Model Upload"
+                        "en": "3D Model Upload",
+                        "mn": "3D Model Upload"
                     },
                     "nodegroup_id": "b17367ca-b850-11ee-b101-005056951e74",
                     "sortorder": 7,
@@ -905,6 +1063,28 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "6d9c387f-567d-11ec-aa6d-25dfccb47c3f",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Heritage Resource",
+                        "placeholder": {
+                            "mn": ""
+                        }
+                    },
+                    "id": "4d79f50b-44b7-4276-97dd-a64894ccdf1c",
+                    "label": {
+                        "en": null,
+                        "mn": "Related Heritage Resource"
+                    },
+                    "node_id": "5c8d6888-1849-11ef-8ded-005056951e74",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
                 {
                     "card_id": "6d9c387c-567d-11ec-aa6d-25dfccb47c3f",
                     "config": {
@@ -2252,7 +2432,8 @@
             "deploymentdate": null,
             "deploymentfile": null,
             "description": {
-                "en": "Photography, Satellite Imagery, Maps, Bibliographic Information, Shared Datasets, & External Links"
+                "en": "Photography, Satellite Imagery, Maps, Bibliographic Information, Shared Datasets, & External Links",
+                "mn": "Photography, Satellite Imagery, Maps, Bibliographic Information, Shared Datasets, & External Links"
             },
             "edges": [
                 {
@@ -2785,12 +2966,21 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
                     "rangenode_id": "b17367ca-b850-11ee-b101-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "6d9c387d-567d-11ec-aa6d-25dfccb47c3f",
+                    "edgeid": "8c577204-3a60-4cae-a4c0-7386409f70d1",
+                    "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "rangenode_id": "5c8d6888-1849-11ef-8ded-005056951e74"
                 }
             ],
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "3",
+                        "last_value": "11",
                         "prefix": "MAPSS-IMAGERY-",
                         "selected_nodegroup": null,
                         "starting_value": "0000001",
@@ -2800,7 +2990,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                    "id": "0794e22a-9c5b-4e49-98ba-5db144b4a070"
+                    "id": "74e7471c-1c15-4cc3-b5f3-3c6726a4170d"
                 },
                 {
                     "config": {
@@ -2822,7 +3012,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                    "id": "e2b0e685-4871-47cf-84fc-4709970c556c"
+                    "id": "c0cfb893-7e60-44fe-87d9-b2597c6012d2"
                 }
             ],
             "graphid": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
@@ -2831,7 +3021,8 @@
             "isresource": true,
             "jsonldcontext": null,
             "name": {
-                "en": "Imagery Resource"
+                "en": "Imagery Resource",
+                "mn": "Imagery Resource"
             },
             "nodegroups": [
                 {
@@ -3034,6 +3225,72 @@
                 }
             ],
             "nodes": [
+                {
+                    "alias": "related_heritage_resource",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Cultural Heritage Archival Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Remote Sensing Object",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Machine Learning Object Detection Resource",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            },
+                            {
+                                "graphid": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Heritage Place",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130_shows_features_of",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Rel_HerRes",
+                    "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Heritage Resource",
+                    "nodegroup_id": "6d9c387d-567d-11ec-aa6d-25dfccb47c3f",
+                    "nodeid": "5c8d6888-1849-11ef-8ded-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
                 {
                     "alias": "source_appellation",
                     "config": {
@@ -4456,26 +4713,26 @@
             "publication": {
                 "graph_id": "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                 "notes": null,
-                "publicationid": "cfa8d376-dd6f-11ee-8d68-005056951e74",
-                "published_time": "2024-03-08T18:17:59.012+01:00"
+                "publicationid": "5fbbaf74-18df-11ef-a2b4-005056951e74",
+                "published_time": "2024-05-23T10:35:13.468+02:00"
             },
             "relatable_resource_model_ids": [
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
-                "c27eae6c-6b06-4746-93b8-76112c064c4f",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                 "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "c3009111-0417-11ec-946e-005056957f92",
-                "37d8eff1-03f5-11ec-946e-005056957f92",
-                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "761976f0-aa14-11ee-85fc-005056951e74",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
                 "c9402aff-03f4-11ec-946e-005056957f92",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce"
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "c3009111-0417-11ec-946e-005056957f92",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -4500,10 +4757,17 @@
             },
             "slug": null,
             "subtitle": {
-                "en": "Photography, satellite imagery, maps, 3D models, etc."
+                "en": "Photography, satellite imagery, maps, 3D models, etc.",
+                "mn": "Photography, satellite imagery, maps, 3D models, etc."
             },
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ]
+    ],
+    "metadata": {
+        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
+        "os": "Linux",
+        "os version": "5.15.0-106-generic"
+    }
 }
