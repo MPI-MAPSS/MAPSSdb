@@ -21,3 +21,7 @@
 .modal-body {
     min-height: calc(100vh - 49px);
 }
+
+.r-grid-item:has(> .r-select-card-footer .fa-warning) {
+    display: none;
+}
