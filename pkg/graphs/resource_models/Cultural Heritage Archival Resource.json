@@ -2303,7 +2303,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E11_Modification",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "da056882-e6ae-11ee-a89b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "ncch_registration_number",
@@ -2671,7 +2671,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "e831fc9a-e6ae-11ee-a89b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "quantity",
@@ -2994,7 +2994,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "4aec8054-e6ae-11ee-bef9-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "special_protection_necessity",
@@ -3463,7 +3463,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "3ae5ec62-e6c3-11ee-923b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "cultural_heritage_resource_site_classification",

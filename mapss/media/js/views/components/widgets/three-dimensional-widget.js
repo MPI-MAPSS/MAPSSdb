@@ -240,7 +240,6 @@ define([
                     pitch: 30,
                     maxPitch: 60,
                     maxZoom: 25,
-                    bearing: Number.parseFloat(ko.unwrap(model.bearing)),
                 });
 
                 const deckOverlay = new deckMapbox.MapboxOverlay({
@@ -254,7 +253,7 @@ define([
                                 '*': {speed: 5}
                             },
                             _lighting: 'flat',
-                            getOrientation: d => [0, Math.random() * 180, 90],
+                            getOrientation: d => [0, model.bearing ? Number(ko.unwrap(model.bearing)) : 0, 90],
                             getPosition: d => d.coordinates,
                             sizeScale: 1,
                             pickable: true,
