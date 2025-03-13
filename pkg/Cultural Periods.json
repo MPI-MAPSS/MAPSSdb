@@ -1,0 +1,477 @@
+{
+    "graph": [
+        {
+            "author": " Mike Fisher",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "142b09a3-72fc-43fc-b011-ae0940cf657e",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Cultural Period Attribute Assignment"
+                    },
+                    "nodegroup_id": "098ef884-24b7-11ef-b168-005056951e74",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "18d1dde9-9386-4171-bad2-22d145f0ca8f",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Cultural Period Timespan"
+                    },
+                    "nodegroup_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "8bb23d82-24b5-11ef-b4b8-005056951e74",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "{\"en\": \"\"}",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Cultural Period Appelation Assignment"
+                    },
+                    "nodegroup_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "edgeid": "100748aa-2211-4c61-a605-3eca24c6bf54",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "rangenode_id": "501928fc-24b6-11ef-b39e-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ad726da0-1f3a-11ef-9199-005056951e74",
+                    "edgeid": "28c80077-bd94-4124-9ae2-66f5746e99b2",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "965a73f8-24b5-11ef-a96e-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ad726da0-1f3a-11ef-9199-005056951e74",
+                    "edgeid": "46dd6438-a19a-4fd5-ae82-6a344b0dead7",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
+                    "rangenode_id": "098ef884-24b7-11ef-b168-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "edgeid": "68ee33f7-1096-46ac-8a99-3105ff9a1459",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "rangenode_id": "d75a06de-24b5-11ef-b168-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "098ef884-24b7-11ef-b168-005056951e74",
+                    "edgeid": "70a83f10-e833-470f-be88-d03da152652b",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "4e58483a-24b7-11ef-b4b8-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "edgeid": "8bb26ae6-24b5-11ef-b4b8-005056951e74",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "8bb23f58-24b5-11ef-b4b8-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "edgeid": "8bb26cee-24b5-11ef-b4b8-005056951e74",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "rangenode_id": "8bb240de-24b5-11ef-b4b8-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ad726da0-1f3a-11ef-9199-005056951e74",
+                    "edgeid": "ed0f10d1-c675-4521-af85-a0406a93b5e0",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
+                    "rangenode_id": "8bb23a80-24b5-11ef-b4b8-005056951e74"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+            "iconclass": "fa fa-calendar-o",
+            "is_editable": true,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Cultural Periods"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "098ef884-24b7-11ef-b168-005056951e74",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "cultural_period_attribute_assignment",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period Attribute Assignment",
+                    "nodegroup_id": "098ef884-24b7-11ef-b168-005056951e74",
+                    "nodeid": "098ef884-24b7-11ef-b168-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_characteristics",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "CultTypes",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Characteristics",
+                    "nodegroup_id": "098ef884-24b7-11ef-b168-005056951e74",
+                    "nodeid": "4e58483a-24b7-11ef-b4b8-005056951e74",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": "25",
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "PeriodEnd",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period End Date",
+                    "nodegroup_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "nodeid": "501928fc-24b6-11ef-b39e-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_appelation_assignment",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "{\"en\": \"\"}",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period Appelation Assignment",
+                    "nodegroup_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "nodeid": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9_consists_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_appelation",
+                    "config": {
+                        "rdmCollection": "08948abb-8b2d-4983-a238-683a92bfece4"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Period",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period Appelation",
+                    "nodegroup_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "nodeid": "8bb23f58-24b5-11ef-b4b8-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_general_type",
+                    "config": {
+                        "rdmCollection": "3e17cfe1-afb9-4be6-a6c7-c9b2a55f3f75"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Cultural Period General Type",
+                    "nodegroup_id": "8bb23a80-24b5-11ef-b4b8-005056951e74",
+                    "nodeid": "8bb240de-24b5-11ef-b4b8-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_timespan",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period Timespan",
+                    "nodegroup_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "nodeid": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": null,
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Cultural Periods",
+                    "nodegroup_id": null,
+                    "nodeid": "ad726da0-1f3a-11ef-9199-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "cultural_period_start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": "25",
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "PeriodStrt",
+                    "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period Start Date",
+                    "nodegroup_id": "965a73f8-24b5-11ef-a96e-005056951e74",
+                    "nodeid": "d75a06de-24b5-11ef-b168-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": {
+                "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "notes": null,
+                "publicationid": "8d5153b6-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:45.835+01:00"
+            },
+            "relatable_resource_model_ids": [
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
+                "c9402aff-03f4-11ec-946e-005056957f92",
+                "37d8eff1-03f5-11ec-946e-005056957f92",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae"
+            ],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {
+                    "en": ""
+                },
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "hascustomalias": false,
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Cultural Periods",
+                "nodegroup_id": null,
+                "nodeid": "ad726da0-1f3a-11ef-9199-005056951e74",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": "Cultural Period General Types"
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}
