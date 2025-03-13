@@ -5,14 +5,14 @@ mapss/export_deliverables
 mapss/cantaloupe/*
 mapss/media/packages
 mapss/media/build
-mapss/media/node_modules
+node_modules
 mapss/uploadedfiles/*
 CACHE/*
 mapss/settings_local.py
 uploads/*
 db_backups/*
 .vscode/
-mapss/webpack/webpack-stats.json
+webpack/webpack-stats.json
 
 static-media
 mapss/static-media
@@ -21,3 +21,9 @@ mapss/static
 static
 staging
 .DS_Store
+
+*.egg-info
+.DS_STORE
+.tsconfig-paths.json
+.frontend-configuration-settings.json
+coverage/
