@@ -34,7 +34,7 @@
                         "en": "",
                         "mn": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Location",
                         "mn": "\u0411\u0430\u0439\u0440\u0448\u0438\u043b"
@@ -92,7 +92,7 @@
                         "en": "",
                         "mn": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Cultural Heritage Resource Observation Summary",
                         "mn": "\u0421\u043e\u0451\u043b\u044b\u043d \u04e9\u0432\u0438\u0439\u043d \u043d\u04e9\u04e9\u0446\u0438\u0439\u043d \u0430\u0436\u0438\u0433\u043b\u0430\u043b\u0442\u044b\u043d \u0445\u0443\u0440\u0430\u0430\u043d\u0433\u0443\u0439"
@@ -330,7 +330,7 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Cultural Period Type",
+                        "label": "Cultural Sub-period Type",
                         "options": [],
                         "placeholder": {
                             "en": "Select an option"
@@ -338,10 +338,10 @@
                     },
                     "id": "0dbd1074-24b9-11ef-b3cb-005056951e74",
                     "label": {
-                        "en": "Cultural Period Type"
+                        "en": "Cultural Sub-period Type"
                     },
                     "node_id": "0dbd0a20-24b9-11ef-b3cb-005056951e74",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -363,8 +363,8 @@
                         "en": "Cultural Period General Type"
                     },
                     "node_id": "0dbd0b6a-24b9-11ef-b3cb-005056951e74",
-                    "sortorder": 1,
-                    "visible": false,
+                    "sortorder": 0,
+                    "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
                 {
@@ -852,6 +852,27 @@
                     "sortorder": 20,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "0dbd06ce-24b9-11ef-b3cb-005056951e74",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Related Cultural Sub-period",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "b13477a0-24cf-4350-b7bc-9271eff065da",
+                    "label": {
+                        "en": "Related Cultural Sub-period"
+                    },
+                    "node_id": "1926cd80-2f11-11ef-b213-005056951e74",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "0c60917c-a884-4185-ab73-9065839dec7f",
@@ -1625,12 +1646,30 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "0dbd0890-24b9-11ef-b3cb-005056951e74",
+                    "edgeid": "13d2f111-d8d5-4d19-b33c-be760a151a1e",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "rangenode_id": "1926cd80-2f11-11ef-b213-005056951e74"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "d75f2428-d877-11ee-9eae-005056951e74",
                     "edgeid": "149c96f0-85e7-442c-b14a-dd5b76f17eac",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
                     "rangenode_id": "b59e900a-d87a-11ee-9bf0-005056951e74"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dea1ec7a-e6af-11ee-a89b-005056951e74",
+                    "edgeid": "16e4c906-94ba-4494-b645-0b61737f5544",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "b6708e80-2f13-11ef-90f8-005056951e74"
                 },
                 {
                     "description": null,
@@ -2172,7 +2211,7 @@
             ],
             "graphid": "8a399bdd-03ff-11ec-946e-005056957f92",
             "iconclass": "fa fa-database",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -2428,7 +2467,7 @@
                     "datatype": "concept-list",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "Period",
+                    "fieldname": "SubPeriod",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "hascustomalias": false,
                     "is_collector": false,
@@ -2450,13 +2489,13 @@
                     },
                     "datatype": "concept-list",
                     "description": null,
-                    "exportable": false,
-                    "fieldname": null,
+                    "exportable": true,
+                    "fieldname": "Period",
                     "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                     "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
-                    "issearchable": false,
+                    "issearchable": true,
                     "istopnode": false,
                     "name": "Cultural Period General Type",
                     "nodegroup_id": "0dbd03ea-24b9-11ef-b3cb-005056951e74",
@@ -2672,6 +2711,42 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
                     "sourcebranchpublication_id": "e831fc9a-e6ae-11ee-a89b-005056951e74"
+                },
+                {
+                    "alias": "related_cultural_sub_period",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Cultural Sub-periods",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Related Cultural Sub-period",
+                    "nodegroup_id": "0dbd03ea-24b9-11ef-b3cb-005056951e74",
+                    "nodeid": "1926cd80-2f11-11ef-b213-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "quantity",
@@ -3274,25 +3349,25 @@
                 {
                     "alias": "geometric_place_expression_n1",
                     "config": {
-                        "addToMap": false,
+                        "addToMap": true,
                         "advancedStyle": "",
                         "advancedStyling": false,
                         "clusterDistance": 20,
                         "clusterMaxZoom": 5,
                         "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "fillColor": "rgba(86,226,43,0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "",
+                        "layerIcon": "fa fa-database",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineColor": "rgba(140,223,123,0.7)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "pointColor": "rgba(80,243,12,0.7)",
+                        "pointHaloColor": "rgba(174,238,129,0.5)",
                         "radius": 2,
                         "simplification": 0.3,
                         "weight": 2
@@ -3577,6 +3652,42 @@
                     "nodeid": "b59e900a-d87a-11ee-9bf0-005056951e74",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "related_rock_art",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Rock Art",
+                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P130i_features_are_also_found_on",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": true
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RelRockArt",
+                    "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Rock Art",
+                    "nodegroup_id": "dea1ec7a-e6af-11ee-a89b-005056951e74",
+                    "nodeid": "b6708e80-2f13-11ef-90f8-005056951e74",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
                     "sourcebranchpublication_id": null
                 },
@@ -4020,25 +4131,25 @@
             "publication": {
                 "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "2cb1f8f0-24b9-11ef-b39e-005056951e74",
-                "published_time": "2024-06-07T12:32:00.918+02:00"
+                "publicationid": "2533e3e6-4042-11ef-b5e7-005056951e74",
+                "published_time": "2024-07-12T13:30:30.795+02:00"
             },
             "relatable_resource_model_ids": [
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                 "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
+                "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
                 "c9402aff-03f4-11ec-946e-005056957f92",
                 "37d8eff1-03f5-11ec-946e-005056957f92",
                 "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
                 "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
-                "8a399bdd-03ff-11ec-946e-005056957f92"
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -4069,11 +4180,5 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
-        "os": "Linux",
-        "os version": "5.15.0-106-generic"
-    }
+    ]
 }

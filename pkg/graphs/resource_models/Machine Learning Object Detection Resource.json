@@ -3127,7 +3127,7 @@
                         "haloRadius": 3,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "",
+                        "layerIcon": "fa fa-laptop",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(130,130,130,0.7)",
@@ -4480,17 +4480,16 @@
             },
             "relatable_resource_model_ids": [
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
                 "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                 "8a399bdd-03ff-11ec-946e-005056957f92",
                 "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
                 "267e1d19-9ab7-41ff-b827-03fcf8f2f981",
-                "c3009111-0417-11ec-946e-005056957f92",
                 "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
                 "c9402aff-03f4-11ec-946e-005056957f92",
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",
                 "37d8eff1-03f5-11ec-946e-005056957f92",
@@ -4525,11 +4524,5 @@
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
-        "os": "Linux",
-        "os version": "5.15.0-106-generic"
-    }
+    ]
 }

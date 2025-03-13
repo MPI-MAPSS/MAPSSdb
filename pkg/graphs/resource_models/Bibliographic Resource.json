@@ -1423,7 +1423,7 @@
                 {
                     "card_id": "9fb54d2f-c6a6-11ea-a292-02e7594ce0a0",
                     "config": {
-                        "defaultValue": "7f0f93a9-4f0c-4e2d-8825-47c0fd9ce506",
+                        "defaultValue": "9432756a-a6ea-4e5e-9208-055b591f09ef",
                         "i18n_properties": [
                             "placeholder"
                         ],
@@ -3273,7 +3273,7 @@
                     "alias": "restricted_access_record_designation",
                     "config": {
                         "graphs": [],
-                        "rdmCollection": null
+                        "rdmCollection": "f0c110dc-6e52-4235-80c8-c7df5128581c"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -3283,7 +3283,7 @@
                     "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
-                    "issearchable": true,
+                    "issearchable": false,
                     "istopnode": false,
                     "name": "Restricted Access Record Designation",
                     "nodegroup_id": "9fb54d2d-c6a6-11ea-a292-02e7594ce0a0",
@@ -3636,17 +3636,17 @@
             "publication": {
                 "graph_id": "35b99cb7-379a-11ea-9989-06f597a7d5ce",
                 "notes": null,
-                "publicationid": "b6a66b12-d244-11ee-af80-005056951e74",
-                "published_time": "2024-02-23T13:11:45.903+01:00"
+                "publicationid": "94e58e6c-5d69-11ef-9ca9-005056951e74",
+                "published_time": "2024-08-18T15:55:52.279+02:00"
             },
             "relatable_resource_model_ids": [
-                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
-                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
-                "96ecc0de-a25f-11ed-826a-bd1a2523ba5d",
-                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
                 "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
-                "8a399bdd-03ff-11ec-946e-005056957f92",
-                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae"
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f",
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                "8a399bdd-03ff-11ec-946e-005056957f92"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -3676,11 +3676,5 @@
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
-    ],
-    "metadata": {
-        "db": "PostgreSQL 14.12 (Ubuntu 14.12-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any parent up to mount point /)",
-        "os": "Linux",
-        "os version": "5.15.0-106-generic"
-    }
+    ]
 }
