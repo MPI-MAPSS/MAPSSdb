@@ -14,15 +14,15 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Grid Square"
                     },
@@ -67,13 +67,13 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -103,15 +103,15 @@
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Grid Square Geometric Expression"
                     },
@@ -325,7 +325,7 @@
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
-                                "string_template": "<Grid Square Assignee>"
+                                "string_template": "<Grid ID>"
                             },
                             "map_popup": {
                                 "nodegroup_id": "1346a89a-115f-11ec-946e-005056957f92",
@@ -340,12 +340,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
-                    "id": "df41c78d-bd02-4dcd-ac09-2ce9f527f12e"
+                    "id": "d4a78eaa-ce5b-4ac4-94d8-f542812a6eed"
                 }
             ],
             "graphid": "37d8eff1-03f5-11ec-946e-005056957f92",
             "iconclass": "fa fa-th",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -390,7 +390,8 @@
                     "nodeid": "1346a89a-115f-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "related_resources",
@@ -436,7 +437,8 @@
                     "nodeid": "32de1dcc-16e2-11ec-b7c9-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_square",
@@ -456,7 +458,8 @@
                     "nodeid": "37d8eff0-03f5-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_id",
@@ -476,7 +479,8 @@
                     "nodeid": "3b095240-1161-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_square_assignee",
@@ -500,7 +504,8 @@
                     "nodeid": "5404f044-115f-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "grid_square_geometric_expression",
@@ -508,14 +513,14 @@
                         "addToMap": false,
                         "advancedStyle": "",
                         "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
+                        "clusterDistance": 1000000,
+                        "clusterMaxZoom": 10,
+                        "clusterMinPoints": 100,
                         "fillColor": "rgba(130, 130, 130, 0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "",
+                        "layerIcon": "fa fa-th",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
@@ -543,18 +548,27 @@
                     "nodeid": "88785a2e-115e-11ec-946e-005056957f92",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": {
                 "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "faeae59e-b2f3-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:47.484",
-                "user_id": 1
+                "publicationid": "8b8c9eb4-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:42.868+01:00"
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "grid_square",
@@ -573,7 +587,8 @@
                 "nodegroup_id": null,
                 "nodeid": "37d8eff0-03f5-11ec-946e-005056957f92",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
             "subtitle": {

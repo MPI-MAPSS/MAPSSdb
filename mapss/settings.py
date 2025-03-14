@@ -17,20 +17,14 @@ except ImportError:
 APP_NAME = "mapss"
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
-ARCHES_APPLICATIONS = ()
-
-STATICFILES_DIRS = build_staticfiles_dirs(
-    root_dir=ROOT_DIR,
-    app_root=APP_ROOT,
-    arches_applications=ARCHES_APPLICATIONS,
-)
+STATICFILES_DIRS = build_staticfiles_dirs(app_root=APP_ROOT)
 
 STATIC_ROOT = os.path.join(ROOT_DIR, "staticfiles")
 STATIC_URL = "/static/"
 
 WEBPACK_LOADER = {
     "DEFAULT": {
-        "STATS_FILE": os.path.join(APP_ROOT, "webpack/webpack-stats.json"),
+        "STATS_FILE": os.path.join(APP_ROOT, '..', 'webpack/webpack-stats.json'),
     },
 }
 
@@ -38,21 +32,22 @@ DATATYPE_LOCATIONS.append("mapss.datatypes")
 FUNCTION_LOCATIONS.append("mapss.functions")
 ETL_MODULE_LOCATIONS.append("mapss.etl_modules")
 SEARCH_COMPONENT_LOCATIONS.append("mapss.search_components")
+
 TEMPLATES = build_templates_config(
-    root_dir=ROOT_DIR,
     debug=DEBUG,
     app_root=APP_ROOT,
-    arches_applications=ARCHES_APPLICATIONS,
 )
+
 TEMPLATES[0]["OPTIONS"]["context_processors"].append("mapss.utils.context_processors.project_settings")
 APP_PATHNAME = ""
 
 BYPASS_CARDINALITY_TILE_VALIDATION = False
 
-LOCALE_PATHS.append(os.path.join(APP_ROOT, "locale"))
+LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, 'locale'))
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = False
 
 ROOT_URLCONF = "mapss.urls"
 # a prefix to append to all elasticsearch indexes, note: must be lower case
@@ -88,10 +83,14 @@ INSTALLED_APPS = (
     "oauth2_provider",
     "django_celery_results",
     "mapss",
-    "compressor",
+    "django_hosts"
     # "debug_toolbar"
 )
 
+INSTALLED_APPS += ("arches.app",)
+
+ROOT_HOSTCONF = "mapss.hosts"
+DEFAULT_HOST = "mapss"
 
 MIDDLEWARE = [
     # 'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -109,6 +108,17 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "arches.app.utils.middleware.SetAnonymousUser",
 ]
+
+
+MIDDLEWARE.insert(  # this must resolve to first MIDDLEWARE entry
+    0, 
+    "django_hosts.middleware.HostsRequestMiddleware"
+)
+
+MIDDLEWARE.append(  # this must resolve last MIDDLEWARE entry
+    "django_hosts.middleware.HostsResponseMiddleware"
+)  
+
 
 ALLOWED_HOSTS = ["localhost"]
 
@@ -153,7 +163,9 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 SESSION_COOKIE_NAME = "mapss"
 
 CACHES = {
-    "default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache", "LOCATION": "unique-snowflake"},
+    "default": {"BACKEND": "django.core.cache.backends.locmem.LocMemCache", 
+		"LOCATION": "os.path.join(APP_ROOT, 'tmp', 'djangocache'"},
+#		"LOCATION": "unique-snowflake"},
     "user_permission": {
         "BACKEND": "django.core.cache.backends.db.DatabaseCache",
         "LOCATION": "user_permission_cache",
@@ -172,7 +184,7 @@ OAUTH_CLIENT_ID = ""
 
 APP_TITLE = "MAPSS"
 COPYRIGHT_TEXT = "All Rights Reserved."
-COPYRIGHT_YEAR = "2019"
+COPYRIGHT_YEAR = "2024"
 
 CELERY_BROKER_URL = "amqp://guest:guest@localhost"
 CELERY_ACCEPT_CONTENT = ["json"]
@@ -221,12 +233,22 @@ if DOCKER:
         pass
 
 
-if __name__ == "__main__":
-    transmit_webpack_django_config(
-        root_dir=ROOT_DIR,
-        app_root=APP_ROOT,
-        arches_applications=ARCHES_APPLICATIONS,
-        public_server_address=PUBLIC_SERVER_ADDRESS,
-        static_url=STATIC_URL,
-        webpack_development_server_port=WEBPACK_DEVELOPMENT_SERVER_PORT,
-    )
+FILE_TYPES = [
+    "bmp",
+    "gif",
+    "jpg",
+    "jpeg",
+    "json",
+    "pdf",
+    "png",
+    "psd",
+    "rtf",
+    "tif",
+    "tiff",
+    "xlsx",
+    "csv",
+    "zip",
+    "glb",
+]
+
+print(PUBLIC_SERVER_ADDRESS)

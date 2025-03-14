@@ -14,15 +14,15 @@
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Find Number"
                     },
@@ -101,12 +101,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
-                    "id": "f367aead-c8e7-4d82-9ac4-a64c80394e5a"
+                    "id": "c2c2b9c4-4f9c-475e-aac4-4806c823a084"
                 }
             ],
             "graphid": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
             "iconclass": "fa fa-tags",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -139,7 +139,8 @@
                     "nodeid": "2d0bcde2-aa05-11ed-9ab0-79272b0a574f",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
                     "parentproperty": "",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "find_number",
@@ -159,18 +160,27 @@
                     "nodeid": "9304d192-aa06-11ed-9ab0-79272b0a574f",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
-                    "sortorder": 0
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": {
                 "graph_id": "2d0bcde3-aa05-11ed-9ab0-79272b0a574f",
                 "notes": null,
-                "publicationid": "00947186-b2f4-11ed-af75-a683e74f6c3a",
-                "published_time": "2023-02-22T15:00:56.984",
-                "user_id": 1
+                "publicationid": "8b690ee0-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:42.635+01:00"
             },
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "55cdb652-8dcf-11ed-81a0-eba1186aefad",
+                "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
+                "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
+                "8a399bdd-03ff-11ec-946e-005056957f92",
+                "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "dd8404c4-2d7f-11ef-baf2-005056951e74",
+                "6d9c3810-567d-11ec-aa6d-25dfccb47c3f"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "archaeological_find",
@@ -189,7 +199,8 @@
                 "nodegroup_id": null,
                 "nodeid": "2d0bcde2-aa05-11ed-9ab0-79272b0a574f",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
-                "sortorder": 0
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
             },
             "slug": null,
             "subtitle": {

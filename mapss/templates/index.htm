@@ -47,6 +47,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             display: flex;
             flex-wrap: nowrap;
             flex-direction: column;
+            font-size: 12px;
+            
         }
         
         .flex-container > div {
@@ -61,6 +63,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         
         .white {
             color: white;
+            font-size: 12px
         }
         
     </style>
@@ -94,7 +97,19 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <a href="http://www.archesproject.org" class="">
                             <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "118" height= "50" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp; 
                         </a>
-                </div> -->
+                        <a href="https://www.arcadiafund.org.uk/" class="">
+                            <img src="{% static 'img/landing/Slider_images/Arcadia_Logo.jpg' %}" class="powered-by-arches" width= "75" height= "50" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp; 
+                        </a>
+                        <a href="http://en.archaeology.ac.mn/c/1032639" class="">
+                            <img src="{% static 'img/landing/Slider_images/institute-of-archaeology-mas-med_logo.jpeg' %}" class="powered-by-arches" width= "20" height= "30" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp; 
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100076429427967&paipv=0&eav=AfaRtIC-p8ZhBe0nN9BKomLhPIFiFTp-ycuBzjwlZeqv6pkGKXvyT1Gn2EIc_VhQlvg" class="">
+                            <img src="{% static 'img/landing/Slider_images/Mongolian-National-Centre-for-Cultural-Heritage-1.png' %}" class="powered-by-arches" width= "20" height= "50" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp; 
+                        </a>
+                        <a href="https://www.gea.mpg.de/en" class="">
+                            <img src="{% static 'img/landing/Slider_images/mpg-minerva-black-2_logo.jpeg' %}" class="powered-by-arches" width= "20" height= "50" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp;
+                        </a>
+                </div>
 
   <!--                  <div class="relative" style="padding: 8px 10px 8px 100px; width: 300px;">
                         <div class="application-name" style="position: absolute; top: 5px; left: 160px;">
@@ -102,7 +117,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <div class="navbar-brand-v5-icon-container" style="">
                             <img class="navbar-brand-v5-icon" src="{% static 'img/landing/arches_logo_dark.png' %}" style="" alt="Arches Logo">
                         </div>
-                            <h2>{% trans "MAPSSdb | v1" %}</h2> 
+                            <h2>{% trans "MAPSSdb | v2" %}</h2> 
                         </div>
                     </div>
                 </div>-->
@@ -111,7 +126,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                
                
                <!--Language Switcher -->         
- <!--                      <div class="lang-switch ep-tools ep-tools-right" style="max-width: 100px;" "pull-right"; data-bind="component: {
+                      <!-- <div class="lang-switch ep-tools ep-tools-right" style="max-width: 300px;" "pull-right"; data-bind="component: {
                                 name: &quot;views/components/language-switcher&quot;,
                                 params: {
                                     current_language: &quot;en&quot;
@@ -125,8 +140,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                                     <option value="en" selected="selected">
                                         English (en)
                                     </option>                                  
-                                    <option value="ar">
-                                        Mongolian (mo)
+                                    <option value="mn">
+                                        Mongolian (mn)
                                     </option>                    
                                 </select><div class="chosen-container chosen-container-single" title="" id="lang_dd_chosen" style="width: 100%;"><a class="chosen-single">
                               <span>
@@ -141,15 +156,48 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                               <ul class="chosen-results"><li class="active-result result-selected" data-option-array-index="0" style="">
                                         English (en)
                                     </li><li class="active-result" data-option-array-index="1" style="">
-                                        Mongolian (mo)
+                                        Mongolian (mn)
                                     </li></ul>
                             </div></div>
                             </form></div> -->
+<!--                   <li aria-label="Choose your language">
+                            <div class="lang-switch ep-tools ep-tools-right" style="max-width: none;" data-bind="component: {
+                                name: &quot;views/components/language-switcher&quot;,
+                                params: {
+                                    current_language: &quot;en&quot;
+                                }
+                            }">
+
+<!--                    <form class="lang_switcher" action="/en/i18n/setlang/" method="post" data-bind="attr:{id: formid}" id="0.33927041672595437">
+                        <input type="hidden" name="csrfmiddlewaretoken" data-bind="value: $data.csrfToken" value="klp5gQstxr7l3BONcv8nMCRGZvCX1dPf">
+                        <input name="next" type="hidden" value="">
+                        <select name="language" data-bind="
+                            select2Query: {
+                                select2Config: {value: value, dropdownCssClass: 'lang_switcher_dd', minimumResultsForSearch: -1}
+                        }, attr:{'data-label': $root.translations.pageLanguage}" aria-label="Select the language for the page" data-label="Select the language for the page" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+        
+                            <option value="en" selected="selected">
+                                English (en)
+                            </option>
+        
+                            <option value="mn">
+                                Mongolian (mn)
+                            </option>
+        
+                        </select><span class="select2 select2-container select2-container--default select2-container--below select2-container--open" dir="ltr" style="width: 146px;"><span class="selection"><span class="select2-selection select2-selection--single" tabindex="0" role="combobox" aria-controls="select2-language-kz-container" aria-owns="select2-language-kz-container" aria-expanded="true" aria-label="Select the language for the page, 
+                                English (en)
+                            " aria-activedescendant="select2-language-kz-result-n0ge-en"><span class="select2-selection__rendered" id="select2-language-kz-container" role="textbox" aria-readonly="true" aria-label="
+                                English (en)
+                            ">
+                                English (en)
+                            </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                    </form></div>
+                        </li> -->
                             
                  <div class="flex-container" style="float:right">
-                            <!-- <ul class="nav navbar-nav navbar-top" style="padding: 00px 00px 10px 900px"> -->
-                            <!--<div class = "nav navbar-nav navbar-top">
-                               <!-- <li class="pull-top" style="padding: 0px 0px 0px 0px"> -->
+                            <ul class="nav navbar-nav navbar-top" style="padding: 00px 00px 10px 900px"> 
+                            <div class = "nav navbar-nav navbar-top">
+                                <li class="pull-top" style="padding: 0px 0px 0px 0px">
                 <!-- Login Menu -->
                     {% if user.username == 'anonymous' %}
                     <div style="position: absolute; top: 10px; right: 15px;">
@@ -157,7 +205,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <a class="white" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
                         </span>
                     {% else %}
-                        <span style='padding-top: 15px'>
+                        <span style='padding-bottom: 20px'>
                             <a style="padding-right: 20px" class="white" href="{% url 'user_profile_manager' %}">{% trans "Welcome, " %} {{ user.first_name|default:user.username }}</a>
                             <a class="white" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Log off' %}</a>
                         </span>
@@ -171,7 +219,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                        <!-- <span style="padding-right: 20px"> 
                             <a class="white" href="https://mapss.shh.mpg.de/info/documentation/database/open-access-policy" target="_blank">{% trans "Please read our Open Access Policy before using the database" %}</a></span> -->
                     {% if user.username != 'anonymous' %}
-                        <span style="padding-right: 20px"> 
+                        <span style="padding-right: 20px" style="padding-bottom: 10px"> 
                             <a class="white" href="{% url 'search_home' %}" target="_blank">{% trans "Search the MAPSS Database" %}</a></span>
                     {% else %}
                          <span style="padding-right: 20px">
@@ -236,12 +284,12 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     <!-- SLIDE 1 -->
                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 1">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/Slider_images/IMG_6610.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/Slider_images/DSC05658.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 0px; bottom: 25px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -251,12 +299,34 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
+                            <span class="">{% trans "© Dovydas Jurkenas" %}</span>
                         </div>
                     </li>
 
                               
                     <!-- SLIDE 2 -->
+                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 6">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/Slider_images/MTF0047_LiDARscan.png' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                         <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
+                            <p>{% trans "Surveying the Steppes" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "3D LiDAR scan of prehistoric anthropomorphic petroglyphs endangered by weathering © Mike Fisher" %}</span>
+                        </div>
+                    </li>
+                                                            
+                    <!-- SLIDE 3 -->
                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 2">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/Slider_images/DJI_0054.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
@@ -264,29 +334,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
-                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
-                            <p>{% trans "Surveying the Steppes" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
-                        </div>
-                    </li>
-                                        
-                    <!-- SLIDE 3 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 3">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/Slider_images/IMG_6060.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -301,36 +349,14 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     </li>
                     
                     <!-- SLIDE 4 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 4">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/Slider_images/DJI_0240.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                         <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
-                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
-                            <p>{% trans "Surveying the Steppes" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Khar Bukh Balgas, Kitan-period settlement, Bulgan Aimag © Amina Jambajanstan" %}</span>
-                        </div>
-                    </li>
-                    
-                    <!-- SLIDE 5 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 5">
+                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 5">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/Slider_images/gobi3.png' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -343,30 +369,31 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <span class="">{% trans "3D model of a 17th century Buddhist monastery © Amina Jambajanstan" %}</span>
                         </div>
                     </li>
-              
-                    <!-- SLIDE 6 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 6">
+                    
+                    <!-- SLIDE 5 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 8">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/Slider_images/IMG_6565.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/Slider_images/IMG_5552.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="bottom" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
-
-                        <!-- Gradient -->
+                        
+                          <!-- Gradient -->
                         <div class="image-gradient"></div>
 
                         <!-- Attribution -->
-                        <div class="image-attribution" style="">
+                       <div class="image-attribution" style="">
                             <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
                         </div>
                     </li>
- 
-                    <!-- SLIDE 7 -->
+                    
+                                 
+                    <!-- SLIDE 6  -->
                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 7">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/Slider_images/K-means_clustering_N22.png' %}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
@@ -374,7 +401,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -388,29 +415,74 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         </div>
 
                     </li>
-                    
-                    <!-- SLIDE 8  -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 8">
+                                         
+                    <!-- SLIDE 7 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 3">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/Slider_images/P6100112.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="top" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/Slider_images/DSC05695.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
+                            <p>{% trans "Surveying the Steppes" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "© Dovydas Jurkenas" %}</span>
+                        </div>
+                    </li>
+                    
+                    <!-- SLIDE 8 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 6">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/Slider_images/IMG_6565.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
-                        
-                          <!-- Gradient -->
+
+                        <!-- Gradient -->
                         <div class="image-gradient"></div>
 
                         <!-- Attribution -->
-                       <div class="image-attribution" style="">
+                        <div class="image-attribution" style="">
                             <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
                         </div>
                     </li>
-                                                      
+                    
+                    <!-- SLIDE 9 -->
+                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 4">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/Slider_images/DJI_0240.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                         <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
+                            <p>{% trans "Surveying the Steppes" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Khar Bukh Balgas, Kitan-period settlement, Bulgan Aimag © Amina Jambajanstan" %}</span>
+                        </div>
+                    </li>
+
+                                                                         
                     <!-- SLIDE 10 -->
  <!--                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 10">
                         <!-- MAIN IMAGE -->
@@ -419,7 +491,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
    <!--                       <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -431,53 +503,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
   <!--                       <div class="image-attribution" style="">
                             <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
                         </div>
-                    </li>
-                    
-                    <!-- SLIDE 11 -->
-             <!--        <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 11">
-                        <!-- MAIN IMAGE -->
-            <!--             <img src="{% static 'img/landing/eamena/Persepolis_ApadanaPalace_AZ_small.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-           <!--              <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
-                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
-                            <p>{% trans "Surveying the Steppes" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-           <!--              <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-           <!--              <div class="image-attribution" style="">
-                            <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
-                        </div>
-                    </li>
-                        
-                    
-                    <!-- SLIDE 12 -->
- <!--                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 12">
-                        <!-- MAIN IMAGE -->
-<!--                         <img src="{% static 'img/landing/eamena/Morocco_Ksar Bounou_NS_Middle_Draa Project.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
- <!--                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v1.0" %}</h2>
-                            <p>{% trans "Mongolian Archaeology Project:" %}</p>
-                            <p>{% trans "Surveying the Steppes" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-<!--                         <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
- <!--                        <div class="image-attribution" style="">
-                            <span class="">{% trans "© Bayarsaikhan Jamsranjav" %}</span>
-                        </div>
-                    </li>
-                                        
+                    </li>                                        
                                     
                     
                 </ul>
