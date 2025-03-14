@@ -8620,7 +8620,12 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "notes": null,
+                "publicationid": "8d6a9722-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:46.001+01:00"
+            },
             "relatable_resource_model_ids": [
                 "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
                 "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",

@@ -420,7 +420,12 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "publication": null,
+            "publication": {
+                "graph_id": "7fcf5e54-8f4e-48d9-b7ef-1dc1cc54d3ae",
+                "notes": null,
+                "publicationid": "8d5153b6-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:45.835+01:00"
+            },
             "relatable_resource_model_ids": [
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce",
                 "e039a64e-a18d-11ed-826a-bd1a2523ba5d",

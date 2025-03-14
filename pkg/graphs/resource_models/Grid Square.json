@@ -510,7 +510,7 @@
                 {
                     "alias": "grid_square_geometric_expression",
                     "config": {
-                        "addToMap": true,
+                        "addToMap": false,
                         "advancedStyle": "",
                         "advancedStyling": false,
                         "clusterDistance": 1000000,
@@ -522,7 +522,7 @@
                         "layerActivated": true,
                         "layerIcon": "fa fa-th",
                         "layerLegend": "",
-                        "layerName": "Grid Squares",
+                        "layerName": "",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
                         "outlineColor": "rgba(200, 200, 200, 0.7)",
@@ -556,8 +556,8 @@
             "publication": {
                 "graph_id": "37d8eff1-03f5-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "9093f602-95c6-11ee-9d03-005056951e74",
-                "published_time": "2023-12-08T13:37:35.674+01:00"
+                "publicationid": "8b8c9eb4-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:42.868+01:00"
             },
             "relatable_resource_model_ids": [
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",

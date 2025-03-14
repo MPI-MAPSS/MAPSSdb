@@ -5779,14 +5779,14 @@
                         "advancedStyling": false,
                         "autoManageCache": false,
                         "cacheTiles": false,
-                        "clusterDistance": 1,
+                        "clusterDistance": "1",
                         "clusterMaxZoom": 5,
                         "clusterMinPoints": 3,
                         "fillColor": "rgba(244,243,160,0.7)",
-                        "haloRadius": 3,
+                        "haloRadius": "3",
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "fa fa-pencil-square-o",
+                        "layerIcon": "",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(244,242,89,0.7)",
@@ -5869,8 +5869,8 @@
             "publication": {
                 "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "notes": null,
-                "publicationid": "90b19f9a-95c6-11ee-9d03-005056951e74",
-                "published_time": "2023-12-08T13:37:35.868+01:00"
+                "publicationid": "8bde8238-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:43.405+01:00"
             },
             "relatable_resource_model_ids": [
                 "55cdb652-8dcf-11ed-81a0-eba1186aefad",

@@ -2342,7 +2342,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E11_Modification",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "da056882-e6ae-11ee-a89b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "ncch_registration_number",
@@ -2710,7 +2710,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "e831fc9a-e6ae-11ee-a89b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "related_cultural_sub_period",
@@ -3069,7 +3069,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "4aec8054-e6ae-11ee-bef9-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "special_protection_necessity",
@@ -3349,25 +3349,25 @@
                 {
                     "alias": "geometric_place_expression_n1",
                     "config": {
-                        "addToMap": true,
+                        "addToMap": false,
                         "advancedStyle": "",
                         "advancedStyling": false,
                         "clusterDistance": 20,
                         "clusterMaxZoom": 5,
                         "clusterMinPoints": 3,
-                        "fillColor": "rgba(86,226,43,0.5)",
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
-                        "layerIcon": "fa fa-database",
+                        "layerIcon": "",
                         "layerLegend": "",
                         "layerName": "",
                         "lineColor": "rgba(130, 130, 130, 0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(140,223,123,0.7)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(80,243,12,0.7)",
-                        "pointHaloColor": "rgba(174,238,129,0.5)",
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
                         "radius": 2,
                         "simplification": 0.3,
                         "weight": 2
@@ -3538,7 +3538,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "3ae5ec62-e6c3-11ee-923b-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "cultural_heritage_resource_site_classification",
@@ -4131,8 +4131,8 @@
             "publication": {
                 "graph_id": "8a399bdd-03ff-11ec-946e-005056957f92",
                 "notes": null,
-                "publicationid": "2533e3e6-4042-11ef-b5e7-005056951e74",
-                "published_time": "2024-07-12T13:30:30.795+02:00"
+                "publicationid": "8e602e08-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:47.610+01:00"
             },
             "relatable_resource_model_ids": [
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce",

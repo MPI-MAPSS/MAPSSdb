@@ -7643,7 +7643,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P118i_is_overlapped_in_time_by",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "91a458ce-1844-11ef-9510-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "imagery_cartography_used_n1",
@@ -7675,7 +7675,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
                     "sortorder": 0,
-                    "sourcebranchpublication_id": "91a458ce-1844-11ef-9510-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "external_heritage_resource_n1",
@@ -7705,7 +7705,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P132_overlaps_with",
                     "sortorder": 1,
-                    "sourcebranchpublication_id": "91a458ce-1844-11ef-9510-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "bibliography_n1",
@@ -7737,7 +7737,7 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
                     "sortorder": 2,
-                    "sourcebranchpublication_id": "91a458ce-1844-11ef-9510-005056951e74"
+                    "sourcebranchpublication_id": null
                 },
                 {
                     "alias": "geometry_measurement_source_type",
@@ -11946,8 +11946,8 @@
             "publication": {
                 "graph_id": "e039a64e-a18d-11ed-826a-bd1a2523ba5d",
                 "notes": null,
-                "publicationid": "c06ba3cc-fe64-11ef-b152-005056951e74",
-                "published_time": "2025-03-11T11:36:55.024+01:00"
+                "publicationid": "8c9941ea-0020-11f0-b0a4-005056951e74",
+                "published_time": "2025-03-13T16:33:44.629+01:00"
             },
             "relatable_resource_model_ids": [
                 "7cf9420c-78a4-48d5-a1a8-c881cd402d5c",
