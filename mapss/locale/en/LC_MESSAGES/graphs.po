@@ -1,0 +1,3178 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: dev@fargeo.com\n"
+"POT-Creation-Date: 2025-03-19 06:41:54\n"
+"PO-Revision-Date: 2025-03-19 06:41:54\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an option"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Name Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Components Average Diameter  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Catalogue ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter Catalog ID or Image Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Components Average Length  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Color Ramp"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship Comments"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter text"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Source Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "District"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Shared Data Source"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Intervention Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Materials & Construction Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Heritage Place / موقع على صلة بالتراث"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Priority Type / نوع أولوية إتخاذ إجراءات التدخل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Spatial Coordinates Reference System/EPSG"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Sensor Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Google Earth Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Camera Sensor Resolution Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Specific"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an option for Specific Period/Sub-period certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Imagery Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Object Form Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Indicate your certainty level or levels"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Institution/Organization"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Role Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Role Date To"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Role"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field of Work"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Person/Organization Image"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Issue/Edition"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Category / تصنيف سبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometric Place Expression / التعبير هندسيًا عن شكل الموقع"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Location Certainty / مدى التأكد من مكان الموقع "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Landform Number Type / النوع"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Object Shape"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select a shape or shapes"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Components Average Height  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometric Place Expression"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation by Device"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Width  (cm)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Function Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Resources"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Diameter (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Length  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sensitive Resource?"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Process Indicator Certainty / مدى تأكيد مؤشر /أدلة التغيرات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Surficial Geology Type / نوع الجيولوجيا السطحية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Maritime Region Type / نوع الإقليم البحري"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Location Type / نوع الموقع عمومًا"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Country Type / الدولة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Date From / الجيوأركيولوجي (الأقدم)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter Calibrated Date (negative numbers for BC, positive for AD)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "BP Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Canvas Height (cm)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Canvas Width (cm)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Canvas Width Measurement Unit Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Height (cm)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Height Unit Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Identifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "VHR Imagery Used"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Object Form Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dataset Origin"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Object Interpretation Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dataset Object Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Comments"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Aimag"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Heritage Archival Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Operation Source"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cause Certainty / مدى التأكد من سبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "SH Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "AH Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "AH Date To"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Cultural Sub-period"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Bands Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommendation Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Effect Certainty / مدى التأكد من تأثير الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery & Cartography"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Heritage Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Bibliography & Shared Datasets"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Effect Type / أثر الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Equivalent Heritage Resource  (Record)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Date of Publication"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Component Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Choose Feature Component Type or \"Site Component\" if the Component is a "
+"Site Feature"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Volume"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Name Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date From"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Machine Learning Object"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Certainty Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Function Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remark"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related MAPSS Record (Heritage Resource)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "ML Detected Object Function Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Topography Type / الطبوغرافية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Source of Evidence Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Probability / التهديد المحتمل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Width Unit Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship from Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Map Source Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Associated Geoarchaeology Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Topography Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation Measurement Source"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Environment Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Minimum Elevation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Effect"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Object Detection Model Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GIS Software"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Shape Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Quaternary Date Certainty / مدى التأكد من تاريخ الزمن الرابع"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Category"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Context Detail"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery File Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter imagery file name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date To"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "How many Components are there?"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Bedrock Geology Type / النوع الجيولوجي للصخور"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Component Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Land Cover Type / الطبوغرافية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Land Cover Assessment Date / تاريخ تقييم الأرض"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Label Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Remark"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Find Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Process Indicator/Evidence of Type / نوع مؤشر /أدلة للتغيرات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship to Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Author Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition Assessment Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Sub-period Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Fetch Type / نوع المسافة بين يابستين"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Necessary to Verify?"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Description/EPSG code / وصف الإحداثية/ESPG code"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Type / نوع الإحداثية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Camera Sensor Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Platform Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource Acquisition Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Geometry Extent Certainty / مدى التأكد من امتداد الموقع من ناحية هندسية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Heritage Resource Site Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid Square"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Deposition Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MAPSS_RSO_ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Shared Data Source Date of Creation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Shared Data Source Affiliation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Programming Language"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Averaged Height"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition Assessment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Width (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Measurement Source Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Surficial Geology Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Assessment Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Resource String"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Environment Assessment Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period General Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Heritage Place"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Geoarchaeology Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Cultural Heritage Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Rock Art"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Context Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Context Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Motif Type Detail"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Canvas Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Title"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Detection Operation Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Creator"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Archaeological Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "ML Detected Object Function Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remark Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Object Detection Output Feature Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Averaged Diameter"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Equivalent Heritage Place Record"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Measurement Source Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation (mASL)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Meters above sea level"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Detailed Condition Assessments"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Detailed Condition Assessment / تقييم الحالة بالتفصيل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select or Create Detailed Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Heritage Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Object Detection False Negatives"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpretation Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date Occurred Before / اضطراب حدث قبل تاريخ "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Object Form Orientation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Training Data Object Form Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Filesystem Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Algorithm Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sub-district"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Province"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Detailed Condition Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Material Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpretation Qualifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sample Area (sq m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Verification Source"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Assessment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Measurement Source Sub-type Detail"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Backbone Model Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Location Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Artifact Categories"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessment Qualifier"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date To / تاريخ الاضطراب (حتى)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date Occurred On / اضطراب حدث في تاريخ"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Shape Orientation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "3D Model"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Shape Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GE Imagery Acquisition Date / تاريخ الحصول على الصورة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Comment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Tile Sqaure Details"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Technique"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Date From / تاريخ الاضطراب (من)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Effect Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Form Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Calibration Confidence %"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Function Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Bag/Sub-district"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Assessment Activity Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Facing Direction"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Biblio Place Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Projection/Grid"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Series"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Function Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Specific Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition Assessor Role Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Effect"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Function Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Function Sub-type Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Category"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Remote Sensing Object"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Resource Test"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Comment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid Square Assignee"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid Square Geometric Expression"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery & Cartography Used"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Material Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Length (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose Assessor Record from Person/Organization Resource Model"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Central Mound Diameter (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Extent Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Quaternary Divisions / تقسيمات الدهر الرباعي"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Landform Type / نوع شكل الظاهرة الجيوأركيولوجية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Verification/Ground Truthing"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Environment Assessment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource (Imagery) Used"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Resource Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Name / اسم (أسماء) المورد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter resource or site name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Carrier Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Marine Isotope Stage Certainty / تأكيد مراحل النظائر المشعة البحرية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Cultural Period"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object Form Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Marine Isotope Stages / مراحل النظائر المشعة البحرية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Assessment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Assessor Role Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "General Description / وصف عام"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter a place name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Spatial Coordinates Reference System"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation / نوع الإسناد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Format Type / نوع التهيئة أو التنسيق"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessment Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "URL"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter full URL"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Address"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Description of Finds"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation From Date / التحديد القديم"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation To Date / التحديد الحديث"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Probability"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Assignment Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Measurement Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Artifact Density"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommendation Type / نوع التوصية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Artifact Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Series Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Height  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Potential Impact Type / نوع التأثير الحتمل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Exposure / مكشوف"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Vulnerability / العوامل التي تعرض الموقع للاضطراب "
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Type / نوع النشاط"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation To Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Validity"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Investigator Role Type / نوع الدور الذي قام به الفاحص"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Grid ID / هوية الشبكة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Occurred On"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessment Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Material Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Bedrock Geology"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessment Activity Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Risk Level / مستوى المخاطر"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Components Average Width  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Remarks"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External (non-MAPSS) Dataset Record"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpreted Object Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select your interpretation sub-type or sub-types"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Height (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Function Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Severity Type / مدى التأثير المدمر المحتمل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Tidal Energy / مدى الارتفاع بين المد والجزر"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Environment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Designation From Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Environment Classification Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Edition"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Scale"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter free-text name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Processing Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Wave Climate / حالة الموج"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Depositional Process / عملية الترسب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Interpretation Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Threat Inference Making Assessor Name / اسم المقيم الذي أجرى الاستنتناجات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpreted Object Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select your interpretation type or types"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Driver Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "SH Date to"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Date To / الجيوأركيولوجي الحديث (الأحدث)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Sub-period Certainty Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Maximum Elevation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Map Source"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Place of Publication"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select Form Type or Types"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Restricted Access Record Designation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Project/Data Source Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Dimension Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Scale Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Land Cover Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "URL Access Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Diameter (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Measurement Unit Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period General"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select an option for General Cultural Period"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Post Processing Resolution"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Acquisition Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Right Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Estimated Damage Extent"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Measurement Source Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Archaeological Finds"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Remark"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Depositional Process Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Cultural Period Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Damage Effect Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "BP Date To"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Damage Effect Type Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Carrier Format Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "File Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sheet Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Sheet Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Remark"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Child Resource Approximate Count Range"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Approximately how many sites/features/components does this Heritage Place "
+"contain?"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Measurement Sub-type Detail"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Material & Technique Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Heritage Resource(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Choose related Heritage Resources (Places, Remote Sensing Objects, Archival "
+"Records, etc."
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Map Place Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Occurred Before"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Child Resource Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Verification Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Projection Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "2D Image File Upload"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MAPSS_HP_ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Tile Square Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Motif Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Motif Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Date of Creation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "INFORMATION ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Form Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Feature Shape"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place Construction Technique"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Canvas Height Measurement Unit Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Period Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Intervention Activity Type / نوع نشاط التدخل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Information Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Minimum Depth/Max Elevation (m) / أدنى عمق/أقصى ارتفاع (متر)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Motif Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Assessment Investigator - Actor / اسم من قام بالفحص"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Source Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Motif Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Assessment Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Uncalibrated Minimum Date BP"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Page Number(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Maximum Depth/Min Elevation (m) / أقصى عمق/أدنى ارتفاع (متر)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Uncalibrated Maximum Date BP"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Editor Appellation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Spatial Coordinates Reference System / نظام الإحداثيات المكانية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Geometry Type / نوع الشكل الهندسي"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Laboratory"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Extent / مدى الضرر/ الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Site Condition / حالة الموقع عمومًا"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Calibrated Mean Date BCE"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Resource Condition Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Lab Number"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpretation Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Select Interpretation Assessor (resource-instance node)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat Type / نوع التهديد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cause / نوع مسبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Condition Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Radiocarbon Notes"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Art Image Resource Condition Assessment"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Effect Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommended Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Priority Level"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Intervention Activity Category"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Datum Description/EPSG Code"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Cultural Heritage Resource Site Type Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Sediment Transition / مظاهر انتقال الرواسب الجيوأركيولوجية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Sediment Type Certainty / مدى التأكد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Sediment Type / نوع توضع الظواهر االجيوأركيولوجية"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Landform Arrangement Type / نوع الترتيب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Heritage Resource Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Function Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Function Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Significant Resource?"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Effect Time Span Start"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Effect Time Span End"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Soum/District"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Aimag/Province"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Orientation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Site Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Shared Data Source Project"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Commenter"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MAPSS Grid"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Stylistic Period"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Stylistic Period Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Art Image Stylistic Sub-period"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Stylistic Sub-period Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object Function Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "File Upload"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Assessor Role Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Archaeological Description Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object Function Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Landform Type Certainty / مدى التأكد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Feature Interpretation Type Certainty / مدى التأكد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Related Geoarchaeology/Palaeolandscape / على صلة بالجيوأركيولوجي/اللاندسكيب "
+"القديمة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Imagery Acquisition Date"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GEOARCH ID_new"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Related Site"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Dimension Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Averaged Width"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Averaged Length"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Construction Technique"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Remote Sensing Object Function Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Measurement Unit"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Measurement(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Country Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MapBox API Key (Optional)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Project/Activity Data Source Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mapbox Sprites"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mapbox Glyphs"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Width  (m)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpreted Heritage Place Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Time wheel configuration"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Interpreted Heritage Place Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Default Data Import/Export Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Application Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g. Arches"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Number of search hints per dropdown"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Number of search results per page"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Max number of search results to export (see help for limitations on this "
+"value)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search URL"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "(copy and paste from your browser address bar)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Search Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Project map extent"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Map"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Google Analytics Key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Enter key"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Default Zoom"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Max Zoom"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Min Zoom"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Thesaurus SPARQL Endpoint"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid ""
+"Hexagon Grid Precision (Integer, larger numbers ensure more precise counts "
+"at a performance cost)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g.: 4"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Hexagon Size (in km)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "e.g.: 2"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dataset Geometries"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Format Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Publisher"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Figure Number(s)"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Threat and Risk Assessor / المتحقق من حالتي الخطر والتهديد"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Category Type / تصنيف سبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Type / نوع مسبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Cause Certainty / مدى التأكد من سبب الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Potential Impact Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Comments on Relationship to Heritage Place/Built Component"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Investigator Name / اسم من قام بالفحص"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose investigator name or select NEW"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Activity Date / تاريخ النشاط"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Built Component Assessed / التكوين البنائي الذي تم تقييمه"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Assessor"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Assessor Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Resource Disturbance Cause Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Image Resource Disturbance Cause Certainty"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Heritage Place/Site of Assessment / صلة تفاصيل التقييم المسجلة بالموقع"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Choose site"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Secondary Threat Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Type / حالة الموقع عمومًا"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Trend Type / اتجاه الضرر أو مساره"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Extent Type / مدى الضرر/ الاضطراب"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Field Survey Object Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Date / تاريخ التعديل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Description / وصف التعديلات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Modification Type / نوع التعديل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Class / فئة مواد البناء"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Material Type / نوع مادة البناء"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks Type / نوع الملاحظات المدونة إجمالًا"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks / ملاحظات كلية عن حالة الموقع"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Unit / وحدة القياس"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Number / قيمة القياسات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Dimension Type / نوع القياس"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Measurement Source Type / نوع مصدر القياس"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Damage Assessment Assessor / المتحقق من الضرر"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommended Date of Next Assessment / التاريخ المقترح للتقييم التالي"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mitigation Activity Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Priority to Undertake Mitigation / الأولوية لإجراء الكبح"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Mitigation Strategy / استراتيجية كبح الخطر"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Resource Orientation Type / اتجاه الموقع الذي بصدد التسجيل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Technique Type / نوع تقنية البناء"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Construction Note / ملاحظة البناء"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Probability / التهديد المحتمل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Migration Priority Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Percentage of Site Affected"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Severity / مدى التأثير المدمر المحتمل"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Secondary Threat Type / نوع الخطر الثانوي"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Recommended Migration Strategy Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Next Assessment Date Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Overall Condition Remarks"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "File Upload / تحميل الملف"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship to Date / علاقة حديثة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship Comments / تعليقات العلاقة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Relationship from Date / علاقة قديمة"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Information Resource / مصدر المعلومات"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "ML Detected Object Name"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Resource Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Detection Operator"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Manual True Positive"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "GPU Description"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Training Dataset Used"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Algorithm Class"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Machine Learning Object Detection False Positives"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Elevation"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Disturbance Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Material Type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Component Number/Count"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "Equivalent Heritage Resource"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object Function Sub-type"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "External Survey Object ID"
+msgstr ""
+
+#: cards_x_nodes_x_widgets:1
+msgid "MAPSS_ESO_ID"
+msgstr ""
+
+#: cards:1
+msgid "Cartography"
+msgstr ""
+
+#: cards:1
+msgid "Date of File"
+msgstr ""
+
+#: cards:1
+msgid "Remote Sensing Object Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Assignment - CORRECT"
+msgstr ""
+
+#: cards:1
+msgid "Mapbox API"
+msgstr ""
+
+#: cards:1
+msgid "Represents a single node in a graph"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches uses the Mapbox mapping library for map display and data creation.  "
+"Arches also supports Mapbox basemaps and other services"
+msgstr ""
+
+#: cards:1
+msgid "Default Map Settings"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Initial settings for Arches maps displayed in reports, cards, and search"
+msgstr ""
+
+#: cards:1
+msgid "System Data Settings"
+msgstr ""
+
+#: cards:1
+msgid "Dataset Summary"
+msgstr ""
+
+#: cards:1
+msgid "Dataset Production"
+msgstr ""
+
+#: cards:1
+msgid "Editor(s)"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Attribute Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Timespan"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Appelation Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Recommendation Plan / خطة مقترحة/توصية"
+msgstr ""
+
+#: cards:1
+msgid "Information Carrier"
+msgstr ""
+
+#: cards:1
+msgid "Imagery"
+msgstr ""
+
+#: cards:1
+msgid "Intervention & Recommendation / التدخل & التوصية"
+msgstr ""
+
+#: cards:1
+msgid "Source of Evidence"
+msgstr ""
+
+#: cards:1
+msgid "General Date / التاريخ العام"
+msgstr ""
+
+#: cards:1
+msgid "Disturbances"
+msgstr ""
+
+#: cards:1
+msgid "Bedrock Geology / النوع الجيولوجي للصخور"
+msgstr ""
+
+#: cards:1
+msgid "Issues"
+msgstr ""
+
+#: cards:1
+msgid "Machine Learning Resource Summary"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Event Timespan"
+msgstr ""
+
+#: cards:1
+msgid "Surficial Geology / نوع الجيولوجيا السطحية"
+msgstr ""
+
+#: cards:1
+msgid "Topography / الطبوغرافية"
+msgstr ""
+
+#: cards:1
+msgid "GE Imagery Acquisition Date"
+msgstr ""
+
+#: cards:1
+msgid "Extent of Damage / مدى الضرر/ الاضطراب"
+msgstr ""
+
+#: cards:1
+msgid "Estimated Overall Damage Extent"
+msgstr ""
+
+#: cards:1
+msgid "Land Cover / الطبوغرافية"
+msgstr ""
+
+#: cards:1
+msgid "Geology / الجيولوجيا"
+msgstr ""
+
+#: cards:1
+msgid "Marine Environment / بيئة بحرية"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Resource Summary"
+msgstr ""
+
+#: cards:1
+msgid "Comment Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Source Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Condition Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Imagery Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Feature, feature group, site, landscape, etc."
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Settings Time Search"
+msgstr ""
+
+#: cards:1
+msgid "Configuration Settings for temporal search"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches supports temporal binning.  Define the configuration and colors to "
+"use in your time wheel"
+msgstr ""
+
+#: cards:1
+msgid ""
+"<p>You can see the color ramps at:</p><p><a "
+"href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-"
+"Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-"
+"reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
+msgstr ""
+
+#: cards:1
+msgid "Default Application Names"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Names used to identify your application and the system data import personna"
+msgstr ""
+
+#: cards:1
+msgid "Settings Basic Search"
+msgstr ""
+
+#: cards:1
+msgid "Configuration settings for search returns"
+msgstr ""
+
+#: cards:1
+msgid "Set the default search results behavior"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Effect Belief"
+msgstr ""
+
+#: cards:1
+msgid "Recommendation Plan"
+msgstr ""
+
+#: cards:1
+msgid "Artifact Collections Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Archaeological Validation Belief"
+msgstr ""
+
+#: cards:1
+msgid "Multiple Component Averaged Measurements"
+msgstr ""
+
+#: cards:1
+msgid "Single Component Measurements"
+msgstr ""
+
+#: cards:1
+msgid "Resource Summary"
+msgstr ""
+
+#: cards:1
+msgid "Location"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Resource Disturbance Cause Belief"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Motif Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Identifier Assignment"
+msgstr ""
+
+#: cards:1
+msgid "3D Model Upload"
+msgstr ""
+
+#: cards:1
+msgid "Field Survey Object Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Archaeological Assessment Summary"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Cause Belief"
+msgstr ""
+
+#: cards:1
+msgid "Machine Learning Object Detection Information"
+msgstr ""
+
+#: cards:1
+msgid "Overall Risk Level Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Publication Title"
+msgstr ""
+
+#: cards:1
+msgid "Saved Searches"
+msgstr ""
+
+#: cards:1
+msgid "System configuration for saving searches"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches allows you save a search and present it as convenience for your "
+"users."
+msgstr ""
+
+#: cards:1
+msgid "Project Extent"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Draw a polygon representing your project's extent. These bounds will serve "
+"as the default for the cache seed bounds, search result grid bounds, and map"
+" bounds in search, cards, and reports"
+msgstr ""
+
+#: cards:1
+msgid "Web Analytics"
+msgstr ""
+
+#: cards:1
+msgid "Google service used to track application usage and other metrics"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance"
+msgstr ""
+
+#: cards:1
+msgid "Effect / أثر الاضطراب"
+msgstr ""
+
+#: cards:1
+msgid "Threat Event / نتجة التهديد"
+msgstr ""
+
+#: cards:1
+msgid "URLs"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Resource Disturbance Effect Belief"
+msgstr ""
+
+#: cards:1
+msgid "Damage Assessor / المتحقق من الضرر"
+msgstr ""
+
+#: cards:1
+msgid "Tile Square Details"
+msgstr ""
+
+#: cards:1
+msgid "Field Survey Component Observation"
+msgstr ""
+
+#: cards:1
+msgid "Detailed Condition Assessments / تقييم الحالة بالتفصيل"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Measurement"
+msgstr ""
+
+#: cards:1
+msgid "Map Zoom"
+msgstr ""
+
+#: cards:1
+msgid ""
+"You can define the zoom behavior of your maps by specifying max/min and "
+"default values.  Zoom level 0 shows the whole world (and is the minimum zoom"
+" level).  Most map services support a maximum of 20 or so zoom levels"
+msgstr ""
+
+#: cards:1
+msgid "Thesaurus Service Providers"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches can access Thesaurus services, such as the Getty AAT, to acquire "
+"thesaurus entries using the Reference Data Manager (RDM)"
+msgstr ""
+
+#: cards:1
+msgid "Search Results Grid"
+msgstr ""
+
+#: cards:1
+msgid ""
+"Arches aggregates search results and displays them as hexagons.  You will "
+"need to set default parameters for the hexagon size  and its precision."
+msgstr ""
+
+#: cards:1
+msgid "2D Imagery Upload"
+msgstr ""
+
+#: cards:1
+msgid "Art Image Stylistic Period Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Condition & Threat Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Environment Assessment"
+msgstr ""
+
+#: cards:1
+msgid "External Survey Object Assessment"
+msgstr ""
+
+#: cards:1
+msgid "External Survey Component Observation"
+msgstr ""
+
+#: cards:1
+msgid "MAPSS_FSO_ID"
+msgstr ""
+
+#: cards:1
+msgid "Lifespan"
+msgstr ""
+
+#: cards:1
+msgid "Description Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Risk Level Belief / مستوى المخاطر"
+msgstr ""
+
+#: cards:1
+msgid "Assessment Summary / ملخص التقييم"
+msgstr ""
+
+#: cards:1
+msgid "Imagery Assessment Summary"
+msgstr ""
+
+#: cards:1
+msgid "Art_Image_Identifier"
+msgstr ""
+
+#: cards:1
+msgid "Additional Information"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Period Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Overall Condition / حالة الموقع عمومًا"
+msgstr ""
+
+#: cards:1
+msgid "Imagery Sampled Resolution Type"
+msgstr ""
+
+#: cards:1
+msgid "Place of publication"
+msgstr ""
+
+#: cards:1
+msgid "Damage Observation"
+msgstr ""
+
+#: cards:1
+msgid "Modification / نوع التعديل"
+msgstr ""
+
+#: cards:1
+msgid "Condition Remarks / ملاحظات كلية عن حالة الموقع"
+msgstr ""
+
+#: cards:1
+msgid "Measurements / قياسات"
+msgstr ""
+
+#: cards:1
+msgid "Date of Next Assessment / التاريخ المقترح للتقييم التالي"
+msgstr ""
+
+#: cards:1
+msgid "Recommendation and Priority "
+msgstr ""
+
+#: cards:1
+msgid "Resource Relationships"
+msgstr ""
+
+#: cards:1
+msgid "Location / الجغرافيا"
+msgstr ""
+
+#: cards:1
+msgid "Modification and Construction / التعديل والبناء"
+msgstr ""
+
+#: cards:1
+msgid "Damage Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Threat and Risk Assessment / التهديد وتقييم الخطر"
+msgstr ""
+
+#: cards:1
+msgid "Depth/Elevation / العمق/الارتفاع"
+msgstr ""
+
+#: cards:1
+msgid "Overall Condition Assessment / حالة الموقع عمومًا"
+msgstr ""
+
+#: cards:1
+msgid "Related Information Resources"
+msgstr ""
+
+#: cards:1
+msgid "Contains"
+msgstr ""
+
+#: cards:1
+msgid "CONDITION ID"
+msgstr ""
+
+#: cards:1
+msgid "Geoarchaeology Certainty Observation"
+msgstr ""
+
+#: cards:1
+msgid "Land Cover Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Geometry"
+msgstr ""
+
+#: cards:1
+msgid "Archaeological Assessment Resources Used"
+msgstr ""
+
+#: cards:1
+msgid "Machine Learning Object Assessment"
+msgstr ""
+
+#: cards:1
+msgid "MAPSS_ML_ID"
+msgstr ""
+
+#: cards:1
+msgid "Name / اسم (أسماء) المورد"
+msgstr ""
+
+#: cards:1
+msgid "Known name(s) of site or resource"
+msgstr ""
+
+#: cards:1
+msgid "Feature Sediment / نوع توضع الظواهر االجيوأركيولوجية"
+msgstr ""
+
+#: cards:1
+msgid "Recommended Intervention Activity"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Shape"
+msgstr ""
+
+#: cards:1
+msgid "Condition Assessment Summary"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Name Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Environment Assessment Summary"
+msgstr ""
+
+#: cards:1
+msgid "Publication Date"
+msgstr ""
+
+#: cards:1
+msgid "Bibliography"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Effects"
+msgstr ""
+
+#: cards:1
+msgid "Geology Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Components"
+msgstr ""
+
+#: cards:1
+msgid "Occupied Timespan"
+msgstr ""
+
+#: cards:1
+msgid "Official Designation"
+msgstr ""
+
+#: cards:1
+msgid "Imagery Acquisition Date / تاريخ الحصول على الصورة"
+msgstr ""
+
+#: cards:1
+msgid "IMAGERY_RESOURCE_ID"
+msgstr ""
+
+#: cards:1
+msgid "Project/Dataset Source Name"
+msgstr ""
+
+#: cards:1
+msgid "Measurements"
+msgstr ""
+
+#: cards:1
+msgid "Absolute Chronology Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Heritage Resource Observation Summary"
+msgstr ""
+
+#: cards:1
+msgid "Cultural Heritage Resource Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Enter basic information about the archaeological resource"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Construction"
+msgstr ""
+
+#: cards:1
+msgid "Materials & Techniques"
+msgstr ""
+
+#: cards:1
+msgid "Author(s)"
+msgstr ""
+
+#: cards:1
+msgid "Source"
+msgstr ""
+
+#: cards:1
+msgid "e.g. Journal/Volume Title / مثال: مجلة/عنوان المجلد"
+msgstr ""
+
+#: cards:1
+msgid "Shared Data"
+msgstr ""
+
+#: cards:1
+msgid "Place(s) of publication"
+msgstr ""
+
+#: cards:1
+msgid "Topography Type Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Radiocarbon Dates"
+msgstr ""
+
+#: cards:1
+msgid "Interpretation"
+msgstr ""
+
+#: cards:1
+msgid "Type of monument, grave, building, etc."
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Function Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Morphology"
+msgstr ""
+
+#: cards:1
+msgid "Form, shape, etc."
+msgstr ""
+
+#: cards:1
+msgid "Damage State"
+msgstr ""
+
+#: cards:1
+msgid "Geography"
+msgstr ""
+
+#: cards:1
+msgid "Heritage Place Interpretation & Morphology Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Interpretation & Morphology"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Causes"
+msgstr ""
+
+#: cards:1
+msgid "Threat Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Condition Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Page(s)"
+msgstr ""
+
+#: cards:1
+msgid "Related Heritage Resources"
+msgstr ""
+
+#: cards:1
+msgid "Related Resources Assignment"
+msgstr ""
+
+#: cards:1
+msgid "Figure(s)"
+msgstr ""
+
+#: cards:1
+msgid "Remote Sensing Component Observation"
+msgstr ""
+
+#: cards:1
+msgid "BIBLIOGRAPHIC_RESOURCE_ID"
+msgstr ""
+
+#: cards:1
+msgid "Archaeological Assessment"
+msgstr ""
+
+#: cards:1
+msgid "Comments or remarks about site/feature recording"
+msgstr ""
+
+#: cards:1
+msgid "Process Indicator/Evidence of / مؤشر /أدلة للتغيرات"
+msgstr ""
+
+#: cards:1
+msgid "Environment Assessment / التقييم البيئي"
+msgstr ""
+
+#: cards:1
+msgid "Priority Assignment / الأولوية"
+msgstr ""
+
+#: cards:1
+msgid "Disturbance Event Timespan / تاريخ الاضطراب"
+msgstr ""
+
+#: cards:1
+msgid "Geometry / أشكال هندسية"
+msgstr ""
+
+#: cards:1
+msgid "Geography / الجغرافيا"
+msgstr ""
+
+#: cards:1
+msgid "Geoarchaeology Feature Assessment / تقييم الظاهرة الأثارجيولوجية"
+msgstr ""
+
+#: cards:1
+msgid "Condition Assessment / تقييم الحالة"
+msgstr ""
+
+#: cards:1
+msgid "Feature Landform / نوع شكل الظاهرة الجيوأركيولوجية"
+msgstr ""
+
+#: cards:1
+msgid "Resource Summary / ملخص المورد"
+msgstr ""
+
+#: cards:1
+msgid "Feature Interpretation Belief"
+msgstr ""
+
+#: cards:1
+msgid "Description / وصف عام"
+msgstr ""
+
+#: cards:1
+msgid "Threats"
+msgstr ""
+
+#: cards:1
+msgid "Geoarchaeological Timespace / المنظور الزمني للملاحظة الجيوأركيولوجية"
+msgstr ""
+
+#: cards:1
+msgid "Geoarchaeology Assessment / تقييم جيوأركيولوجي"
+msgstr ""

@@ -1,0 +1,1956 @@
+#
+msgid ""
+msgstr "Language: mn\n"
+
+msgid "Grid_Sq_ID"
+msgstr "Grid_Sq_ID"
+
+msgid "Color Ramp"
+msgstr "Өнгөт налуу"
+
+msgid "Select an option"
+msgstr "Сонголтыг сонгоно уу"
+
+msgid "Artifact Density"
+msgstr "Олдворын нягтрал"
+
+msgid "Project map extent"
+msgstr "Төслийн газрын зургийн цар хүрээ"
+
+msgid "Map"
+msgstr "Газрын зураг"
+
+msgid "MapBox API Key (Optional)"
+msgstr "MapBox API түлхүүр (заавал биш)"
+
+msgid "Enter text"
+msgstr "Текст оруулна уу"
+
+msgid "Mapbox Sprites"
+msgstr "Mapbox Sprites"
+
+msgid "Mapbox Glyphs"
+msgstr "Mapbox Glyphs"
+
+msgid "Default Zoom"
+msgstr "Өгөгдмөл томруулах"
+
+msgid "Enter number"
+msgstr "Дугаар оруулна уу"
+
+msgid "Max Zoom"
+msgstr "Хамгийн их томруулах"
+
+msgid "Min Zoom"
+msgstr "Хамгийн бага томруулах"
+
+msgid ""
+"Hexagon Grid Precision (Integer, larger numbers ensuer more precise counts "
+"at a performanace cost)"
+msgstr ""
+"Зургаан өнцөгт торны нарийвчлал (Бүхэл тоо, том тоо нь гүйцэтгэлийн зардлаар"
+" илүү нарийвчлалтай тоолдог)"
+
+msgid "e.g.: 4"
+msgstr "жишээ нь: 4"
+
+msgid "Hexagon Size (in km)"
+msgstr "Зургаан өнцөгтийн хэмжээ (км)"
+
+msgid "e.g.: 2"
+msgstr "жишээ нь: 2"
+
+msgid "Time wheel configuration"
+msgstr "Цагийн дугуйны тохиргоо"
+
+msgid "Google Analytics Key"
+msgstr "Google аналитик түлхүүр"
+
+msgid "Enter key"
+msgstr "Түлхүүрийг оруулна уу"
+
+msgid "Default Data Import/Export Name"
+msgstr "Өгөгдлийн импорт/экспортын өгөгдмөл нэр"
+
+msgid "Application Name"
+msgstr "Програмын нэр"
+
+msgid "e.g. Arches"
+msgstr "жишээ нь Нуман хаалга"
+
+msgid "Thesaurus SPARQL Endpoint"
+msgstr "Thesaurus SPARQL Endpoint"
+
+msgid "Number of search hints per dropdown"
+msgstr "Унтраах жагсаалт бүрт хайлтын зөвлөмжийн тоо"
+
+msgid "Number of search results per page"
+msgstr "Хуудасны хайлтын үр дүнгийн тоо"
+
+msgid ""
+"Max number of search results to export (see help for limitations on this "
+"value)"
+msgstr ""
+"Экспортлох хайлтын үр дүнгийн дээд тоо (энэ утгын хязгаарлалтыг тусламжаас "
+"үзнэ үү)"
+
+msgid "Search Name"
+msgstr "Нэр хайх"
+
+msgid "Search Description"
+msgstr "Хайлтын тайлбар"
+
+msgid "Search URL"
+msgstr "URL хайх"
+
+msgid "(copy and paste from your browser address bar)"
+msgstr "(хөтөчийнхөө хаягийн талбараас хуулж буулгана уу)"
+
+msgid "Image"
+msgstr "Зураг"
+
+msgid "Archaeological Validity"
+msgstr "Археологийн хүчин төгөлдөр байдал"
+
+msgid "Heritage Place Function Type"
+msgstr "Өв газрын үйл ажиллагааны төрөл"
+
+msgid "Heritage Place Function Sub-type"
+msgstr "Heritage Place функцийн дэд төрөл"
+
+msgid "Heritage Place Function Certainty"
+msgstr "Heritage Place функциональ байдал"
+
+msgid "Heritage Place Function Sub-type Certainty"
+msgstr "Heritage Place Function Дэд төрөл Тодорхой"
+
+msgid "Intervention Activity Category"
+msgstr "Интервенцийн үйл ажиллагааны ангилал"
+
+msgid "Threat Driver Type"
+msgstr "Аюултай драйверын төрөл"
+
+msgid "Threat Probability"
+msgstr "Аюулын магадлал"
+
+msgid "Priority Level"
+msgstr "Тэргүүлэх түвшин"
+
+msgid "Recommended Activity Type"
+msgstr "Санал болгож буй үйл ажиллагааны төрөл"
+
+msgid "Component Type"
+msgstr "Бүрэлдэхүүн хэсгийн төрөл"
+
+msgid "Component Deposition Type"
+msgstr "Бүрэлдэхүүн хэсгийн хадгалалтын төрөл"
+
+msgid "Component Measurement Unit"
+msgstr "Бүрэлдэхүүн хэсгүүдийн хэмжилтийн нэгж"
+
+msgid "Component Measurement(s)"
+msgstr "Бүрэлдэхүүн хэсгүүдийн хэмжилт(үүд)"
+
+msgid "Component Material Type"
+msgstr "Бүрэлдэхүүн хэсгийн материалын төрөл"
+
+msgid "Archaeological Assessor Role Type"
+msgstr "Археологийн үнэлгээчний үүргийн төрөл"
+
+msgid "Imagery & Cartography"
+msgstr "Зураглал ба зураг зүй"
+
+msgid "Archaeological Description Type"
+msgstr "Археологийн тодорхойлолтын төрөл"
+
+msgid "Archaeological Assessor"
+msgstr "Археологийн үнэлгээчин"
+
+msgid "Archaeological Assessment Activity Type"
+msgstr "Археологийн үнэлгээний үйл ажиллагааны төрөл"
+
+msgid "External Heritage Resource"
+msgstr "Гадаад өвийн нөөц"
+
+msgid "Bibliography & Shared Datasets"
+msgstr "Ном зүй ба Хуваалцсан мэдээллийн багц"
+
+msgid "Overall Archaeological Certainty"
+msgstr "Археологийн ерөнхий баталгаа"
+
+msgid "Maximum Elevation"
+msgstr "Хамгийн их өндөр"
+
+msgid "Heritage Place Measurement Source Type"
+msgstr "Өв газрын хэмжилтийн эх үүсвэрийн төрөл"
+
+msgid "Measurement Remark"
+msgstr "Хэмжилтийн тайлбар"
+
+msgid "Heritage Place Measurement Number"
+msgstr "Өв газрын хэмжилтийн дугаар"
+
+msgid "Heritage Place Measurement Unit Type"
+msgstr "Өв газрын хэмжилтийн нэгжийн төрөл"
+
+msgid "Component Number/Count"
+msgstr "Бүрэлдэхүүн хэсгийн дугаар/тоо"
+
+msgid "Equivalent Heritage Place Record"
+msgstr "Түүнтэй ижил өвийн газрын бүртгэл"
+
+msgid "Equivalent Heritage Resource"
+msgstr "Түүнтэй ижил өвийн нөөц"
+
+msgid "Component Dimension Type"
+msgstr "Бүрэлдэхүүн хэсгийн хэмжээсийн төрөл"
+
+msgid "Component Remark"
+msgstr "Бүрэлдэхүүн хэсгийн тайлбар"
+
+msgid "Component Construction Technique"
+msgstr "Бүрэлдэхүүн хэсгүүдийн барилгын техник"
+
+msgid "Component Material Class"
+msgstr "Бүрэлдэхүүн хэсгийн материалын ангилал"
+
+msgid "Environment Assessor"
+msgstr "Байгаль орчны үнэлгээчин"
+
+msgid "Heritage Place Form Type"
+msgstr "Өв газрын маягтын төрөл"
+
+msgid "Heritage Place Form Certainty"
+msgstr "Өв дурсгалын газрын маягт тодорхой"
+
+msgid "Site Feature Shape"
+msgstr "Сайтын онцлог хэлбэр"
+
+msgid "Comment on Recording"
+msgstr "Бичлэгийн талаар сэтгэгдэл бичээрэй"
+
+msgid "Archaeological Verification Type"
+msgstr "Археологийн баталгаажуулалтын төрөл"
+
+msgid "Archaeological Assessment Qualifier"
+msgstr "Археологийн үнэлгээний шалгуур үзүүлэлт"
+
+msgid "Heritage Place Shape Orientation"
+msgstr "Өв газрын хэлбэрийн чиг баримжаа"
+
+msgid "MAPSS_HP_ID"
+msgstr "MAPSS_HP_ID"
+
+msgid "Minimum Elevation"
+msgstr "Хамгийн бага өндөр"
+
+msgid "Surficial Geology Type"
+msgstr "Гадаргуугийн геологийн төрөл"
+
+msgid "Land Cover Type"
+msgstr "Газрын бүрхэвчийн төрөл"
+
+msgid "Bedrock Geology"
+msgstr "Үндсэн чулуулгийн геологи"
+
+msgid "Topography Type"
+msgstr "Топографийн төрөл"
+
+msgid "Datum Description"
+msgstr "Датумын тайлбар"
+
+msgid "Depositional Process Type"
+msgstr "Хуримтлуулах процессын төрөл"
+
+msgid "Component Shape Type"
+msgstr "Бүрэлдэхүүн хэсгийн хэлбэр"
+
+msgid "Artifact Categories"
+msgstr "Олдворын ангилал"
+
+msgid "Sample Area (sq m)"
+msgstr "Дээжийн талбай (кв м)"
+
+msgid "Description of Finds"
+msgstr "Олдворын тодорхойлолт"
+
+msgid "Artifact Count"
+msgstr "Олдворын тоо"
+
+msgid "Heritage Place Type"
+msgstr "Өв газрын төрөл"
+
+msgid "Bag/Sub-district"
+msgstr "Баг / хороолол"
+
+msgid "MAPSS Grid"
+msgstr "MAPSS сүлжээ"
+
+msgid "Orientation"
+msgstr "Баримтлал"
+
+msgid "Laboratory"
+msgstr "Лаборатори"
+
+msgid "Calibration Confidence %"
+msgstr "Шалгалт тохируулгын итгэл %"
+
+msgid "Radiocarbon Notes"
+msgstr "Радио нүүрстөрөгчийн тэмдэглэл"
+
+msgid "Lab Number"
+msgstr "Лабораторийн дугаар"
+
+msgid "Uncalibrated Maximum Date BP"
+msgstr "Шалгаруулаагүй хамгийн их огноо АД"
+
+msgid "Calibrated Mean Date BCE"
+msgstr "Шалгалт тохируулсан дундаж огноо"
+
+msgid "Uncalibrated Minimum Date BP"
+msgstr "Шалгаруулаагүй хамгийн бага огноо АД"
+
+msgid "Threat Type"
+msgstr "Аюул заналхийллийн төрөл"
+
+msgid "Disturbance Date From"
+msgstr "Эвдрэлийн огноо"
+
+msgid "Disturbance Occurred On"
+msgstr "Гамшиг гарсан"
+
+msgid "Disturbance Date To"
+msgstr "Эвдрэлийн огноо"
+
+msgid "Disturbance Occurred Before"
+msgstr "Өмнө нь эвдрэл гарсан"
+
+msgid "Disturbance Effect"
+msgstr "Эвдрэлийн нөлөө"
+
+msgid "Child Resource Approximate Count Range"
+msgstr "Хүүхдийн нөөцийн ойролцоо тоолох хүрээ"
+
+msgid ""
+"Approximately how many sites/features/components does this Heritage Place "
+"contain?"
+msgstr "Энэ Өвийн газар ойролцоогоор хэдэн сайт/онцлог/бүрэлдэхүүнтэй вэ?"
+
+msgid "Soum/District"
+msgstr "Сум/дүүрэг"
+
+msgid "Aimag/Province"
+msgstr "Аймаг/аймаг"
+
+msgid "Disturbance Effect Certainty"
+msgstr "Эвдрэлийн нөлөөллийн тодорхой байдал"
+
+msgid "Cultural Period"
+msgstr "Соёлын үе"
+
+msgid "Interpretation Certainty"
+msgstr "Тайлбарын баталгаа"
+
+msgid "Interpretation Assessor"
+msgstr "Тайлбарын үнэлгээч"
+
+msgid "Select Interpretation Assessor (resource-instance node)"
+msgstr "Тайлбарын үнэлгээчийг сонгох (нөөцийн жишээ зангилаа)"
+
+msgid "Interpretation Qualifier"
+msgstr "Тайлбарын шалгуур үзүүлэлт"
+
+msgid "Environment Assessment Activity Type"
+msgstr "Байгаль орчны үнэлгээний үйл ажиллагааны төрөл"
+
+msgid "Information Resource"
+msgstr "Мэдээллийн нөөц"
+
+msgid "Environment Assessment Date"
+msgstr "Байгаль орчны үнэлгээний огноо"
+
+msgid "Associated Geoarchaeology Assessment"
+msgstr "Холбоотой геоархеологийн үнэлгээ"
+
+msgid "Imagery & Cartography Used"
+msgstr "Зураглал ба зураг зүй ашигласан"
+
+msgid "Related Heritage Resource(s)"
+msgstr "Холбоотой өвийн нөөц(үүд)"
+
+msgid ""
+"Choose related Heritage Resources (Places, Remote Sensing Objects, Archival "
+"Records, etc."
+msgstr ""
+"Холбогдох өвийн нөөцийг (газарууд, зайнаас тандан судлах объект, архивын "
+"бүртгэл гэх мэт) сонгоно уу."
+
+msgid "Child Resource Count"
+msgstr "Хүүхдийн нөөцийн тоо"
+
+msgid "Designation From Date"
+msgstr "Он сар өдөр"
+
+msgid "Designation"
+msgstr "Зориулалт"
+
+msgid "Designation To Date"
+msgstr "Тохиромжтой"
+
+msgid "Overall Condition"
+msgstr "Ерөнхий нөхцөл"
+
+msgid "Condition Assessment Activity Type"
+msgstr "Нөхцөл байдлын үнэлгээний үйл ажиллагааны төрөл"
+
+msgid "Condition Assessment Date"
+msgstr "Нөхцөл байдлын үнэлгээний огноо"
+
+msgid "Condition Assessor Role Type"
+msgstr "Нөхцөл байдлын үнэлгээчний үүргийн төрөл"
+
+msgid "Disturbance Cause Type"
+msgstr "Эвдрэлийн шалтгааны төрөл"
+
+msgid "Damage Effect"
+msgstr "Гэмтлийн нөлөө"
+
+msgid "Disturbance Cause Category"
+msgstr "Эвдрэлийн шалтгааны ангилал"
+
+msgid "Disturbance Cause Certainty"
+msgstr "Эвдрэлийн шалтгаан нь тодорхой"
+
+msgid "Damage Effect Certainty"
+msgstr "Гэмтлийн нөлөөллийн баталгаа"
+
+msgid "Estimated Damage Extent"
+msgstr "Тооцоолсон хохирлын хэмжээ"
+
+msgid "Remote Sensing Object Name"
+msgstr "Зайнаас тандан судлах объектын нэр"
+
+msgid "Interpreted Heritage Place Type"
+msgstr "Тайлбарласан өвийн газрын төрөл"
+
+msgid "Heritage Place Construction Technique"
+msgstr "Өв дурсгалт газар барих арга техник"
+
+msgid "Heritage Place Materials & Construction Certainty"
+msgstr "Heritage Place Materials & Construction Construction Consertity"
+
+msgid "Interpreted Heritage Place Sub-type"
+msgstr "Тайлбарласан өвийн газрын дэд төрөл"
+
+msgid "Overall Assessment Certainty"
+msgstr "Ерөнхий үнэлгээний баталгаа"
+
+msgid "Heritage Place Material Type"
+msgstr "Өв газрын материалын төрөл"
+
+msgid "Heritage Place Material Class"
+msgstr "Өв газрын материалын ангилал"
+
+msgid "Remote Sensing Assessor"
+msgstr "Зайнаас тандан судлах үнэлгээч"
+
+msgid "Remark Type"
+msgstr "Тайлбарын төрөл"
+
+msgid "Remark"
+msgstr "Тайлбар"
+
+msgid "Remote Sensing Object Function Certainty"
+msgstr "Зайнаас тандан судлах объектын үйл ажиллагааны тодорхой байдал"
+
+msgid "Archaeological Assessment Activity Sub-type"
+msgstr "Археологийн үнэлгээний үйл ажиллагааны дэд төрөл"
+
+msgid "Geometric Place Expression"
+msgstr "Геометрийн байршлын илэрхийлэл"
+
+msgid "Location Certainty"
+msgstr "Байршлын тодорхой байдал"
+
+msgid "Geometry Extent Certainty"
+msgstr "Геометрийн хүрээний тодорхой байдал"
+
+msgid "Spatial Coordinates Reference System"
+msgstr "Орон зайн координатын лавлах систем"
+
+msgid "Geometry Remarks"
+msgstr "Геометрийн тайлбар"
+
+msgid "Component Measurement"
+msgstr "Бүрэлдэхүүн хэсгүүдийн хэмжилт"
+
+msgid "Heritage Place Shape Type"
+msgstr "Өв газрын хэлбэр дүрс"
+
+msgid "Heritage Place Dimension Type"
+msgstr "Өв дурсгалт газрын хэмжээсийн төрөл"
+
+msgid "Cultural Period Certainty"
+msgstr "Соёлын үе тодорхой"
+
+msgid "Component Number"
+msgstr "Бүрэлдэхүүн хэсгийн дугаар"
+
+msgid "Object Shape"
+msgstr "Объектын хэлбэр"
+
+msgid "Interpreted Object Type"
+msgstr "Тайлбарласан объектын төрөл"
+
+msgid "Interpreted Object Sub-type"
+msgstr "Тайлбарласан объектын дэд төрөл"
+
+msgid "Component's Equivalent Site Feature"
+msgstr "Бүрэлдэхүүн хэсгийн эквивалент сайтын онцлог"
+
+msgid "Construction Technique"
+msgstr "Барилгын техник"
+
+msgid "Material Class"
+msgstr "Материалын ангилал"
+
+msgid "Material Type"
+msgstr "Материалын төрөл"
+
+msgid "Remote Sensing Object Construction Certainty"
+msgstr "Зайнаас тандан судлах объектын барилгын тодорхой байдал"
+
+msgid "Object Form Certainty"
+msgstr "Объект хэлбэрийн тодорхой байдал"
+
+msgid "Object Form Type"
+msgstr "Объект хэлбэрийн төрөл"
+
+msgid "Central Mound Diameter (m)"
+msgstr "Төв толгод диаметр (м)"
+
+msgid "Width (m)"
+msgstr "Өргөн (м)"
+
+msgid "Diameter (m)"
+msgstr "Диаметр (м)"
+
+msgid "30m SRTM Elevation (m)"
+msgstr "30м SRTM өндөр (м)"
+
+msgid "Height (m)"
+msgstr "Өндөр (м)"
+
+msgid "Length (m)"
+msgstr "Урт (м)"
+
+msgid "Datum Description/EPSG Code"
+msgstr "Өгөгдлийн тодорхойлолт/EPSG код"
+
+msgid "Soum"
+msgstr "сум"
+
+msgid "Spatial Coordinates Reference System/EPSG"
+msgstr "Орон зайн координатын лавлах систем/EPSG"
+
+msgid "Bag"
+msgstr "Цүнх"
+
+msgid "Aimag"
+msgstr "Аймаг"
+
+msgid "MAPSS_RSO_ID"
+msgstr "MAPSS_RSO_ID"
+
+msgid "Related Detailed Condition Assessment"
+msgstr "Холбогдох нарийвчилсан нөхцөл байдлын үнэлгээ"
+
+msgid "Condition Assessor"
+msgstr "Нөхцөл байдлын үнэлгээч"
+
+msgid "Place Name"
+msgstr "Газрын нэр"
+
+msgid "Name Type"
+msgstr "Нэр төрөл"
+
+msgid "Information Resource Used"
+msgstr "Ашигласан мэдээллийн нөөц"
+
+msgid "Grid Square"
+msgstr "Торон талбай"
+
+msgid "External Dataset Related Resource"
+msgstr "Гадаад өгөгдлийн багцтай холбоотой нөөц"
+
+msgid "Related Heritage Resource"
+msgstr "Холбогдох өвийн нөөц"
+
+msgid "Verification/Ground Truthing"
+msgstr "Баталгаажуулалт/үндсэн үнэн"
+
+msgid "Assessment Date"
+msgstr "Үнэлгээний огноо"
+
+msgid "Remote Sensing Object Function Type"
+msgstr "Зайнаас тандан судлах объектын функцын төрөл"
+
+msgid "Equivalent Site Feature"
+msgstr "Сайтын ижил төстэй функц"
+
+msgid "Overall Condition Assessment"
+msgstr "Нөхцөл байдлын ерөнхий үнэлгээ"
+
+msgid "Appellation"
+msgstr "Аппелляция"
+
+msgid "Institution/Organization"
+msgstr "Байгууллага/Байгууллага"
+
+msgid "Role Date From"
+msgstr "Гүйцэтгэсэн огноо"
+
+msgid "Role Date To"
+msgstr "Гүйцэтгэх огноо"
+
+msgid "Role"
+msgstr "Үүрэг"
+
+msgid "Field of Work"
+msgstr "Ажлын талбар"
+
+msgid "Person/Organization Image"
+msgstr "Хүн/Байгууллагын зураг"
+
+msgid "Heritage Place Function Certainty br"
+msgstr "Heritage Place Function Certainty br"
+
+msgid "Project/Data Source Name"
+msgstr "Төсөл/Өгөгдлийн эх сурвалжийн нэр"
+
+msgid "Related Archaeological Finds"
+msgstr "Холбогдох археологийн олдворууд"
+
+msgid "Heritage Place Function Type br"
+msgstr "Heritage Place Function Type br"
+
+msgid "Find Number"
+msgstr "Тоо олох"
+
+msgid "Biblio Place Appellation"
+msgstr "Biblio Place Appellation"
+
+msgid "File Upload"
+msgstr "Файл байршуулах"
+
+msgid "Archaeological Assessment Date"
+msgstr "Археологийн үнэлгээний огноо"
+
+msgid "Archaeological Description"
+msgstr "Археологийн тодорхойлолт"
+
+msgid "Related Site"
+msgstr "Холбоотой сайт"
+
+msgid "Relationship from Date"
+msgstr "Огнооноос хойшхи харилцаа"
+
+msgid "Relationship to Date"
+msgstr "Огноо хүртэлх харилцаа"
+
+msgid "Relationship Comments"
+msgstr "Харилцааны талаархи сэтгэгдэл"
+
+msgid "Editor Appellation"
+msgstr "Редакторын нэрэмжит"
+
+msgid "Title"
+msgstr "Гарчиг"
+
+msgid "Publisher"
+msgstr "Нийтлэгч"
+
+msgid "Page Number(s)"
+msgstr "Хуудасны дугаар(ууд)"
+
+msgid "Figure Number(s)"
+msgstr "Зургийн дугаар(ууд)"
+
+msgid "Source Appellation"
+msgstr "Эх сурвалжийн нэршил"
+
+msgid "Issue/Edition"
+msgstr "Асуудал/Хэвлэл"
+
+msgid "Date of Publication"
+msgstr "Нийтэлсэн огноо"
+
+msgid "Volume"
+msgstr "Эзлэхүүн"
+
+msgid "Author Name"
+msgstr "Зохиогчийн нэр"
+
+msgid "INFORMATION ID"
+msgstr "МЭДЭЭЛЛИЙН ID"
+
+msgid "Resource Type"
+msgstr "Нөөцийн төрөл"
+
+msgid "Format Type"
+msgstr "Формат төрөл"
+
+msgid "Grid ID"
+msgstr "Тор ID"
+
+msgid "Country Type"
+msgstr "Улс орны төрөл"
+
+msgid "Address"
+msgstr "Хаяг"
+
+msgid "Shared Data Source"
+msgstr "Хуваалцсан мэдээллийн эх сурвалж"
+
+msgid "Shared Data Source Date of Creation"
+msgstr "Хуваалцсан мэдээллийн эх үүсвэр Үүсгэсэн огноо"
+
+msgid "Shared Data Source Affiliation"
+msgstr "Хуваалцсан мэдээллийн эх сурвалжийн харьяалал"
+
+msgid "Shared Data Source Project"
+msgstr "Хуваалцсан мэдээллийн эх үүсвэрийн төсөл"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Enter full URL"
+msgstr "Бүтэн URL оруулна уу"
+
+msgid "URL Access Date"
+msgstr "URL хандалтын огноо"
+
+msgid "Restricted Access Record Designation"
+msgstr "Хязгаарлагдмал хандалтын бүртгэлийн тэмдэглэгээ"
+
+msgid "Information Carrier Format Type"
+msgstr "Мэдээллийн тээвэрлэгчийн форматын төрөл"
+
+msgid "Description"
+msgstr "Тодорхойлолт"
+
+msgid "Scale Type"
+msgstr "Хэмжээний төрөл"
+
+msgid "Source"
+msgstr "Эх сурвалж"
+
+msgid "Map Source Type"
+msgstr "Газрын зургийн эх сурвалжийн төрөл"
+
+msgid "Creator"
+msgstr "Бүтээгч"
+
+msgid "Map Source"
+msgstr "Газрын зургийн эх сурвалж"
+
+msgid "Place of Publication"
+msgstr "Нийтэлсэн газар"
+
+msgid "Sheet Number"
+msgstr "Хуудасны дугаар"
+
+msgid "Edition"
+msgstr "Хэвлэл"
+
+msgid "Sheet Name"
+msgstr "Хуудасны нэр"
+
+msgid "Scale"
+msgstr "Масштаб"
+
+msgid "Projection/Grid"
+msgstr "Төсөл/Сүлжээ"
+
+msgid "Series"
+msgstr "Цуврал"
+
+msgid "Post Processing Resolution"
+msgstr "Боловсруулалтын дараах нарийвчлал"
+
+msgid "Catalogue ID"
+msgstr "Каталогийн ID"
+
+msgid "Processing Type"
+msgstr "Боловсруулах төрөл"
+
+msgid "Right Type"
+msgstr "Зөв төрөл"
+
+msgid "Creator(s) /Owner(s) / المصور/المالك"
+msgstr "Бүтээгч(үүд) /Эзэмшигч(үүд)"
+
+msgid "Acquisition Date"
+msgstr "Худалдан авсан огноо"
+
+msgid "File Date"
+msgstr "Файлын огноо"
+
+msgid "Format Type / نوع التهيئة أو التنسيق"
+msgstr "Формат төрөл "
+
+msgid "Map Place Appellation"
+msgstr "Газрын зургийн газрын нэр"
+
+msgid "Tile Square Appellation"
+msgstr "Хавтанцарын дөрвөлжин нэр"
+
+msgid "Tile Sqaure Details"
+msgstr "Хавтанцарын талбайн дэлгэрэнгүй мэдээлэл"
+
+msgid "Series Type"
+msgstr "Цуврал төрөл"
+
+msgid "Projection Type"
+msgstr "Проекцийн төрөл"
+
+msgid "Imagery Platform Type"
+msgstr "Зургийн платформын төрөл"
+
+msgid "Platform/Vehicle"
+msgstr "Платформ/Тээврийн хэрэгсэл"
+
+msgid "Imagery Camera Sensor Type"
+msgstr "Зургийн камерын мэдрэгчийн төрөл"
+
+msgid "Sensor/Camera Type"
+msgstr "Мэдрэгч/Камерын төрөл"
+
+msgid "Imagery Camera Sensor Resolution Type"
+msgstr "Дүрслэл Камер Мэдрэгчийн нягтралын төрөл"
+
+msgid "Sensor/Camera Resolution"
+msgstr "Мэдрэгч/Камерын нягтрал"
+
+msgid "Imagery Sensor Type"
+msgstr "Зургийн мэдрэгчийн төрөл"
+
+msgid "Sensor/Camera Model"
+msgstr "Мэдрэгч/Камерын загвар"
+
+msgid "Imagery Bands Type"
+msgstr "Зургийн хамтлагийн төрөл"
+
+msgid "Bands/Colours/Spectral Resolution"
+msgstr "Хамтлаг/Өнгө/Спектрийн нягтрал"
+
+msgid "Date of Creation"
+msgstr "Бүтээсэн огноо"
+
+msgid "Land Cover Type / الطبوغرافية"
+msgstr "Газрын бүрхэвчийн төрөл"
+
+msgid "Site Environment"
+msgstr "Сайтын орчин"
+
+msgid "Land Cover Assessment Date / تاريخ تقييم الأرض"
+msgstr "Газрын бүрхэвчийн үнэлгээний огноо"
+
+msgid "Bedrock Geology Type / النوع الجيولوجي للصخور"
+msgstr "Үндсэн чулуулгийн геологийн төрөл"
+
+msgid "Fetch Type / نوع المسافة بين يابستين"
+msgstr "Татаж авах төрөл"
+
+msgid "Wave Climate / حالة الموج"
+msgstr "Долгионт уур амьсгал"
+
+msgid "Tidal Energy / مدى الارتفاع بين المد والجزر"
+msgstr "Түрлэгийн эрчим хүч"
+
+msgid "Environment Classification Type"
+msgstr "Байгаль орчны ангилал"
+
+msgid "Surficial Geology Type / نوع الجيولوجيا السطحية"
+msgstr "Гадаргын геологийн төрөл"
+
+msgid "Depositional Process / عملية الترسب"
+msgstr "Depositional Process"
+
+msgid "Topography Type / الطبوغرافية"
+msgstr "Топографийн төрөл"
+
+msgid ""
+"Related Geoarchaeology/Palaeolandscape / على صلة بالجيوأركيولوجي/اللاندسكيب "
+"القديمة"
+msgstr "Холбоотой Геоархеологи/Палеоландшафт"
+
+msgid "Detailed Condition Assessments"
+msgstr "Нөхцөл байдлын нарийвчилсан үнэлгээ"
+
+msgid "Archaeological Date From / الجيوأركيولوجي (الأقدم)"
+msgstr "Археологийн огноо"
+
+msgid "Enter Calibrated Date (negative numbers for BC, positive for AD)"
+msgstr "Шалгалт тохируулсан огноог оруулна уу (МЭӨ сөрөг тоо, AD эерэг)"
+
+msgid "SH Date to"
+msgstr "SH Огноо"
+
+msgid "BP Date To"
+msgstr "АД-ын огноо"
+
+msgid "BP Date From"
+msgstr "АД-ын огноо"
+
+msgid "SH Date From"
+msgstr "SH Огноо"
+
+msgid "AH Date From"
+msgstr "AH огноо"
+
+msgid "AH Date To"
+msgstr "AH огноо"
+
+msgid "Archaeological Date To / الجيوأركيولوجي الحديث (الأحدث)"
+msgstr "Археологийн огноо"
+
+msgid "Feature Landform Type / نوع شكل الظاهرة الجيوأركيولوجية"
+msgstr "Онцлог газар нутгийн хэлбэр"
+
+msgid "Feature Landform Arrangement Type / نوع الترتيب"
+msgstr "Онцлог газар нутгийн хэлбэрийн зохион байгуулалтын төрөл"
+
+msgid "Feature Landform Number Type / النوع"
+msgstr "Онцлог газрын хэлбэр тоо Төрөл"
+
+msgid "Feature Landform Type Certainty / مدى التأكد"
+msgstr "Онцлог газар нутгийн хэлбэр Тодорхойлолт"
+
+msgid "Resource Name / اسم (أسماء) المورد"
+msgstr "Нөөцийн нэр"
+
+msgid "Enter resource or site name"
+msgstr "Нөөц эсвэл сайтын нэрийг оруулна уу"
+
+msgid "Name Type / نوع الاسم"
+msgstr "Нэр Төрөл"
+
+msgid "Select a name type"
+msgstr "Нэрийн төрлийг сонгоно уу"
+
+msgid "General Description / وصف عام"
+msgstr "Ерөнхий тайлбар"
+
+msgid "Name"
+msgstr "Нэр"
+
+msgid "Enter a place name"
+msgstr "Газрын нэрийг оруулна уу"
+
+msgid "General Description Type / نوع الوصف"
+msgstr "Ерөнхий тодорхойлолт Төрөл"
+
+msgid "Select description type"
+msgstr "Тайлбарын төрлийг сонгоно уу"
+
+msgid "Feature Sediment Transition / مظاهر انتقال الرواسب الجيوأركيولوجية"
+msgstr "Онцлог Sediment Transition"
+
+msgid "Feature Sediment Type / نوع توضع الظواهر االجيوأركيولوجية"
+msgstr "Онцлог хурдас төрөл"
+
+msgid "Feature Sediment Type Certainty / مدى التأكد"
+msgstr "Онцлог хурдас төрөл Тодорхой"
+
+msgid "Feature Interpretation Type Certainty / مدى التأكد"
+msgstr "Онцлогийн тайлбарын төрөл Тодорхой байдал"
+
+msgid "Feature Interpretation Type"
+msgstr "Онцлогийн тайлбарын төрөл"
+
+msgid "GEOARCH ID_new"
+msgstr "GEOARCH ID_шинэ"
+
+msgid "Assessment Activity Date"
+msgstr "Үнэлгээний үйл ажиллагааны огноо"
+
+msgid "Assessment Activity Type"
+msgstr "Үнэлгээний үйл ажиллагааны төрөл"
+
+msgid "Google Earth Assessment"
+msgstr "Google Earth үнэлгээ"
+
+msgid "Assessment Investigator - Actor / اسم من قام بالفحص"
+msgstr "Үнэлгээний мөрдөн байцаагч - Жүжигчин"
+
+msgid "Investigator Role Type / نوع الدور الذي قام به الفاحص"
+msgstr "Мөрдөн байцаагчийн үүргийн төрөл"
+
+msgid "Maritime Region Type / نوع الإقليم البحري"
+msgstr "Далайн бүсийн төрөл"
+
+msgid "Overall Location Type / نوع الموقع عمومًا"
+msgstr "Байршлын ерөнхий төрөл"
+
+msgid "Country Type / الدولة"
+msgstr "Улс орны төрөл"
+
+msgid "Grid ID / هوية الشبكة"
+msgstr "Сүлжээний ID / هوية الشبكة"
+
+msgid "Process Indicator/Evidence of Type / نوع مؤشر /أدلة للتغيرات"
+msgstr "Процессын үзүүлэлт/Нотлох төрөл / نوع مؤشر /أدلة للتغيرات"
+
+msgid "Process Indicator Certainty / مدى تأكيد مؤشر /أدلة التغيرات"
+msgstr "Процессын үзүүлэлтийн тодорхой байдал / مدى تأكيد مؤشر /أدلة التغيرات"
+
+msgid "Geometry Type / نوع الشكل الهندسي"
+msgstr "Геометрийн төрөл / نوع الشكل الهندسي"
+
+msgid "Geometric Place Expression / التعبير هندسيًا عن شكل الموقع"
+msgstr "Геометрийн байршлын илэрхийлэл / التعبير هندسيًا عن شكل الموقع"
+
+msgid "Location Certainty / مدى التأكد من مكان الموقع "
+msgstr "Байршлын тодорхой байдал / مدى التأكد من مكان الموقع"
+
+msgid ""
+"Geometry Extent Certainty / مدى التأكد من امتداد الموقع من ناحية هندسية"
+msgstr ""
+"Geometry Extent Certainty / مدى التأكد من امتداد الموقع من ناحية هندسية"
+
+msgid "Spatial Coordinates Reference System / نظام الإحداثيات المكانية"
+msgstr "Орон зайн координатын лавлах систем / نظام الإحداثيات المكانية"
+
+msgid "GE Imagery Acquisition Date / تاريخ الحصول على الصورة"
+msgstr "GE Imagery Acquisition Date / تاريخ الحصول على الصورة"
+
+msgid "Imagery Acquisition Date"
+msgstr "Зураг авах огноо"
+
+msgid "Information Resource Acquisition Date"
+msgstr "Мэдээллийн нөөцийг олж авсан огноо"
+
+msgid "Datum Description/EPSG code / وصف الإحداثية/ESPG code"
+msgstr "Датумын тайлбар/EPSG код / ​​وصف الإحداثية/ESPG код"
+
+msgid "Datum Type / نوع الإحداثية"
+msgstr "Датумын төрөл / نوع الإحداثية"
+
+msgid "Minimum Depth/Max Elevation (m) / أدنى عمق/أقصى ارتفاع (متر)"
+msgstr "Хамгийн бага гүн/Макс өндөр (м) / أدنى عمق/أقصى ارتفاع (متر)"
+
+msgid "Maximum Depth/Min Elevation (m) / أقصى عمق/أدنى ارتفاع (متر)"
+msgstr "Хамгийн их гүн/мин өндөр (м) / أقصى عمق/أدنى ارتفاع (متر)"
+
+msgid "Marine Isotope Stage Certainty / تأكيد مراحل النظائر المشعة البحرية"
+msgstr "Далайн изотопын үе шат тодорхой / تأكيد مراحل النظائر المشعة البحرية"
+
+msgid "Marine Isotope Stages / مراحل النظائر المشعة البحرية"
+msgstr "Далайн изотопын үе шатууд / مراحل النظائر المشعة البحرية"
+
+msgid "Designation / نوع الإسناد"
+msgstr "Зориулалт / نوع الإسناد"
+
+msgid "Designation From Date / التحديد القديم"
+msgstr "Зориулалтын огноо / التحديد القديم"
+
+msgid "Designation To Date / التحديد الحديث"
+msgstr "Зориулалт / التحديد الحديث"
+
+msgid "Related Heritage Place / موقع على صلة بالتراث"
+msgstr "Related Heritage Place / موقع على صلة بالتراث"
+
+msgid "Quaternary Divisions / تقسيمات الدهر الرباعي"
+msgstr "Дөрөвдөгчийн хэлтэс / تقسيمات الدهر الرباعي"
+
+msgid "Quaternary Date Certainty / مدى التأكد من تاريخ الزمن الرابع"
+msgstr "Дөрөвдөгчийн огноо тодорхой / مدى التأكد من تاريخ الزمن الرابع"
+
+msgid "Source of Evidence Type"
+msgstr "Нотлох баримтын эх сурвалжийн төрөл"
+
+msgid "Related Information Resource"
+msgstr "Холбогдох мэдээллийн нөөц"
+
+msgid "Disturbance Cause Assignment Assessor Name"
+msgstr "Эвдрэлийн шалтгааныг томилох үнэлгээчний нэр"
+
+msgid "Recommendation Type / نوع التوصية"
+msgstr "Зөвлөмжийн төрөл / نوع التوصية"
+
+msgid "Intervention Activity Type / نوع نشاط التدخل"
+msgstr "Интервенцийн үйл ажиллагааны төрөл / نوع نشاط التدخل"
+
+msgid "Category / تصنيف سبب الاضطراب"
+msgstr "Ангилал / تصنيف سبب الاضطراب"
+
+msgid "Effect Certainty / مدى التأكد من تأثير الاضطراب"
+msgstr "Үр нөлөөний тодорхой байдал / مدى التأكد من تأثير الاضطراب"
+
+msgid "Effect Type / أثر الاضطراب"
+msgstr "Эффектийн төрөл / أثر الاضطراب"
+
+msgid "Intervention Activity Type"
+msgstr "Интервенцийн үйл ажиллагааны төрөл"
+
+msgid "Recommendation Type"
+msgstr "Зөвлөмжийн төрөл"
+
+msgid "Priority Type / نوع أولوية إتخاذ إجراءات التدخل"
+msgstr "Priority Type / نوع أولوية إتخاذ إجراءات التدخل"
+
+msgid "Disturbance Date Occurred Before / اضطراب حدث قبل تاريخ "
+msgstr "Өмнө нь үүссэн эвдрэлийн огноо / اضطراب حدث قبل تاريخ"
+
+msgid "Disturbance Date To / تاريخ الاضطراب (حتى)"
+msgstr "Эвдэрсэн огноо / تاريخ الاضطراب (حتى)"
+
+msgid "Disturbance Date Occurred On / اضطراب حدث في تاريخ"
+msgstr "Эвдрэл гарсан огноо / اضطراب حدث في تاريخ"
+
+msgid "Disturbance Date From / تاريخ الاضطراب (من)"
+msgstr "Эвдэрсэн огноо / تاريخ الاضطراب (من)"
+
+msgid ""
+"Threat Inference Making Assessor Name / اسم المقيم الذي أجرى الاستنتناجات"
+msgstr ""
+"Аюулын дүгнэлт гаргах үнэлгээчний нэр / اسم المقيم الذي أجرى الاستنتناجات"
+
+msgid "Damage Extent / مدى الضرر/ الاضطراب"
+msgstr "Хохирлын хэмжээ / مدى الضرر/ الاضطراب"
+
+msgid "Overall Site Condition / حالة الموقع عمومًا"
+msgstr "Сайтын ерөнхий нөхцөл / حالة الموقع عمومًا"
+
+msgid "Threat Type / نوع التهديد"
+msgstr "Аюулын төрөл / نوع التهديد"
+
+msgid "Cause / نوع مسبب الاضطراب"
+msgstr "Шалтгаан / نوع مسبب الاضطراب"
+
+msgid "Detailed Condition Assessment / تقييم الحالة بالتفصيل"
+msgstr "Нөхцөл байдлын нарийвчилсан үнэлгээ / تقييم الحالة بالتفصيل"
+
+msgid "Select or Create Detailed Assessment"
+msgstr "Нарийвчилсан үнэлгээг сонгох эсвэл үүсгэх"
+
+msgid "Cause Certainty / مدى التأكد من سبب الاضطراب"
+msgstr "Тодорхой шалтгаан / مدى التأكد من سبب الاضطراب"
+
+msgid "Threat Probability / التهديد المحتمل"
+msgstr "Аюул магадлал / التهديد المحتمل"
+
+msgid "Threat Category"
+msgstr "Аюулын ангилал"
+
+msgid "Grid Square Assignee"
+msgstr "Тор дөрвөлжин хуваарилагч"
+
+msgid "Related Resources"
+msgstr "Холбогдох эх сурвалжууд"
+
+msgid "Grid Square Geometric Expression"
+msgstr "Торон дөрвөлжин геометрийн илэрхийлэл"
+
+msgid "Remote Sensing Cultural Period"
+msgstr "Зайнаас тандан судлах соёлын үе"
+
+msgid "Cultural Period - HP"
+msgstr "Соёлын үе - HP"
+
+msgid "Assessment Source"
+msgstr "Үнэлгээний эх сурвалж"
+
+msgid "Remote Sensing Place Type"
+msgstr "Зайнаас тандан судлах газрын төрөл"
+
+msgid "Disturbance Type"
+msgstr "Эвдрэлийн төрөл"
+
+msgid "Cultural Sub-period"
+msgstr "Соёлын дэд үе"
+
+msgid "Cultural Sub-period Type"
+msgstr "Соёлын дэд үе төрөл"
+
+msgid "Cultural Sub-period Certainty"
+msgstr "Соёлын дэд үе тодорхой"
+
+msgid "Remote Sensing Object Shape"
+msgstr "Зайнаас тандан судлах объектын хэлбэр"
+
+msgid "Remote Sensing Interpretation Type"
+msgstr "Зайнаас тандан судлах тайлбарын төрөл"
+
+msgid "Remote Sensing Interpretation Sub-type"
+msgstr "Зайнаас тандан судлах тайлбарын дэд төрөл"
+
+msgid "Remote Sensing Interpretation Certainty"
+msgstr "Зайнаас тандан судлах тайлбарын баталгаа"
+
+msgid "Heritage Feature Shape Orientation Type"
+msgstr "Өв онцлог Хэлбэрийн чиг баримжаа төрөл"
+
+msgid "Related External Dataset Resource"
+msgstr "Холбогдох гадаад мэдээллийн багц нөөц"
+
+msgid "Elevation"
+msgstr "Өндөр"
+
+msgid "Heritage Feature Dimension Type"
+msgstr "Өв шинж чанар Хэмжээний төрөл"
+
+msgid "Heritage Feature Measurement Source Type"
+msgstr "Өв шинж чанарын хэмжилтийн эх үүсвэрийн төрөл"
+
+msgid "Heritage Feature Measurement Number"
+msgstr "Heritage Feature хэмжилтийн дугаар"
+
+msgid "Heritage Feature Measurement Unit Type"
+msgstr "Heritage Feature хэмжилтийн нэгжийн төрөл"
+
+msgid "Potential Impact Type / نوع التأثير الحتمل"
+msgstr "Боломжит нөлөөллийн төрөл"
+
+msgid "Exposure / مكشوف"
+msgstr "Өртөх"
+
+msgid "Vulnerability / العوامل التي تعرض الموقع للاضطراب "
+msgstr "Эмзэг байдал"
+
+msgid "Damage Assessment Assessor / المتحقق من الضرر"
+msgstr "Хохирлын үнэлгээний үнэлгээч"
+
+msgid "Material Class / فئة مواد البناء"
+msgstr "Материалын ангилал"
+
+msgid "Material Type / نوع مادة البناء"
+msgstr "Материалын төрөл"
+
+msgid "Threat and Risk Assessor / المتحقق من حالتي الخطر والتهديد"
+msgstr "Аюул ба эрсдэлийн үнэлгээч"
+
+msgid "Relationship to Date / علاقة حديثة"
+msgstr "Relationship to Date"
+
+msgid "Relationship Comments / تعليقات العلاقة"
+msgstr "Харилцааны сэтгэгдэл"
+
+msgid "Relationship from Date / علاقة قديمة"
+msgstr "Огнооноос ирсэн харилцаа"
+
+msgid "Information Resource / مصدر المعلومات"
+msgstr "Мэдээллийн нөөц "
+
+msgid "Risk Level / مستوى المخاطر"
+msgstr "Эрсдлийн түвшин"
+
+msgid "Disturbance Cause Category Type / تصنيف سبب الاضطراب"
+msgstr "Эвдрэлийн шалтгааны ангилал"
+
+msgid "Disturbance Cause Type / نوع مسبب الاضطراب"
+msgstr "Эвдрэлийн шалтгаан төрөл"
+
+msgid "Disturbance Cause Certainty / مدى التأكد من سبب الاضطراب"
+msgstr "Эвдрэлийн шалтгаан тодорхой"
+
+msgid "Potential Impact Type"
+msgstr "Боломжит нөлөөллийн төрөл"
+
+msgid "Comments on Relationship to Heritage Place/Built Component"
+msgstr ""
+"Өв дурсгалын газар/барьсан бүрэлдэхүүн хэсэгтэй харилцах талаархи сэтгэгдэл"
+
+msgid "Activity Type / نوع النشاط"
+msgstr "Үйл ажиллагааны төрөл"
+
+msgid "Investigator Name / اسم من قام بالفحص"
+msgstr "Мөрдөн байцаагчийн нэр"
+
+msgid "Choose investigator name or select NEW"
+msgstr "Судлаачийн нэрийг сонгох эсвэл ШИНЭ гэснийг сонгоно уу"
+
+msgid "Activity Date / تاريخ النشاط"
+msgstr "Үйл ажиллагааны огноо"
+
+msgid "Built Component Assessed / التكوين البنائي الذي تم تقييمه"
+msgstr "Баригдсан бүрэлдэхүүн хэсгийн үнэлгээ"
+
+msgid "Heritage Place/Site of Assessment / صلة تفاصيل التقييم المسجلة بالموقع"
+msgstr "Heritage Place/Site of Assessment"
+
+msgid "Choose site"
+msgstr "Сайт сонгоно уу"
+
+msgid "Secondary Threat Type"
+msgstr "Хоёрдогч аюулын төрөл"
+
+msgid "Overall Condition Type / حالة الموقع عمومًا"
+msgstr "Нөхцөл байдлын төрөл"
+
+msgid "Recommended Date of Next Assessment / التاريخ المقترح للتقييم التالي"
+msgstr "Дараагийн үнэлгээний санал болгож буй огноо"
+
+msgid "Probability / التهديد المحتمل"
+msgstr "Магадлал / التهديد المحتمل"
+
+msgid "Migration Priority Type"
+msgstr "Шилжилтийн тэргүүлэх төрөл"
+
+msgid "Percentage of Site Affected"
+msgstr "Нөлөөлөлд өртсөн сайтын хувь"
+
+msgid "Severity / مدى التأثير المدمر المحتمل"
+msgstr "Хүнд байдал / مدى التأثير المدمر المحتمل"
+
+msgid "Secondary Threat Type / نوع الخطر الثانوي"
+msgstr "Хоёрдогч аюулын төрөл / نوع الخطر الثانوي"
+
+msgid "Recommended Migration Strategy Type"
+msgstr "Санал болгож буй шилжилт хөдөлгөөний стратегийн төрөл"
+
+msgid "Overall Condition Remarks Type / نوع الملاحظات المدونة إجمالًا"
+msgstr "Нөхцөл байдлын ерөнхий тайлбар Төрөл / نوع الملاحظات المدونة إجمالًا"
+
+msgid "Overall Condition Remarks / ملاحظات كلية عن حالة الموقع"
+msgstr "Нөхцөл байдлын ерөнхий тайлбар / ملاحظات كلية عن حالة الموقع"
+
+msgid "Overall Condition Remarks Type"
+msgstr "Ерөнхий нөхцөл Тайлбарын төрөл"
+
+msgid "Overall Condition Type"
+msgstr "Нөхцөл байдлын ерөнхий төрөл"
+
+msgid "Next Assessment Date Type"
+msgstr "Дараагийн үнэлгээний огнооны төрөл"
+
+msgid "Overall Condition Remarks"
+msgstr "Нөхцөл байдлын талаархи ерөнхий тайлбар"
+
+msgid "Measurement Number / قيمة القياسات"
+msgstr "Хэмжилтийн дугаар / قيمة القياسات"
+
+msgid "Dimension Type / نوع القياس"
+msgstr "Хэмжээний төрөл / نوع القياس"
+
+msgid "Measurement Source Type / نوع مصدر القياس"
+msgstr "Хэмжилтийн эх үүсвэрийн төрөл"
+
+msgid "Measurement Unit / وحدة القياس"
+msgstr "Хэмжилтийн нэгж"
+
+msgid "Construction Technique Type / نوع تقنية البناء"
+msgstr "Барилгын техникийн төрөл"
+
+msgid "Construction Note / ملاحظة البناء"
+msgstr "Барилгын тэмдэглэл"
+
+msgid "Mitigation Activity Type"
+msgstr "Сөрөг үйл ажиллагааны төрөл"
+
+msgid "Priority to Undertake Mitigation / الأولوية لإجراء الكبح"
+msgstr "Зөрчлийг бууруулах тэргүүлэх чиглэл"
+
+msgid "Mitigation Strategy / استراتيجية كبح الخطر"
+msgstr "Зөрчлийг бууруулах стратеги"
+
+msgid "Severity Type / مدى التأثير المدمر المحتمل"
+msgstr "Хүнд байдлын төрөл"
+
+msgid "Damage Trend Type / اتجاه الضرر أو مساره"
+msgstr "Гэмтлийн чиг хандлагын төрөл"
+
+msgid "Extent Type / مدى الضرر/ الاضطراب"
+msgstr "Хэмжээний төрөл"
+
+msgid "Modification Date / تاريخ التعديل"
+msgstr "Өөрчлөгдсөн огноо"
+
+msgid "Modification Description / وصف التعديلات"
+msgstr "Өөрчлөлтийн тайлбар"
+
+msgid "Modification Type / نوع التعديل"
+msgstr "Өөрчлөлтийн төрөл"
+
+msgid "Resource Orientation Type / اتجاه الموقع الذي بصدد التسجيل"
+msgstr "Нөөцийн чиглэлийн төрөл"
+
+msgid "File Upload / تحميل الملف"
+msgstr "Файл байршуулах"
+
+msgid "Resource Name"
+msgstr "Нөөцийн нэр"
+
+msgid "MAPSS-ER_ID"
+msgstr "MAPSS-ER_ID"
+
+msgid "External Resource Function Type"
+msgstr "Гадаад нөөцийн функцын төрөл"
+
+msgid "External Resource Function Certainty"
+msgstr "Гадаад нөөцийн үйл ажиллагааны тодорхой байдал"
+
+msgid "Project Extent"
+msgstr "Төслийн цар хүрээ"
+
+msgid "Represents a single node in a graph"
+msgstr "График дахь нэг цэгийг төлөөлдөг"
+
+msgid ""
+"Draw a polygon representing your project's extent. These bounds will serve "
+"as the default for the cache seed bounds, search result grid bounds, and map"
+" bounds in search, cards, and reports"
+msgstr ""
+"Төслийн цар хүрээг харуулсан олон өнцөгт зур. Эдгээр хязгаарууд нь хайлт, "
+"карт, тайлан дахь кэшийн үрийн хязгаар, хайлтын үр дүнгийн сүлжээний "
+"хязгаар, газрын зургийн хязгаар зэрэгт өгөгдмөл байдлаар үйлчилнэ."
+
+msgid "Mapbox API"
+msgstr "Mapbox API"
+
+msgid ""
+"Arches uses the Mapbox mapping library for map display and data creation.  "
+"Arches also supports Mapbox basemaps and other services"
+msgstr ""
+"Arches нь газрын зураг харуулах, өгөгдөл үүсгэхийн тулд Mapbox зургийн санг "
+"ашигладаг. Arches нь Mapbox-ын үндсэн зураг болон бусад үйлчилгээг дэмждэг"
+
+msgid "Map Zoom"
+msgstr "Map Zoom"
+
+msgid ""
+"You can define the zoom behavior of your maps by specifying max/min and "
+"default values.  Zoom level 0 shows the whole world (and is the minimum zoom"
+" level).  Most map services support a maximum of 20 or so zoom levels"
+msgstr ""
+"Та хамгийн их/мин болон өгөгдмөл утгуудыг зааж өгснөөр газрын зургийнхаа "
+"томруулалтын горимыг тодорхойлж болно. Томруулах түвшин 0 нь дэлхийг бүхэлд "
+"нь харуулдаг (мөн томруулах хамгийн бага түвшин). Ихэнх газрын зургийн "
+"үйлчилгээ нь дээд тал нь 20 орчим томруулах түвшинг дэмждэг"
+
+msgid "Default Map Settings"
+msgstr "Газрын зургийн үндсэн тохиргоо"
+
+msgid ""
+"Initial settings for Arches maps displayed in reports, cards, and search"
+msgstr "Arches газрын зургийн анхны тохиргоог тайлан, карт, хайлтад харуулав"
+
+msgid "Search Results Grid"
+msgstr "Хайлтын үр дүнгийн сүлжээ"
+
+msgid ""
+"Arches aggregates search results and displays them as hexagons.  You will "
+"need to set default parameters for the hexagon size  and its precision."
+msgstr ""
+"Arches нь хайлтын үр дүнг нэгтгэж, зургаан өнцөгт хэлбэрээр харуулдаг. Та "
+"зургаан өнцөгт хэмжээ болон түүний нарийвчлалын үндсэн параметрүүдийг "
+"тохируулах хэрэгтэй болно."
+
+msgid "Settings Time Search"
+msgstr "Тохиргоо Цаг хайх"
+
+msgid "Configuration Settings for temporal search"
+msgstr "Түр зуурын хайлтын тохиргооны тохиргоо"
+
+msgid ""
+"Arches supports temporal binning.  Define the configuration and colors to "
+"use in your time wheel"
+msgstr ""
+"Arches нь түр зуурын бингийг дэмждэг. Цагийн хүрдэндээ ашиглах тохиргоо "
+"болон өнгийг тодорхойл"
+
+msgid ""
+"<p>You can see the color ramps at:</p><p><a "
+"href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-"
+"Scales.md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-"
+"reference/blob/master/Ordinal-Scales.md</font></a><br></p>"
+msgstr ""
+"<p>Та өнгөт налууг дараахаас харж болно:</p><p><a "
+"href=\"https://github.com/d3/d3-3.x-api-reference/blob/master/Ordinal-Scales"
+" .md\"><font color=\"#f7f7f7\">https://github.com/d3/d3-3.x-api-"
+"reference/blob/master/Ordinal-Scales.md</font></a> <br></p>"
+
+msgid "Web Analytics"
+msgstr "Вэб аналитик"
+
+msgid "Google service used to track application usage and other metrics"
+msgstr ""
+"Google-н үйлчилгээг аппликешны хэрэглээ болон бусад хэмжигдэхүүнийг хянахад "
+"ашигладаг"
+
+msgid "System Data Settings"
+msgstr "Системийн өгөгдлийн тохиргоо"
+
+msgid "Default Application Names"
+msgstr "Өгөгдмөл програмын нэрс"
+
+msgid ""
+"Names used to identify your application and the system data import personna"
+msgstr ""
+"Таны аппликейшн болон системийн өгөгдлийг импортлох ажилтнуудыг "
+"тодорхойлоход ашигладаг нэрс"
+
+msgid "Land Cover"
+msgstr "Газрын бүрхэвч"
+
+msgid "Remote Sensing Component Observation"
+msgstr "Зайнаас тандан судлах бүрэлдэхүүн хэсгийн ажиглалт"
+
+msgid "Morphology"
+msgstr "Морфологи"
+
+msgid "Form, shape, etc."
+msgstr "Хэлбэр, хэлбэр гэх мэт."
+
+msgid "Archaeological Validation Belief"
+msgstr "Археологийн баталгаажуулалтын итгэл үнэмшил"
+
+msgid "Measurements"
+msgstr "Хэмжилт"
+
+msgid "Archaeological Assessment"
+msgstr "Археологийн үнэлгээ"
+
+msgid "Absolute Chronology Assignment"
+msgstr "Үнэмлэхүй он цагийн хуваарийн даалгавар"
+
+msgid "Heritage Place Shape"
+msgstr "Өв газрын хэлбэр"
+
+msgid "Comments"
+msgstr "Сэтгэгдэл"
+
+msgid "Comments or remarks about site/feature recording"
+msgstr "Сайт/онцлогын бичлэгийн талаархи сэтгэгдэл эсвэл тайлбар"
+
+msgid "Geometry"
+msgstr "Геометр"
+
+msgid "Thesaurus Service Providers"
+msgstr "Тезаурусын үйлчилгээ үзүүлэгч"
+
+msgid ""
+"Arches can access Thesaurus services, such as the Getty AAT, to acquire "
+"thesaurus entries using the Reference Data Manager (RDM)"
+msgstr ""
+"Arches нь Getty AAT гэх мэт Thesaurus үйлчилгээнд хандаж, Reference Data "
+"Manager (RDM) ашиглан тезаурусын оруулгуудыг авах боломжтой."
+
+msgid "Settings Basic Search"
+msgstr "Тохиргооны үндсэн хайлт"
+
+msgid "Configuration settings for search returns"
+msgstr "Хайлтын өгөөжийн тохиргооны тохиргоо"
+
+msgid "Set the default search results behavior"
+msgstr "Хайлтын үр дүнгийн өгөгдмөл горимыг тохируулна уу"
+
+msgid "Saved Searches"
+msgstr "Хадгалсан хайлтууд"
+
+msgid "System configuration for saving searches"
+msgstr "Хайлтыг хадгалах системийн тохиргоо"
+
+msgid ""
+"Arches allows you save a search and present it as convenience for your "
+"users."
+msgstr ""
+"Arches нь хайлтаа хадгалж, хэрэглэгчдэдээ тав тухтай байлгах боломжийг "
+"олгоно."
+
+msgid "Heritage Place Components"
+msgstr "Өв газрын бүрэлдэхүүн хэсгүүд"
+
+msgid "Archaeological Assessment Summary"
+msgstr "Археологийн үнэлгээний хураангуй"
+
+msgid "Disturbance Causes"
+msgstr "Эвдрэлийн шалтгаанууд"
+
+msgid "Recommendation Plan"
+msgstr "Зөвлөмжийн төлөвлөгөө"
+
+msgid "Geography"
+msgstr "Газарзүй"
+
+msgid "Radiocarbon Dates"
+msgstr "Радиокарбон огноо"
+
+msgid "Geology"
+msgstr "Геологи"
+
+msgid "Heritage Place Function Assignment"
+msgstr "Өв газрын үйл ажиллагааны даалгавар"
+
+msgid "Topography"
+msgstr "Топограф"
+
+msgid "Threat Assessment"
+msgstr "Аюулын үнэлгээ"
+
+msgid "Environment Assessment"
+msgstr "Байгаль орчны үнэлгээ"
+
+msgid "Field Assessment"
+msgstr "Талбайн үнэлгээ"
+
+msgid "Feature, feature group, site, landscape, etc."
+msgstr "Онцлог, онцлог бүлэг, сайт, ландшафт гэх мэт."
+
+msgid "Condition & Threat Assessment"
+msgstr "Нөхцөл ба аюулын үнэлгээ"
+
+msgid "Resource Summary"
+msgstr "Нөөцийн хураангуй"
+
+msgid "Disturbance Effects"
+msgstr "Эвдрэлийн нөлөө"
+
+msgid "Interpretation"
+msgstr "Тайлбар"
+
+msgid "Type of monument, grave, building, etc."
+msgstr "Хөшөө, булш, барилга гэх мэт төрөл."
+
+msgid "Heritage Place Interpretation & Morphology Assessment"
+msgstr "Өв газрын тайлбар ба морфологийн үнэлгээ"
+
+msgid "Interpretation & Morphology"
+msgstr "Тайлбар ба морфологи"
+
+msgid "Environment Assessment Summary"
+msgstr "Байгаль орчны үнэлгээний хураангуй"
+
+msgid "Condition Assessment"
+msgstr "Нөхцөл байдлын үнэлгээ"
+
+msgid "Damage State"
+msgstr "Гэмтлийн байдал"
+
+msgid "Enter basic information about the archaeological resource"
+msgstr "Археологийн нөөцийн талаархи үндсэн мэдээллийг оруулна уу"
+
+msgid "Occupied Timespan"
+msgstr "Эзлэгдсэн хугацаа"
+
+msgid "Remote Sensing Object Assessment"
+msgstr "Зайнаас тандан судлах объектын үнэлгээ"
+
+msgid "Recommended Intervention Activity"
+msgstr "Санал болгож буй хөндлөнгийн үйл ажиллагаа"
+
+msgid "Location"
+msgstr "Байршил"
+
+msgid "Project/Dataset Source Name"
+msgstr "Төсөл/Өгөгдлийн багцын эх сурвалжийн нэр"
+
+msgid "Related Heritage Resources"
+msgstr "Холбогдох өвийн нөөц"
+
+msgid "Description Assignment"
+msgstr "Тодорхойлолт даалгавар"
+
+msgid "Lifespan"
+msgstr "Амьдрах хугацаа"
+
+msgid "Heritage Place Construction"
+msgstr "Өв дурсгалт газрын бүтээн байгуулалт"
+
+msgid "Materials & Techniques"
+msgstr "Материал ба техник"
+
+msgid "Heritage Place Function Assignment Branch"
+msgstr "Өв газрын чиг үүргийн хуваарилалтын салбар"
+
+msgid "Heritage Place Function Sub-type br"
+msgstr "Heritage Place функц Дэд төрөл br"
+
+msgid "Condition Assessment Summary"
+msgstr "Нөхцөл байдлын үнэлгээний хураангуй"
+
+msgid "Official Designation"
+msgstr "Албан ёсны нэршил"
+
+msgid "Place(s) of publication"
+msgstr "Нийтэлсэн газар(ууд)."
+
+msgid "Publication Date"
+msgstr "Нийтэлсэн огноо"
+
+msgid "Editor(s)"
+msgstr "Редактор(ууд)"
+
+msgid "Page(s)"
+msgstr "Хуудас(ууд)"
+
+msgid "Bibliography"
+msgstr "Ном зүй"
+
+msgid "Figure(s)"
+msgstr "Зураг(ууд)"
+
+msgid "Author(s)"
+msgstr "Зохиогч(ууд)"
+
+msgid "e.g. Journal/Volume Title / مثال: مجلة/عنوان المجلد"
+msgstr "жишээ нь Сэтгүүл/Боть гарчиг / مثال: مجلة/عنوان المجلد"
+
+msgid "Shared Data"
+msgstr "Хуваалцсан өгөгдөл"
+
+msgid "URLs"
+msgstr "URL-ууд"
+
+msgid "Information Carrier"
+msgstr "Мэдээлэл зөөгч"
+
+msgid "Resource Relationships"
+msgstr "Нөөцийн харилцаа"
+
+msgid "Issues"
+msgstr "Асуудал"
+
+msgid "Additional Information"
+msgstr "Нэмэлт мэдээлэл"
+
+msgid "Publication Title"
+msgstr "Нийтлэлийн гарчиг"
+
+msgid "Source(s)"
+msgstr "Эх сурвалж(ууд)"
+
+msgid "Creator(s)"
+msgstr "Бүтээгч(үүд)"
+
+msgid "Cartography"
+msgstr "Зураг зүй"
+
+msgid "Imagery"
+msgstr "Дүрслэл"
+
+msgid "Place of publication"
+msgstr "Нийтэлсэн газар"
+
+msgid "Tile Square Details"
+msgstr "Хавтанцарын талбайн дэлгэрэнгүй мэдээлэл"
+
+msgid "Imagery Sampled Resolution Type"
+msgstr "Зургийн түүвэр нягтралын төрөл"
+
+msgid "Copyright"
+msgstr "Зохиогчийн эрх"
+
+msgid "Image Details"
+msgstr "Зургийн дэлгэрэнгүй мэдээлэл"
+
+msgid "Date of File"
+msgstr "Файлын огноо"
+
+msgid "Date of Acquisition"
+msgstr "Худалдан авсан огноо"
+
+msgid "Land Cover / الطبوغرافية"
+msgstr "Газрын бүрхэвч / الطبوغرافية"
+
+msgid "Geology / الجيولوجيا"
+msgstr "Геологи / الجيولوجيا"
+
+msgid "Bedrock Geology / النوع الجيولوجي للصخور"
+msgstr "Үндсэн чулуулгийн геологи"
+
+msgid "Marine Environment / بيئة بحرية"
+msgstr "Далайн орчин"
+
+msgid "Surficial Geology / نوع الجيولوجيا السطحية"
+msgstr "Гадаргын геологи"
+
+msgid "Topography / الطبوغرافية"
+msgstr "Газарзүйн байрлал"
+
+msgid "Environment Assessment / التقييم البيئي"
+msgstr "Байгаль орчны үнэлгээ"
+
+msgid "Detailed Condition Assessments / تقييم الحالة بالتفصيل"
+msgstr "Нөхцөл байдлын нарийвчилсан үнэлгээ"
+
+msgid "Geoarchaeological Timespace / المنظور الزمني للملاحظة الجيوأركيولوجية"
+msgstr "Geoarchaeological Timespace"
+
+msgid "Geoarchaeology Assessment / تقييم جيوأركيولوجي"
+msgstr "Геоархеологийн үнэлгээ"
+
+msgid "Feature Landform / نوع شكل الظاهرة الجيوأركيولوجية"
+msgstr "Онцлог газрын хэлбэр"
+
+msgid "Name / اسم (أسماء) المورد"
+msgstr "Нэр"
+
+msgid "Known name(s) of site or resource"
+msgstr "Сайт эсвэл нөөцийн мэдэгдэж буй нэр"
+
+msgid "Description / وصف عام"
+msgstr "Тодорхойлолт / وصف عام"
+
+msgid "Resource Summary / ملخص المورد"
+msgstr "Нөөцийн хураангуй / ملخص المورد"
+
+msgid "Feature Sediment / نوع توضع الظواهر االجيوأركيولوجية"
+msgstr "Онцлог хурдас / نوع توضع الظواهر االجيوأركيولوجية"
+
+msgid "Feature Interpretation Belief"
+msgstr "Онцлог тайлбарын итгэл үнэмшил"
+
+msgid "Assessment Summary / ملخص التقييم"
+msgstr "Үнэлгээний хураангуй"
+
+msgid "Source of Evidence"
+msgstr "Нотлох баримтын эх сурвалж"
+
+msgid "Geography / الجغرافيا"
+msgstr "Газарзүй / الجغرافيا"
+
+msgid "Process Indicator/Evidence of / مؤشر /أدلة للتغيرات"
+msgstr "Process Indicator/Evidence of"
+
+msgid "Geometry / أشكال هندسية"
+msgstr "Геометр"
+
+msgid "GE Imagery Acquisition Date"
+msgstr "GE Imagery олж авсан огноо"
+
+msgid "Imagery Acquisition Date / تاريخ الحصول على الصورة"
+msgstr "Зураг авах огноо"
+
+msgid "Depth/Elevation / العمق/الارتفاع"
+msgstr "Гүн/Өндөр"
+
+msgid "Geoarchaeology Feature Assessment / تقييم الظاهرة الأثارجيولوجية"
+msgstr "Геоархеологийн онцлогийн үнэлгээ"
+
+msgid "General Date / التاريخ العام"
+msgstr "Ерөнхий огноо"
+
+msgid "Disturbances"
+msgstr "Эмх замбараагүй байдал"
+
+msgid "Intervention & Recommendation / التدخل & التوصية"
+msgstr "Intervention & Recommendation"
+
+msgid "Extent of Damage / مدى الضرر/ الاضطراب"
+msgstr "Хохирлын хэмжээ"
+
+msgid "Estimated Overall Damage Extent"
+msgstr "Тооцоолсон нийт хохирлын хэмжээ"
+
+msgid "Disturbance"
+msgstr "Эвдрэл"
+
+msgid "Effect / أثر الاضطراب"
+msgstr "Эффект"
+
+msgid "Recommendation Plan / خطة مقترحة/توصية"
+msgstr "Зөвлөмжийн төлөвлөгөө"
+
+msgid "Priority Assignment / الأولوية"
+msgstr "Тэргүүлэх зорилт"
+
+msgid "Disturbance Event Timespan / تاريخ الاضطراب"
+msgstr "Disturbance Event Timespan"
+
+msgid "Threats"
+msgstr "Аюул заналхийлэл"
+
+msgid "Condition Assessment / تقييم الحالة"
+msgstr "Нөхцөл байдлын үнэлгээ"
+
+msgid "Geoarchaeology Certainty Observation"
+msgstr "Геоархеологийн тодорхой ажиглалт"
+
+msgid "Damage State Observation"
+msgstr "Улсын ажиглалтыг гэмтээх"
+
+msgid "Disturbance Event Timespan"
+msgstr "Эвдрэлийн үйл явдлын хугацаа"
+
+msgid "Disturbance Effect Belief"
+msgstr "Эвдрэлийн нөлөөний итгэл үнэмшил"
+
+msgid "Threat Making Inference"
+msgstr "Аюултай дүгнэлт гаргах"
+
+msgid "Related Sites"
+msgstr "Холбоотой сайтууд"
+
+msgid "Parent, child, or overlapping sites"
+msgstr "Эцэг эх, хүүхэд эсвэл давхардсан сайтууд"
+
+msgid "MAPSS_ML_ID"
+msgstr "MAPSS_ML_ID"
+
+msgid "Disturbance Cause Belief"
+msgstr "Эвдрэлийн шалтгаан нь итгэл үнэмшил"
+
+msgid "Threat Event / نتجة التهديد"
+msgstr "Аюултай үйл явдал"
+
+msgid "Damage Assessor / المتحقق من الضرر"
+msgstr "Хохирол үнэлэгч"
+
+msgid "Related Information Resources"
+msgstr "Холбогдох мэдээллийн нөөц"
+
+msgid "Contains"
+msgstr "агуулсан"
+
+msgid "CONDITION ID"
+msgstr "НӨХЦӨЛИЙН ID"
+
+msgid "Risk Level Belief / مستوى المخاطر"
+msgstr "Эрсдлийн түвшний итгэл үнэмшил"
+
+msgid "Overall Condition / حالة الموقع عمومًا"
+msgstr "Ерөнхий нөхцөл"
+
+msgid "Date of Next Assessment / التاريخ المقترح للتقييم التالي"
+msgstr "Дараагийн үнэлгээний огноо"
+
+msgid "Damage Assessment"
+msgstr "Хохирлын үнэлгээ"
+
+msgid "Threat and Risk Assessment / التهديد وتقييم الخطر"
+msgstr "Аюул ба эрсдэлийн үнэлгээ"
+
+msgid "Condition Remarks / ملاحظات كلية عن حالة الموقع"
+msgstr "Нөхцөл байдлын тайлбар"
+
+msgid "Overall Condition Assessment / حالة الموقع عمومًا"
+msgstr "Нөхцөл байдлын ерөнхий үнэлгээ"
+
+msgid "Measurements / قياسات"
+msgstr "Хэмжилт"
+
+msgid "Modification and Construction / التعديل والبناء"
+msgstr "Өөрчлөлт ба барилгын ажил"
+
+msgid "Recommendation and Priority "
+msgstr "Зөвлөмж ба тэргүүлэх чиглэл"
+
+msgid "Damage Observation"
+msgstr "Гэмтлийн ажиглалт"
+
+msgid "Modification / نوع التعديل"
+msgstr "Өөрчлөлт"
+
+msgid "Location / الجغرافيا"
+msgstr "Байршил"
+
+msgid "External Resource Function"
+msgstr "Гадаад нөөцийн функц"
+
+msgid "Remarks"
+msgstr "Тайлбар"
+
+msgid "Notes, Comments, Descriptions, etc."
+msgstr "Тэмдэглэл, тайлбар, тайлбар гэх мэт."
