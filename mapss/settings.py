@@ -251,4 +251,3 @@ FILE_TYPES = [
     "glb",
 ]
 
-print(PUBLIC_SERVER_ADDRESS)
