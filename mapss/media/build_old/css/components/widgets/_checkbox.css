@@ -1,0 +1,88 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/components/widgets/_checkbox.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+label.form-checkbox.form-normal:before,
+.form-radio.form-normal::before {
+    left: 1px;
+}
+
+label.form-checkbox.form-normal {
+    margin: 4px 0px;
+    display: flex;
+    align-items: center;
+}
+label.form-checkbox.form-normal:before {
+    content: "";
+    margin: 0 5px;
+    display: block;
+    position: unset;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 1px solid #c3cedb;
+    border-radius: 0;
+    left: auto;
+    top: auto;
+}
+label.form-checkbox.form-normal:not(.active):hover:after {
+    opacity: 3;
+}
+label.form-checkbox.form-normal.form-primary:not(.active):hover:after {
+    border-color: #489eed;
+}
+label.form-checkbox.form-normal:not(.disabled):hover:after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 11px;
+    left: 8px;
+    top: 50%;
+    margin-top: -5px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-bottom: 2.5px solid #515151;
+    border-left: 2.5px solid #515151;
+}
+label.form-checkbox.form-normal.active:after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 11px;
+    left: 8px;
+    top: 50%;
+    margin-top: -5px;
+    border-bottom: 2.5px solid #515151;
+    border-color: #fff;
+    border-left: 2.5px solid #515151;
+    transform: rotate(-45deg);
+}
+label.form-checkbox.form-normal.active:before {
+    background-color: #5fa2dd;
+    border-color: #5fa2dd;
+}
+label.form-checkbox.form-normal span {
+    width: 186px;
+    white-space: normal;
+    padding: 0 5px;
+}
+label.form-checkbox.form-normal.permission-option i {
+    padding: 0 2px;
+}
+
+.form-text.form-checkbox:not(.btn), .form-text.form-radio:not(.btn) {
+    padding: 0px;
+}
+.form-text.form-checkbox > input[type=checkbox], .form-text.form-checkbox > input[type=radio], .form-text.form-radio > input[type=checkbox], .form-text.form-radio > input[type=radio] {
+    position: unset !important;
+    margin: 5px;
+}
+
+.columns .form-text.form-checkbox:not(.btn),
+.columns .form-text.form-checkbox:not(.btn),
+.columns .form-text.form-checkbox:not(.btn) {
+    width: 225px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

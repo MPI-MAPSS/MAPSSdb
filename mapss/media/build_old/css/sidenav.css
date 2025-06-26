@@ -1,0 +1,150 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/sidenav.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+.sidenav-brand {
+    display: flex;
+    height: 50px;
+    color: #2d3c4b;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: 0;
+    text-decoration-style: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+}
+
+.brand-title {
+    display: block;
+    line-height: 48px;
+    font-size: 2rem;
+    color: white;
+}
+.brand-title .brand-text {
+    font-size: 1.8rem;
+}
+
+.sidenav-lg {
+    grid-template-columns: 220px auto;
+}
+.sidenav-lg .sidenav {
+    height: 100vh;
+    overflow-y: auto;
+}
+.sidenav-lg .sidenav .mainnav-container {
+    height: calc(100vh - 50px);
+}
+
+.sidenav-menu {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #2d3c4b;
+    z-index: 15;
+}
+.sidenav-menu ul {
+    list-style: none;
+    padding: 0px;
+    padding-inline-start: 0px;
+}
+.sidenav-menu ul > li {
+    padding: 0px 10px;
+}
+.sidenav-menu > ul > li {
+    padding: 0px;
+    overflow: hidden;
+}
+.sidenav-menu > ul > li ul {
+    padding-bottom: 10px;
+}
+.sidenav-menu > ul > li > a:hover {
+    box-shadow: inset 4px 0 0 0 #2986b8;
+}
+.sidenav-menu i {
+    font-size: 1.2rem;
+}
+.sidenav-menu a {
+    display: block;
+    color: #abb1b7;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.sidenav-menu a strong {
+    font-weight: 600;
+}
+.sidenav-menu a:hover, .sidenav-menu a:active {
+    color: #fff;
+}
+.sidenav-menu .active-sub {
+    background-color: #394d61;
+}
+.sidenav-menu .active-sub > a {
+    color: #fff;
+}
+.sidenav-menu .arches-menu-item-disabled:hover {
+    cursor: default;
+}
+.sidenav-menu .list-header {
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #828b94;
+    background-color: rgba(0, 0, 0, 0.1882352941);
+    margin: 0;
+    font-size: inherit;
+}
+.sidenav-menu .link-submenu-item a {
+    padding: 3px 20px;
+    font-weight: 400;
+}
+.sidenav-menu .list-divider-dark {
+    height: 0px;
+    margin: 0;
+}
+
+.sidenav-sm .brand-title, .sidenav-sm .list-header, .sidenav-sm .menu-title {
+    display: none;
+}
+.sidenav-sm .sidenav-menu {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.sidenav-sm .sidenav-menu a {
+    height: 40px;
+}
+.sidenav-sm .sidenav-menu i {
+    font-size: 1.2rem;
+}
+.sidenav-sm .sidenav-menu li:not(.list-divider-dark) {
+    height: 40px;
+}
+.sidenav-sm .sidenav-menu li > ul {
+    display: none;
+}
+.sidenav-sm .sidenav-menu li:hover {
+    background-color: #394d61;
+}
+.sidenav-sm .sidenav-menu li:hover > ul {
+    display: block;
+    background-color: #394d61;
+    position: absolute;
+    margin: -41px 50px;
+    padding: 50px 0px 0px 0px;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.sidenav-sm .sidenav-menu li:hover > ul > li {
+    height: 40px;
+}
+.sidenav-sm .sidenav-menu li:hover .menu-title {
+    display: block;
+    position: absolute;
+    background-color: #394d61;
+    padding: 10px;
+    margin: -31px 30px;
+    z-index: 100;
+    height: 41px;
+}
+.sidenav-sm .sidenav-menu ul > ul > li {
+    padding: 0;
+}
+.sidenav-sm .sidenav-menu .active-sub > a {
+    background-color: #2986b8;
+}

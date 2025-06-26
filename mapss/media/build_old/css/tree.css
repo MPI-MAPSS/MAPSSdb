@@ -1,0 +1,142 @@
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/tree.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+.jstree-default .resource-editor-tree {
+    height: calc(100vh - 125px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #ecf0f5;
+    padding-bottom: 50px;
+}
+.jstree-default .add-new-tile {
+    display: none;
+}
+.jstree-default .jstree-node-action-icon {
+    display: none;
+}
+.jstree-default a.jstree-anchor .disabled {
+    color: #ccc;
+}
+.jstree-default a.jstree-anchor.permissions-widget {
+    color: #bbb;
+    cursor: default;
+    pointer-events: none;
+}
+.jstree-default a.jstree-anchor strong {
+    font-weight: 500;
+}
+.jstree-default .jstree-anchor:hover .add-new-tile,
+.jstree-default .add-new-tile.jstree-clicked {
+    display: inline;
+}
+.jstree-default > .header {
+    padding: 10px 13px;
+    background-color: #ecf0f5;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+}
+.jstree-default > .header .tools {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 0;
+}
+.jstree-default .jstree-icon {
+    background-position: -4px -4px;
+    cursor: pointer;
+}
+.jstree-default .jstree-striped > div > .jstree-node, .jstree-default :not(.resource-editor-tree) > .jstree-striped > .jstree-node {
+    background: none;
+}
+.jstree-default .jstree-anchor {
+    margin: 1px 0;
+    height: auto;
+    line-height: normal;
+    padding: 0 5px;
+    height: 20px;
+}
+.jstree-default .jstree-anchor .jstree-leading-icon {
+    margin-right: 5px;
+}
+.jstree-default .jstree-anchor span.spacer {
+    padding: 0 2.5px;
+}
+.jstree-default .jstree-anchor span:not(.spacer) {
+    display: inline-block;
+    padding: 2px 0;
+}
+.jstree-default .jstree-anchor,
+.jstree-default .jstree-animated,
+.jstree-default .jstree-wholerow {
+    transition: none;
+}
+.jstree-default .func-node {
+    background: #72D3C9;
+    color: #01766A;
+    border-width: 2px;
+    margin: 0;
+    height: 24px;
+}
+.jstree-default .card-designer-tree li.jstree-last,
+.jstree-default .card-designer-tree .jstree-last > li {
+    background: transparent;
+}
+.jstree-default .jstree-open > .jstree-children {
+    display: block;
+}
+.jstree-default .jstree-node.hide-background {
+    background: none;
+}
+.jstree-default .jstree-node.jstree-open > .jstree-icon:not(.jstree-ocl) {
+    background-position: -36px -4px;
+}
+.jstree-default .jstree-node.jstree-leaf .jstree-icon:not(.jstree-ocl) {
+    background: none;
+}
+.jstree-default .jstree-node.jstree-leaf.hide-background {
+    background: none;
+}
+.jstree-default .designer-card-tree .jstree-children div:last-child li.card-treeitem {
+    background: none;
+}
+.jstree-default .graph-designer-node-tree .jstree-children div li:last-child {
+    background: none;
+}
+.jstree-default .designer-permission-tree .jstree-children li:last-child {
+    background: none;
+}
+.jstree-default .resource-editor-tree .jstree-children li:last-child {
+    background: none;
+}
+.jstree-default .jstree-clicked {
+    background: #25476a;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: inset 0 0 1px #999999;
+    margin: 0;
+    height: 24px;
+}
+.jstree-default .jstree-clicked .jstree-node-action-icon {
+    font: normal normal normal 14px/1 FontAwesome;
+    color: white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px 4px 4px 6px;
+    background-color: #0b2342;
+    border-radius: 2px;
+    margin-right: -2px;
+}
+.jstree-default .unsaved-edit {
+    background: #ffdb70;
+    color: #fff;
+    border-width: 2px;
+}
+.jstree-default a.tree-display-tool {
+    margin: 0px;
+    padding: 3px 6px;
+    color: #888;
+    cursor: pointer;
+}
+.jstree-default a.tree-display-tool i {
+    padding: 0px 3px;
+}

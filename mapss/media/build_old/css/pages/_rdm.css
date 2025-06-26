@@ -1,0 +1,26 @@
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/pages/_rdm.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+.rdm .headline h3 {
+    font-size: 2.2rem;
+}
+.rdm .counters span {
+    font-size: 3.5rem;
+}
+.rdm .counters h4 {
+    font-size: 1.6rem;
+}
+.rdm .config-title-tab,
+.rdm .arches-RDM-label-highlighted,
+.rdm .arches-CRUD-child,
+.rdm .arches-RDM-link,
+.rdm .arches-concept-heirarchy,
+.rdm .arches-RDM-note {
+    font-size: 1.5rem;
+}
+.rdm .arches-search-filter-font {
+    font-size: 1.4rem;
+}
+.rdm .section-headline {
+    font-size: 1.7rem;
+}

@@ -1,0 +1,23 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/components/widgets/_edtf.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.edtf-style-tools-panel {
+    overflow-y: scroll;
+    max-width: 600px;
+}
+
+.edtf-style-tools-panel::-webkit-scrollbar, .i18n-style-tools-panel::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9px;
+    border-left: 1px solid #ddd;
+}
+
+.edtf-style-tools-panel::-webkit-scrollbar-thumb, .i18n-style-tools-panel::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.workbench-card-sidepanel .edtf-style-tools-panel, .workbench-card-sidepanel .i18n-style-tools-panel {
+    width: 340px;
+}

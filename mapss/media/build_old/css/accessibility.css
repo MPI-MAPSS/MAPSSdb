@@ -1,0 +1,190 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/accessibility.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+a.search-candidate-title, a.search-candidate-link, button.search-candidate-title, button.search-candidate-link {
+    color: #315B7D;
+}
+a.search-candidate-title:hover, a.search-candidate-title:focus, a.search-candidate-link:hover, a.search-candidate-link:focus, button.search-candidate-title:hover, button.search-candidate-title:focus, button.search-candidate-link:hover, button.search-candidate-link:focus {
+    text-decoration: underline;
+}
+
+.search-type-btn, .search-type-btn-popup {
+    color: #545454;
+}
+
+.search-type-btn.relative:hover,
+.search-type-btn.relative:focus,
+.search-type-btn-popup.relative:hover,
+.search-type-btn-popup.relative:focus {
+    text-decoration: underline;
+    background: #FFF;
+}
+
+.select2-default,
+.chosen-container-single .chosen-single,
+.search-listing-body,
+.map-sidebar-text,
+.search-export .instruction h4,
+.rr-splash-description,
+.time-wheel-instructions,
+.search-facet-item.header input::placeholder,
+.hide-datepicker-time-option .input-md::placeholder,
+.related-resource-graph-information-content,
+.relationships-list-item-type,
+.relationships-list-count,
+.report-print-date,
+.rp-tile-title,
+.rp-report-section-title,
+.related-resources-graph-controls-instructions,
+.related-resources-graph-controls span,
+.rp-card-section .rp-no-data,
+.related-reasources-search-container input::placeholder,
+.workbench-card-sidepanel-header:before,
+.search-listing-footer .provisional-edits {
+    color: #000 !important;
+}
+
+.btn-primary,
+.library-icon .bg-primary,
+.select2-container-multi .select2-choices .select2-search-choice {
+    background-color: #2B4E6D;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #2B4E6D;
+    border-color: #2B4E6D;
+}
+
+.profile-label-shim,
+.profile-default-message-panel,
+.search-listing-body,
+.account-tips,
+.hover-feature-metadata,
+.pagination > li > a.disabled,
+.graph-designer-header,
+.graph-type {
+    color: #595959;
+}
+
+.debug-notice {
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.sidenav-sm .sidenav-menu .active-sub a:not(.collapse .link-submenu-item .link-submenu) {
+    background-color: #184E6C;
+}
+.sidenav-sm .sidenav-menu .active-sub a:not(.collapse .link-submenu-item .link-submenu):after {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px 10px 5px 0;
+    border-color: transparent #FFF transparent transparent;
+    content: " ";
+    position: relative;
+    top: calc(-50% - 11px);
+    left: 20px;
+}
+
+.btn-mint {
+    background-color: #15503F !important;
+}
+
+.btn-danger, .btn-warning:not(.facet-btn) {
+    background-color: #943725 !important;
+}
+
+.filter-flag {
+    background: #1C6615 !important;
+}
+
+.advanced-search-container .facets-search-container .facet-btn-group .facet-btn {
+    color: #000;
+}
+
+.edge-node-links span,
+.relationships-list-count a {
+    color: #315B7D !important;
+}
+.edge-node-links span:hover,
+.relationships-list-count a:hover {
+    text-decoration: underline;
+}
+.edge-node-links span:focus,
+.relationships-list-count a:focus {
+    text-decoration: underline;
+}
+
+.map-card-zoom-tool a:hover {
+    text-decoration: underline;
+}
+.map-card-zoom-tool a:focus {
+    text-decoration: underline;
+}
+
+select2-search__field div.chosen-container-active:not(.chosen-with-drop) a.chosen-single,
+ul.chosen-results li.highlighted,
+ul.select2-results li.select2-highlighted,
+a[href]:focus-visible,
+area[href]:focus-visible,
+input:focus-visible:not(.select2-search__field),
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible,
+iframe:focus-visible,
+object:focus-visible,
+embed:focus-visible,
+*[tabindex]:focus-visible:not(.select2-search__field),
+*[contenteditable]:focus-visible {
+    outline: 2.5px solid #000 !important;
+    outline-offset: -2.5px !important;
+    box-shadow: inset 0 0 0 5px #fae619 !important;
+    box-sizing: border-box;
+}
+
+.basemap-listing,
+.overlay-listing,
+.legend-listing {
+    color: #595959;
+}
+
+.application-name h1 {
+    font-size: 1.3rem;
+}
+
+.navbar-toggle:hover {
+    background: #000;
+}
+
+.down-button {
+    border: 3px solid #fff;
+}
+
+.down-button-icon {
+    opacity: 1;
+}
+
+.down-button:hover {
+    color: #13ce67;
+    border: 3px solid #13ce67;
+}
+.down-button:focus {
+    color: #13ce67;
+    border: 3px solid #13ce67;
+}
+
+.wide-box .box-highlight p {
+    color: #555;
+}
+
+.splash-link-address:focus,
+.splash-link-address:hover,
+.link-spacing:focus,
+.link-spacing:hover {
+    color: #7AD02F;
+    text-decoration: underline;
+}

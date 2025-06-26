@@ -1,0 +1,15 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/components/search/_related-resources.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+@media (max-width: 740px) {
+    .related-resources-graph-workbench .workbench-card-sidepanel {
+        width: calc(100% - 75px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 740px) {
+    .related-resources-graph-workbench .workbench-card-sidepanel-header-container {
+        width: 100%;
+    }
+}

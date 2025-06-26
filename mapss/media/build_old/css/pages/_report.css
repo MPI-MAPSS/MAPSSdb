@@ -1,0 +1,42 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/pages/_report.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+.resource-report-abstract-container .resource-component-abstract {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+@media (max-width: 1024px) {
+    .resource-report-abstract-container .resource-component-abstract .report-title-bar .report-toolbar-title {
+        min-width: 0;
+        width: auto;
+        padding: 14px 0 5px 5px;
+    }
+}
+.resource-report-abstract-container .resource-component-abstract .report-title-bar .report-toolbar-title .report-print-date {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 915px) {
+    .report-toolbar-preview {
+        height: auto;
+    }
+}
+@media (max-width: 915px) {
+    .report-toolbar-preview.ep-form-toolbar {
+        display: block;
+    }
+}
+@media (max-width: 915px) {
+    .report-toolbar-preview.ep-form-toolbar .report-toolbar-title {
+        width: 100%;
+    }
+}
+@media (max-width: 915px) {
+    .report-toolbar-preview.ep-form-toolbar .ep-form-toolbar-tools {
+        padding: 0 0 14px 25px;
+        align-items: flex-start;
+    }
+}
+.report-toolbar-preview.ep-form-toolbar .ep-form-toolbar-tools .report-print-date {
+    font-size: 1.2rem;
+}

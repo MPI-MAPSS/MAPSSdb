@@ -1,0 +1,73 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/components/_buttons.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.resource-filter .resource-selector-button div .btn {
+    padding: 2px 10px;
+}
+.resource-filter .resource-selector-button div .dropdown-menu {
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 1200;
+}
+
+.qa-filter .resource-selector-button div .btn {
+    padding: 2px 10px;
+}
+.qa-filter .resource-selector-button div .dropdown-menu {
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 1200;
+}
+
+@media (max-width: 915px) {
+    .ep-toolbar .top-right-nav .ep-tools-login p {
+        display: none;
+    }
+}
+.ep-toolbar .top-right-nav .ep-tools-login i {
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-top: 2px;
+}
+@media (min-width: 915px) {
+    .ep-toolbar .top-right-nav .ep-tools-login i {
+        display: none;
+    }
+}
+.ep-toolbar .top-right-nav .ep-tools-login .h5 {
+    font-size: 1.2rem;
+}
+
+#backToTopBtn {
+    background-color: #404449;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    font-size: 20px;
+    right: 20px;
+    border-radius: 2px;
+    opacity: 0;
+    z-index: 1100;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+#backToTopBtn:hover {
+    opacity: 1 !important;
+    -webkit-transition: opacity 0.3s !important;
+    transition: opacity 0.3s !important;
+}
+@media (max-width: 450px) {
+    #backToTopBtn {
+        bottom: 5px;
+        right: 35px;
+    }
+}
+
+.btn-sm, .btn-icon.btn-sm {
+    font-size: 1.1rem;
+}
+
+.btn-group-sm > .btn {
+    font-size: 1.2rem;
+}

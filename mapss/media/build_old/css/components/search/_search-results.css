@@ -1,0 +1,12 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/components/search/_search-results.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.search-listing-footer {
+    font-size: 1.2rem;
+}
+@media (max-width: 320px) {
+    .search-listing-footer {
+        flex-direction: column;
+        height: auto;
+    }
+}

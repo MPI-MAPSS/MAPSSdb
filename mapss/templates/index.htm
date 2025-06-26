@@ -40,7 +40,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
 
     <link href="{% static 'css/unify.css' %}" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="{% static 'css/index.css' %}" rel="stylesheet">
     <style>
         .flex-container {
@@ -78,7 +78,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <body id="body" data-spy="scroll" data-target=".splash-nav" class="demo-lightbox-gallery">
 
     <!--=== Header ===-->
-    <nav class="v5-splash-navbar navbar" role="navigation" style="height:85px">
+    <nav class="v5-splash-navbar navbar" role="navigation" style="height:100px">
         
         <nav class="navbar" >
             <div class="container-fluid">
@@ -110,94 +110,12 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <img src="{% static 'img/landing/Slider_images/mpg-minerva-black-2_logo.jpeg' %}" class="powered-by-arches" width= "20" height= "50" style="top: 5px; padding: 0px 0px 35px 0px">&nbsp;
                         </a>
                 </div>
-
-  <!--                  <div class="relative" style="padding: 8px 10px 8px 100px; width: 300px;">
-                        <div class="application-name" style="position: absolute; top: 5px; left: 160px;">
-                            <img class="navbar-brand-v5-icon" src="{% static 'img/landing/eamena/eamena_logo.jpg' %}" style="" alt="MAPSS Logo">
-                        <div class="navbar-brand-v5-icon-container" style="">
-                            <img class="navbar-brand-v5-icon" src="{% static 'img/landing/arches_logo_dark.png' %}" style="" alt="Arches Logo">
-                        </div>
-                            <h2>{% trans "MAPSSdb | v2" %}</h2> 
-                        </div>
-                    </div>
-                </div>-->
-                    <!--<div class="navbar-header" style="padding: 0px 0px 0px 900px;">    -->
-                        <!--<div class="collapse navbar-collapse" id="myNavbar" style="padding: 0px 0px 0px 900px;"> -->
-               
-               
-               <!--Language Switcher -->         
-                      <!-- <div class="lang-switch ep-tools ep-tools-right" style="max-width: 300px;" "pull-right"; data-bind="component: {
-                                name: &quot;views/components/language-switcher&quot;,
-                                params: {
-                                    current_language: &quot;en&quot;
-                                }
-                            }">
-
-                            <form action="/en/i18n/setlang/" method="post" data-bind="attr:{id: formid}" id="0.5807523734817532"><input type="hidden" name="csrfmiddlewaretoken" value="CM4UFX6dBONJ0OTiJvdmd7apBlN2UJyC21wJQ0BnmSwAuxI62TNIn9GnO4Cp2VKI">
-                                <input name="next" type="hidden" value="">
-                                <select id="lang_dd" name="language" data-bind="value: value, chosen: {
-                                    width:'100%'}" style="display: none;">
-                                    <option value="en" selected="selected">
-                                        English (en)
-                                    </option>                                  
-                                    <option value="mn">
-                                        Mongolian (mn)
-                                    </option>                    
-                                </select><div class="chosen-container chosen-container-single" title="" id="lang_dd_chosen" style="width: 100%;"><a class="chosen-single">
-                              <span>
-                                        English (en)
-                                </span>
-                              <div><b></b></div>
-                            </a>
-                            <div class="chosen-drop">
-                              <div class="chosen-search">
-                                <input class="chosen-search-input" type="text" autocomplete="off">
-                              </div>
-                              <ul class="chosen-results"><li class="active-result result-selected" data-option-array-index="0" style="">
-                                        English (en)
-                                    </li><li class="active-result" data-option-array-index="1" style="">
-                                        Mongolian (mn)
-                                    </li></ul>
-                            </div></div>
-                            </form></div> -->
-<!--                   <li aria-label="Choose your language">
-                            <div class="lang-switch ep-tools ep-tools-right" style="max-width: none;" data-bind="component: {
-                                name: &quot;views/components/language-switcher&quot;,
-                                params: {
-                                    current_language: &quot;en&quot;
-                                }
-                            }">
-
-<!--                    <form class="lang_switcher" action="/en/i18n/setlang/" method="post" data-bind="attr:{id: formid}" id="0.33927041672595437">
-                        <input type="hidden" name="csrfmiddlewaretoken" data-bind="value: $data.csrfToken" value="klp5gQstxr7l3BONcv8nMCRGZvCX1dPf">
-                        <input name="next" type="hidden" value="">
-                        <select name="language" data-bind="
-                            select2Query: {
-                                select2Config: {value: value, dropdownCssClass: 'lang_switcher_dd', minimumResultsForSearch: -1}
-                        }, attr:{'data-label': $root.translations.pageLanguage}" aria-label="Select the language for the page" data-label="Select the language for the page" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
-        
-                            <option value="en" selected="selected">
-                                English (en)
-                            </option>
-        
-                            <option value="mn">
-                                Mongolian (mn)
-                            </option>
-        
-                        </select><span class="select2 select2-container select2-container--default select2-container--below select2-container--open" dir="ltr" style="width: 146px;"><span class="selection"><span class="select2-selection select2-selection--single" tabindex="0" role="combobox" aria-controls="select2-language-kz-container" aria-owns="select2-language-kz-container" aria-expanded="true" aria-label="Select the language for the page, 
-                                English (en)
-                            " aria-activedescendant="select2-language-kz-result-n0ge-en"><span class="select2-selection__rendered" id="select2-language-kz-container" role="textbox" aria-readonly="true" aria-label="
-                                English (en)
-                            ">
-                                English (en)
-                            </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-                    </form></div>
-                        </li> -->
-                            
-                 <div class="flex-container" style="float:right">
+                          
+                <div class="flex-container" style="float:right">
                             <ul class="nav navbar-nav navbar-top" style="padding: 00px 00px 10px 900px"> 
                             <div class = "nav navbar-nav navbar-top">
                                 <li class="pull-top" style="padding: 0px 0px 0px 0px">
+                </div>
                 <!-- Login Menu -->
                     {% if user.username == 'anonymous' %}
                     <div style="position: absolute; top: 10px; right: 15px;">
@@ -289,7 +207,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 0px; bottom: 25px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -312,7 +230,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -334,7 +252,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -356,7 +274,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -378,7 +296,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -401,7 +319,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -424,7 +342,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                         <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -446,7 +364,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -468,7 +386,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
                          <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>
@@ -491,7 +409,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
    <!--                       <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 5px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "MAPSS Database v2.0" %}</h2>
+                            <h2>{% trans "MAPSS Database v3.0" %}</h2>
                             <p>{% trans "Mongolian Archaeology Project:" %}</p>
                             <p>{% trans "Surveying the Steppes" %}</p>
                         </div>

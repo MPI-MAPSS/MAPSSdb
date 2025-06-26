@@ -1,0 +1,51 @@
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-5.use[3]!../../../usr/local/lib/python3.10/dist-packages/arches/app/media/css/edit-history.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+.edit-history {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.edit-history .resource-grid-title {
+    padding: 0;
+}
+.edit-history .recent-additions-container {
+    padding: 0;
+}
+.edit-history .dataTables_wrapper .row:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+}
+.edit-history .dataTables_wrapper .row:first-child div {
+    width: auto;
+}
+.edit-history .dataTables_wrapper .row:first-child input.form-control.input-sm {
+    margin-left: 0;
+}
+.edit-history .dataTables_wrapper .row:first-child div:first-child {
+    display: flex;
+    flex: 1;
+}
+.edit-history .dataTables_wrapper .row:last-child {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.edit-history .dataTables_wrapper .row:last-child div {
+    width: auto;
+}
+.edit-history .dataTables_wrapper .row:last-child div:first-child {
+    display: flex;
+    flex: 1;
+}
+.edit-history .dataTables_wrapper .row:last-child .dataTables_info {
+    padding-top: 0;
+    margin-top: 0;
+}
